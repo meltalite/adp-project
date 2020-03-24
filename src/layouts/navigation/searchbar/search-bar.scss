@@ -1,0 +1,19 @@
+input {
+  height: 25px;
+  width: 150px;
+  right: 0;
+  overflow: hidden;
+  transition: width .5s ease-in-out;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+
+  /* webkit solution */
+  &::-webkit-input-placeholder { text-align:right; }
+  /* mozilla solution */
+  &:-moz-placeholder { text-align:right; }
+
+}
+
+#search-bar__clear-button {
+display: none;
+}

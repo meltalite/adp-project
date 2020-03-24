@@ -1,15 +1,102 @@
 // Styling for the navbar
+
 .navbar {
-    color: #87cefa !important;
-    &.navbar-light{
-        background-color: #eee;
+  opacity: 0.9;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+
+  &-brand {
+    margin-left: 1rem;
+  }
+
+  &-collapse {
+    .collapse {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (min-width: 720px) {
+    &-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      flex-direction: row;
+      flex-grow: 0;
     }
 
-    &.navbar-dark{
-        background-color: black;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  &-brand {
+    color: skyblue;
+    font-size: 36px;
+  }
+
+  &-toggler {
+    height: 36px;
+    width: 36px;
+    padding: 6px 2px 0px 2px;
+    margin-right: 1rem;
+    border: 1px solid black;
+
+    .navbar-toggler-icon:after {
+        content: '\2630';
+    }
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+
+    @media only screen and (min-width: 720px) {
+      flex-direction: row;
+      align-items: flex-end;
+
+      &-item {
+        margin-right: 18px;
+
+        &.text {
+          position: relative;
+          bottom: 3px;
+        }
+
+        a {
+          color: #555;
+          font-size: 12px;
+        }
+      }
     }
 
-    img {
-        height: 40px;
+    &-menu {
+      &.search-lang {
+        display: flex;
+        max-width: 120px;
+        flex-flow: wrap;
+        place-content: center;
+
+        @media only screen and (min-width: 720px) {
+          place-content: flex-end;
+        }
+      }
+
+      button {
+        font-size: 23px;
+        height: 30px;
+        width: 30px;
+        border: none;
+        border-radius: 10px;
+        background: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 4px;
+
+        &:focus {
+          outline: none;
+        }
+      }
     }
+  }
 }

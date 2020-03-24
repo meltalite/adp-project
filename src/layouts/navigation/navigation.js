@@ -1,37 +1,48 @@
 import React, { useState } from 'react';
 import './navigation.scss'
 import { Navbar, Nav, NavItem, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap';
-import { NavigationItems } from './navigation-items';
+import SearchBar from './searchbar/search-bar';
+import Language from './language/language';
+import { useTranslation } from 'react-i18next'
 
 export default function Navigation() {
-    const [isOpen, setIsOpen] = useState(false)
-    const toggle = () => setIsOpen(!isOpen)
-    return (
-        <>
-        <Navbar light fixed='top'>
-            <NavbarBrand href='#'>ADP</NavbarBrand>
-            <NavbarToggler id='navbarMobile' className='nav-toggler d-block d-sm-none' onClick={toggle}/>
-            <Collapse isOpen={isOpen} navbar className='d-sm-none' >
-                    <Nav className='main-nav d-block d-sm-none' justified>
-                        {
-                            NavigationItems.map(navItem => (
-                                <NavItem key={navItem.goTo} style={{ marginRight: '20px' }} className='d-block d-sm-none text-uppercase'>
-                                    <a href={`#${navItem.goTo}`}>{navItem.text}</a>
-                                </NavItem>
-                            ))
-                        }
-                    </Nav>
-            </Collapse>
-            <Nav id='navbarDesktop' className='main-nav d-none d-lg-flex' >
-                    {
-                        NavigationItems.map(navItem => (
-                            <NavItem key={navItem.goTo} style={{ marginRight: '20px' }} className='d-none d-lg-flex text-uppercase'>
-                                <a href={`#${navItem.goTo}`}>{navItem.text}</a>
-                            </NavItem>
-                        ))
-                    }
-            </Nav>
-        </Navbar>
-        </>
-    )
+  const [isOpen, setIsOpen] = useState(false)
+  const toggle = () => setIsOpen(!isOpen)
+  const { t } = useTranslation()
+  const navMenus = [
+    t("Nav.about us"),
+    t("Nav.suppliers"),
+    t("Nav.industries & applicants"),
+    t("Nav.products"),
+    t("Nav.services"),
+    t("Nav.contact us"),
+  ]
+  return (
+    <>
+      <Navbar fixed='top'>
+        <NavbarBrand href='#'>ADP</NavbarBrand>
+        <NavbarToggler className='d-block d-md-none' onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar className='nav-menu__collapse' >
+          <Nav className='main-nav' >
+            <>
+              {
+                navMenus.map(navItem => (
+                  <NavItem 
+                    key={navItem}
+                    className='nav-menu text'
+                  >
+                    <a href={`#${navItem}`}>{navItem}</a>
+                  </NavItem>
+                ))
+              }
+              <NavItem className='nav-menu search-lang'>
+                <Language />
+                <SearchBar />
+              </NavItem>
+            </>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </>
+  )
 }
