@@ -12,7 +12,6 @@ export default function Sections() {
       <section key={item} id={item} style={style} className='page-section'>
         <div key={item} className="row" >
           <div key={item} className="col-12" >
-            <h2 className='section-heading'> {item} </h2>
             <h1>{t('Lipsum.title')}</h1>
             <p>{t('Lipsum.content')}</p>
           </div>

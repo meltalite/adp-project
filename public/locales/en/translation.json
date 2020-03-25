@@ -4,12 +4,18 @@
     "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo. Nunc vel porta quam, id tristique odio. Aliquam eget auctor quam. In hac habitasse platea dictumst. Nullam auctor a eros at faucibus. Aliquam vitae tellus sit amet arcu imperdiet hendrerit. Nam feugiat orci fermentum metus sagittis sagittis. Phasellus sodales cursus nisi, et accumsan tortor ultricies eu. Nunc accumsan tincidunt enim sit amet tincidunt. Vivamus semper nec turpis a blandit. Quisque suscipit tincidunt iaculis. Sed sit amet posuere erat. Donec pharetra, velit et ultricies ultrices, metus nisi fermentum odio, ullamcorper fringilla nisl mauris sit amet enim. Nunc porta erat vestibulum nisi vulputate pharetra. Fusce id turpis non tortor aliquet tristique eget non diam. Fusce imperdiet viverra nulla. Nam non dapibus augue. Vestibulum vel augue a sapien commodo cursus eget sit amet dolor. Integer porttitor purus sapien, nec porta mi volutpat sit amet. Fusce diam lorem, sollicitudin eget egestas sit amet, placerat sit amet mauris. Aenean et felis leo. Nulla facilisi. Curabitur egestas tellus leo, in suscipit ligula semper sit amet-amet."
   },
   "Nav": {
-    "about us": "About",
+    "about us": "About Us",
     "suppliers": "Suppliers",
     "industries & applicants": "Industries & Applicants",
     "products": "Products",
     "services": "Our Presence",
     "contact us": "Contact Us",
     "search text": "Search text..."
+  },
+  "Masthead": {
+    "Flexible": "Flexible",
+    "Innovative": "Innovative",
+    "Improvement": "Improvement",
+    "Comprehensive": "Comprehensive"
   }
 }

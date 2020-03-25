@@ -1,10 +1,8 @@
 // Styling for the navbar
-
 .navbar {
-  opacity: 0.9;
+  opacity: 0.95;
   background-color: #fff;
   align-items: center;
-  justify-content: space-between;
 
   &-brand {
     margin-left: 1rem;
@@ -16,7 +14,7 @@
     }
   }
 
-  @media only screen and (min-width: 720px) {
+  @media only screen and (min-width: 768px) {
     &-collapse {
       display: flex !important;
       flex-basis: auto;
@@ -24,8 +22,8 @@
       flex-grow: 0;
     }
 
+    padding: .5rem 15%;
     align-items: baseline;
-    justify-content: center;
   }
 
   &-brand {
@@ -51,12 +49,16 @@
     flex-direction: column;
     align-content: center;
 
-    @media only screen and (min-width: 720px) {
+    @media only screen and (min-width: 768px) {
       flex-direction: row;
       align-items: flex-end;
 
       &-item {
         margin-right: 18px;
+
+        &.search-lang {
+          margin-right: 0px;
+        }
 
         &.text {
           position: relative;

@@ -1,0 +1,80 @@
+.masthead-main {
+  height: 500px;
+  width: 100%;
+  display: block;
+
+  .carousel-indicators {
+    position: absolute;
+    padding-right: 15%;
+    margin-right: unset;
+    margin-left: unset;
+    left: unset;
+
+    & li {
+      border-top: none;
+      border-bottom: none;
+      height: 12px;
+      width: 12px;
+      border-radius: 6px;
+      margin-right: 4px;
+      margin-left: 4px;
+    }
+  }
+
+  .carousel-caption {
+    display: flex;
+
+    p {
+      font-size: 80px;
+      font-weight: 600;
+      opacity: .6;
+    }
+
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .carousel-item {
+    height: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &:nth-child(1) {
+      .carousel-caption {
+        bottom: 0%;
+        left: 15%;
+        right: inherit;
+      }
+    }
+
+    &:nth-child(2) {
+      .carousel-caption {
+        top: 15%;
+        left: inherit;
+        right: 15%;
+      }
+    }
+
+    &:nth-child(3) {
+      .carousel-caption {
+        top: 40%;
+        left: inherit;
+        right: 15%;
+      }
+    }
+
+    &:nth-child(4) {
+      .carousel-caption {
+        top: 25%;
+        left: 15%;
+        right: inherit;
+      }
+    }
+  }
+}
