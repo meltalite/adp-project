@@ -1,14 +1,15 @@
 .masthead {
-  height: 550px;
+  height: 400px;
   width: 100%;
   display: block;
 
   .carousel-indicators {
-    position: absolute;
-    padding-right: 16.666667%;
-    margin-right: unset;
-    margin-left: unset;
-    left: unset;
+    @media only screen and (min-width: 768px) {
+      padding-right: 16.666667%;
+      margin-right: unset;
+      margin-left: unset;
+      left: unset;
+    }
 
     & li {
       border-top: none;
@@ -19,15 +20,20 @@
       margin-right: 4px;
       margin-left: 4px;
     }
-  }
+}
 
   .carousel-caption {
-    display: flex;
+    display: flex !important;
+    place-content: center;
 
     p {
-      font-size: 80px;
+      font-size: 40px;
       font-weight: 600;
       opacity: .6;
+
+      @media only screen and (min-width: 768px) {
+        font-size: 80px;
+      }
     }
 
   }
@@ -45,35 +51,37 @@
       object-fit: cover;
     }
 
-    &:nth-child(1) {
-      .carousel-caption {
-        bottom: 0%;
-        left: 15%;
-        right: inherit;
+    @media only screen and (min-width: 768px) {
+      &:nth-child(1) {
+        .carousel-caption {
+          bottom: 0%;
+          left: 15%;
+          right: inherit;
+        }
       }
-    }
 
-    &:nth-child(2) {
-      .carousel-caption {
-        top: 15%;
-        left: inherit;
-        right: 15%;
+      &:nth-child(2) {
+        .carousel-caption {
+          top: 15%;
+          left: inherit;
+          right: 15%;
+        }
       }
-    }
 
-    &:nth-child(3) {
-      .carousel-caption {
-        top: 40%;
-        left: inherit;
-        right: 15%;
+      &:nth-child(3) {
+        .carousel-caption {
+          top: 40%;
+          left: inherit;
+          right: 15%;
+        }
       }
-    }
 
-    &:nth-child(4) {
-      .carousel-caption {
-        top: 25%;
-        left: 15%;
-        right: inherit;
+      &:nth-child(4) {
+        .carousel-caption {
+          top: 25%;
+          left: 15%;
+          right: inherit;
+        }
       }
     }
   }
