@@ -1,0 +1,32 @@
+.about-us {
+  width: 100%;
+  justify-content: space-between;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
+
+  .col-md-5 {
+    padding-right: unset;
+    padding-left: unset;
+  }
+
+  img {
+    object-fit: cover;
+    overflow: hidden;
+    height: 200px;
+  }
+
+  img:nth-child(1) {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  img:nth-child(2) {
+    width: 50%;
+  }
+
+  img:nth-child(3) {
+    width: 50%;
+  }
+}

@@ -1,0 +1,7 @@
+.page-section {
+  padding: 2rem 1rem;
+  
+  @media only screen and (min-width: 768px) {
+    padding: 3rem 16.666667%;
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './map.scss';
+import './our-presence.scss';
 
 export default function Map() {
     return (
