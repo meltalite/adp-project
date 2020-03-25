@@ -73,7 +73,6 @@ export default function Masthead() {
       previous={previous}
       className='masthead-main'
       ride='carousel'
-      interval={6000000}
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
