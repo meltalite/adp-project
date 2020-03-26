@@ -6,6 +6,7 @@ import Sections from './sections/sections';
 import Masthead from './masthead/masthead';
 import AboutUs from './about us/about-us';
 import Suppliers from './suppliers/suppliers';
+import Footer from './footer/footer';
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Suppliers />
             <Sections />
             <Map />
+            <Footer />
         </>
     )
 }

@@ -1,0 +1,78 @@
+.footer {
+  background-color: #00468b;
+  color: white;
+  opacity: .8;
+  padding: .5rem 1rem;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 16.666667%;
+  }
+
+  h2 {
+    font-size: .5rem;
+  }
+
+  div {
+    padding: unset;
+  }
+
+  p {
+    margin: unset;
+  }
+
+  .about {
+    font-size: 6px;
+    margin-bottom: 10px;
+
+    @media only screen and (min-width: 768px) {
+      border-right: 3px solid white;
+      padding: 10px 20px 15px 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  .contact {
+    font-size: 7px;
+    margin-bottom: 10px;
+
+    @media only screen and (min-width: 768px) {
+      padding: 10px 20px 15px 15px;
+    }
+  }
+  
+  .follow {
+    @media only screen and (min-width: 768px) {
+      padding: 10px 0px 15px 0;
+    }
+
+    .socmed {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      @media only screen and (min-width: 768px) {
+        margin-top: 1em;
+      }
+
+      a {
+        height: 28px;
+        width: 28px;
+        border: 1px solid white;
+        border-radius: 14px;
+        color: white;
+        padding: 3px;
+
+        svg {
+          height: 100%;
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .logo {}
+}
