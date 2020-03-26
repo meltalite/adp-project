@@ -5,6 +5,7 @@ import Map from './our presence/our-presence';
 import Sections from './sections/sections';
 import Masthead from './masthead/masthead';
 import AboutUs from './about us/about-us';
+import Suppliers from './suppliers/suppliers';
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <Navigation />
             <Masthead />
             <AboutUs />
+            <Suppliers />
             <Sections />
             <Map />
         </>

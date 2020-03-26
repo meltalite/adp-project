@@ -28,7 +28,7 @@ export default function AboutUs() {
 
   return (
     <section className='page-section'>
-      <div className='about-us'>
+      <div className='about-us' id={encodeURI(t('Nav.about us'))}>
         <div className='col-12 col-md-5' >
           <h2>
             {t('About Us.title')}

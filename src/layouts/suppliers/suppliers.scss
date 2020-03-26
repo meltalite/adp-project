@@ -1,0 +1,27 @@
+.suppliers {
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  .col-12 {
+    padding-left: unset;
+    padding-right: unset;
+    display: flex;
+    flex-flow: column;
+
+    @media only screen and (min-width: 768px) {
+      flex-flow: row;
+      justify-content: space-between;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100px;
+      object-fit: scale-down;
+
+      @media only screen and (min-width: 768px) {
+        max-width: 19%;
+      }
+    }
+  }
+}
