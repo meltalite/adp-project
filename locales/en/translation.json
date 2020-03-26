@@ -22,5 +22,28 @@
     "title": "Who is ADP?",
     "p1": "ADP is PT. Adyabina Putramas, Indonesia leading polymer distributor that specialises in the supply of commodity plastics, engineering plastics, super engineering plastics, coating and additives.",
     "p2": "ADP has presence across South-East Asia more than 30 years, and works with a broad network of industry leading producers to offer a one-stop solution to cover all your needs."
+  },
+  "Suppliers": {
+    "title": "Suppliers"
+  },
+  "Footer": {
+    "about": {
+      "title": "About ADP",
+      "p1": "PT. Adyabina Putramas is engineering plastics materials supplier for various industries in Indonesia over 20 Years.",
+      "p2": "We offer a comprehensive products range to fulfill the needs of every clients. Present a number of foreign manufacturers an exclusive basis.",
+      "p3": "We import chemicals and engineering plastic resins and supply to the local manufacturing and plastic injection moulding companies."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "name": "PT. Adyabina Putramas",
+      "office": "Puri Indah Financial Tower Office 18th Floor",
+      "street": "Jl. Puri Lingkar Dalam Blok T-8",
+      "district": "Puri Indah, Jakarta Barat 11610",
+      "phone": "Telp : 021-2258-0628 (Hunting)",
+      "fax": "Fax: 021-2258-0633"
+    },
+    "follow": {
+      "title": "Follow Us"
+    }
   }
 }
