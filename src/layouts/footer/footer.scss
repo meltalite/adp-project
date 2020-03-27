@@ -11,7 +11,7 @@
   }
 
   h2 {
-    font-size: .5rem;
+    font-size: .8rem;
   }
 
   div {
@@ -23,7 +23,7 @@
   }
 
   .about {
-    font-size: 6px;
+    font-size: 8px;
     margin-bottom: 10px;
 
     @media only screen and (min-width: 768px) {
@@ -34,8 +34,8 @@
   }
 
   .contact {
-    font-size: 7px;
-    margin-bottom: 10px;
+    font-size: 9px;
+    margin-bottom: 15px;
 
     @media only screen and (min-width: 768px) {
       padding: 10px 20px 15px 15px;
@@ -43,6 +43,8 @@
   }
   
   .follow {
+    font-size: 9px;
+
     @media only screen and (min-width: 768px) {
       padding: 10px 0px 15px 0;
     }

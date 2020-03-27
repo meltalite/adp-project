@@ -17,6 +17,8 @@ export default function SearchBar() {
       const divs = document.getElementsByClassName("page-section");
       for (var i = 0; i < divs.length; i++) {
         const para = divs[i].getElementsByTagName("p");
+        if (para === undefined || para.length === 0) continue
+        console.log(para)
         const paraText = para[0].innerText;
         const paraHtml = para[0].innerHTML;
 

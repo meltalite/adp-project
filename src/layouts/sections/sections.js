@@ -8,7 +8,7 @@ export default function Sections() {
     borderBottom: '1px dashed purple'
   }
   return (
-    [1,2].map(item => (
+    [1].map(item => (
       <section key={item} id={item} style={style} className='page-section'>
         <div key={item} className="row" >
           <div key={item} className="col-12" >

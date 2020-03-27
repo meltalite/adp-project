@@ -15,7 +15,7 @@ export default function Footer() {
 
   return (
     <footer className='footer' >
-      <div className='col-md-4 about'>
+      <div className='col-md-4 about d-none d-md-block'>
         <h2>{t('Footer.about.title')}</h2>
         <p>{t('Footer.about.p1')}</p>
         <p>{t('Footer.about.p2')}</p>
