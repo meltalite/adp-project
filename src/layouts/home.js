@@ -7,17 +7,19 @@ import Masthead from './masthead/masthead';
 import AboutUs from './about us/about-us';
 import Suppliers from './suppliers/suppliers';
 import Footer from './footer/footer';
+import AboutUs2 from './about us/about-us-2';
 
 export default function Home() {
-    return (
-        <>
-            <Navigation />
-            <Masthead />
-            <AboutUs />
-            <Suppliers />
-            <Sections />
-            <Map />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Navigation />
+      <Masthead />
+      <AboutUs />
+      <AboutUs2 />
+      <Suppliers />
+      <Sections />
+      <Map />
+      <Footer />
+    </>
+  )
 }

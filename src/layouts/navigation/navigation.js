@@ -12,7 +12,7 @@ export default function Navigation() {
   const navMenus = [
     t("Nav.about us"),
     t("Nav.suppliers"),
-    t("Nav.industries & applicants"),
+    t("Nav.industries & applications"),
     t("Nav.products"),
     t("Nav.services"),
     t("Nav.contact us"),

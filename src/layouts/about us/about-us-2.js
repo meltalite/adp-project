@@ -17,7 +17,7 @@ const items = [
   },
 ]
 
-export default function AboutUs() {
+export default function AboutUs2() {
   const { t } = useTranslation()
 
   const pictures = items.map(item => {
@@ -27,9 +27,9 @@ export default function AboutUs() {
   })
 
   return (
-    <section className='page-section'>
-      <div className='about-us' id={encodeURI(t('Nav.about us'))}>
-        <div className='col-12 col-md-5 article' >
+    <section className='page-section d-flex d-sm-none'>
+      <div className='about-us-2' id={encodeURI(t('Nav.about us'))}>
+        <div className='col-6' >
           <h2>
             {t('About Us.title')}
           </h2>
@@ -40,7 +40,7 @@ export default function AboutUs() {
             {t('About Us.p2')}
           </p>
         </div>
-        <div className='col-12 col-md-5 album' >
+        <div className='col-6' >
           {pictures}
         </div>
       </div>

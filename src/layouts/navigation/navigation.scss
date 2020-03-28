@@ -75,7 +75,7 @@
 
         a {
           color: #555;
-          font-size: 12px;
+          font-size: .9rem;
         }
       }
     }
@@ -93,15 +93,11 @@
       }
 
       button {
-        font-size: 23px;
-        height: 30px;
-        width: 30px;
+        font-size: 1.5rem;
         border: none;
-        border-radius: 10px;
         background: none;
-        padding: 0;
         margin: 0;
-        padding-left: 4px;
+        padding: 0px 0px 0px 4px;
 
         &:focus {
           outline: none;
