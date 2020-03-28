@@ -10,27 +10,29 @@ export default function SearchBar() {
     let queue = []
     let scrollIndex = 0
 
-    function searchKeyword(text, queue) {
+    function searchKeyword(text) {
       const pattern = new RegExp(text, 'gi');
-      queue = []
+      var queue = []
+      document.querySelectorAll(".page-section").forEach(section => {
+        var markedParas = []
+        section.querySelectorAll("p").forEach(paragraph => {
+          const paraText = paragraph.innerText;
+          const paraHtml = paragraph.innerHTML;
 
-      const divs = document.getElementsByClassName("page-section");
-      for (var i = 0; i < divs.length; i++) {
-        const para = divs[i].getElementsByTagName("p");
-        if (para === undefined || para.length === 0) continue
-        console.log(para)
-        const paraText = para[0].innerText;
-        const paraHtml = para[0].innerHTML;
+          let match
+          if ((match = pattern.exec(paraText)) != null) {
+            const replacement = `<span style="background-color:#FFFF00">${match[0]}</span>`
+            const markedHtml = paraHtml.replace(pattern, replacement)
+            const originalHTML = paragraph.innerHTML
+            paragraph.innerHTML = markedHtml
+            markedParas.push({ paragraph, originalHTML })
+          }
+        })
 
-        var matched = []
-        let match
-        if ((match = pattern.exec(paraText)) != null) {
-          const replacement = `<span style="background-color:orange">${match[0]}</span>`
-          const markedHtml = paraHtml.replace(pattern, replacement)
-          para.innerHTML = markedHtml
+        if(markedParas.length > 0) {
+          queue.push([section, markedParas])
         }
-        queue.push([divs[i], para[0], paraHtml, matched])
-      }
+      })
 
       return queue
     }
@@ -49,17 +51,27 @@ export default function SearchBar() {
       return scrollIndex;
     }
 
+    function resetSearch() {
+      queue.forEach(q => {
+        const [, m] = q
+        m.forEach(p => {
+        const { paragraph, originalHTML } = p
+        paragraph.innerHTML = originalHTML
+        })
+      })
+      queue = []
+      scrollIndex = 0
+    }
+
     function keypressListener(e) {
       if (e.key === 'Enter') {
         const text = node.value.trim()
         if (text === '') {
           keyword = ''
-          queue = []
-          scrollIndex = 0
+          resetSearch()
         } else if (text !== keyword) {
           keyword = text
-          queue = []
-          scrollIndex = 0
+          resetSearch()
           queue = searchKeyword(keyword, queue)
           scrollIndex = scroll(queue, scrollIndex)
         } else if (text === keyword) {
