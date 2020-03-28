@@ -22,7 +22,7 @@ export default function Suppliers() {
 
   const logos = items.map(item => {
     return (
-      <img src={item.src} alt={item.altText} />
+      <img src={item.src} alt={item.altText} key={item.altText} />
     )
   })
 

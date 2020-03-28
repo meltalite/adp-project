@@ -22,7 +22,7 @@ export default function AboutUs() {
 
   const pictures = items.map(item => {
     return (
-      <img src={item.src} alt={item.altText}/>
+      <img src={item.src} alt={item.altText} key={item.altText} />
     )
   })
 

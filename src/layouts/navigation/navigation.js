@@ -20,7 +20,7 @@ export default function Navigation() {
   return (
     <>
       <Navbar fixed='top'>
-        <NavbarBrand href='#' ><img src={`${process.env.PUBLIC_URL}/pictures/main_adp.jpg`} altText='ADP' /></NavbarBrand>
+        <NavbarBrand href='#' ><img src={`${process.env.PUBLIC_URL}/pictures/main_adp.jpg`} alt='ADP' /></NavbarBrand>
         <NavbarToggler className='d-block d-md-none' onClick={toggle} />
         <Collapse isOpen={isOpen} navbar className='nav-menu__collapse' >
           <Nav className='main-nav' >
