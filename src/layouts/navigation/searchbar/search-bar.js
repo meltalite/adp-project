@@ -1,8 +1,11 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import './search-bar.scss'
+import { Tooltip } from 'reactstrap';
 
 export default function SearchBar() {
   const searchNode = useRef()
+  const [tooltipOpen, setTooltipOpen] = useState(false);
+  const toggle = () => setTooltipOpen(!tooltipOpen);
 
   useEffect(() => {
     const node = searchNode.current
@@ -94,7 +97,9 @@ export default function SearchBar() {
         type="text"
         className='nav-menu__search-input'
         placeholder="&#128269;"
+        id='search-bar'
       />
+      <Tooltip placement='bottom' isOpen={tooltipOpen} target='search-bar' toggle={toggle}>Search your text here</Tooltip>
     </>
   )
 }
