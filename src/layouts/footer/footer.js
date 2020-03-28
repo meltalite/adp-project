@@ -33,11 +33,11 @@ export default function Footer() {
       <div className='col-md-3 follow'>
         <h2>{t('Footer.follow.title')}</h2>
         <div className='socmed'>
-          <a href='#'><FontAwesomeIcon icon={faInstagram} /></a>
-          <a href='#'><FontAwesomeIcon icon={faYoutube} /></a>
-          <a href ='#'><FontAwesomeIcon icon={faFacebook} /></a>
-          <a href ='#'><FontAwesomeIcon icon={faTwitter} /></a>
-          <a href ='#'><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href='https://www.instagram.com/' target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href='https://www.youtube.com/' target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
+          <a href='https://www.facebook.com/' target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
+          <a href='https://www.twitter.com/' target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
+          <a href='https://www.linkedin.com/' target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
         </div>
       </div>
       <div className='col-md-2 logo'>
