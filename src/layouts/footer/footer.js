@@ -8,10 +8,24 @@ import {
   faFacebook,
   faYoutube,
   faLinkedin
- } from '@fortawesome/free-brands-svg-icons'
+} from '@fortawesome/free-brands-svg-icons'
+
+ const items = [
+   { href:'https://www.instagram.com/', icon: faInstagram },
+   { href:'https://www.youtube.com/', icon: faYoutube },
+   { href:'https://www.facebook.com/', icon: faFacebook },
+   { href:'https://www.twitter.com/', icon: faTwitter },
+   { href:'https://www.linkedin.com/', icon: faLinkedin },
+ ]
 
 export default function Footer() {
   const { t } = useTranslation()
+
+  const icons = items.map(item => {
+    return (
+      <a href={item.href} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={item.icon} /></a>
+    )
+  })
 
   return (
     <footer className='footer' >
@@ -33,11 +47,7 @@ export default function Footer() {
       <div className='col-md-3 follow'>
         <h2>{t('Footer.follow.title')}</h2>
         <div className='socmed'>
-          <a href='https://www.instagram.com/' target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-          <a href='https://www.youtube.com/' target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
-          <a href='https://www.facebook.com/' target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a href='https://www.twitter.com/' target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
-          <a href='https://www.linkedin.com/' target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+          {icons}
         </div>
       </div>
       <div className='col-md-2 logo'>
