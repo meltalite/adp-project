@@ -21,9 +21,9 @@ import {
 export default function Footer() {
   const { t } = useTranslation()
 
-  const icons = items.map(item => {
+  const icons = items.map((item, index) => {
     return (
-      <a href={item.href} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={item.icon} /></a>
+      <a href={item.href} target="_blank" rel="noopener noreferrer" key={index}><FontAwesomeIcon icon={item.icon} /></a>
     )
   })
 
