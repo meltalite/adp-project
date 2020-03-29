@@ -5,7 +5,7 @@ import Map from './our presence/our-presence';
 import Sections from './sections/sections';
 import Masthead from './masthead/masthead';
 import AboutUs from './about us/about-us';
-import Suppliers from './suppliers/suppliers';
+import Principles from './principles/principles';
 import Footer from './footer/footer';
 import AboutUs2 from './about us/about-us-2';
 
@@ -16,7 +16,7 @@ export default function Home() {
       <Masthead />
       <AboutUs />
       <AboutUs2 />
-      <Suppliers />
+      <Principles />
       <Sections />
       <Map />
       <Footer />

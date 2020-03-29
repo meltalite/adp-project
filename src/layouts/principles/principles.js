@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import './suppliers.scss'
+import './principles.scss'
 
 const items = [
   {
@@ -17,7 +17,7 @@ const items = [
   },
 ]
 
-export default function Suppliers() {
+export default function Principles() {
   const { t } = useTranslation()
 
   const logos = items.map(item => {
@@ -28,9 +28,9 @@ export default function Suppliers() {
 
   return (
     <section className='page-section'>
-      <div className="suppliers" id={encodeURI(t('Nav.suppliers'))}>
+      <div className="principles" id={encodeURI(t('Nav.principles'))}>
         <h2>
-          {t('Suppliers.title')}
+          {t('Principles.title')}
         </h2>
         <div className='col-12 col-md-12' >
           {logos}

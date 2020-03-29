@@ -5,17 +5,10 @@
   },
   "Nav": {
     "about us": "About Us in Chinese",
-    "suppliers": "Our Principles",
+    "principles": "Our Principles",
     "industries & applicants": "Industries & Applicants",
     "products": "Products",
     "services": "Our Presence",
-    "contact us": "Contact Us",
-    "search text": "Search text..."
-  },
-  "Masthead": {
-    "Flexible": "Flexible in Chinese",
-    "Innovative": "Innovative",
-    "Improvement": "Improvement",
-    "Comprehensive": "Comprehensive"
+    "contact us": "Contact Us"
   }
 }
