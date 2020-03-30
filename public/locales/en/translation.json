@@ -25,14 +25,34 @@
   "Principles": {
     "title": "Our Global Principles"
   },
+  "Industries & Applications": {
+    "Automotive": {
+      "title": "Automotive",
+      "t1": "4 Wheel",
+      "p1": "We serve a range of applications in the automotive industry especially 4 Wheel including interior and exterior elements, lighting, engine parts, seating and electric vehicle battery (EVB) packaging, using dedicated raw materials for coatings and adhesives, thermoplastics, foams, films, composites and more.",
+      "t2": "2 Wheel",
+      "p2": "We also serve a range of applications for 2 Wheel including lighting, seating, handbrake and electric vehicle battery (EVB) packaging, and more."
+    },
+    "Consumer Goods": {
+      "title": "Consumer Goods",
+      "t1": "Cosmetics",
+      "p1": "We provide liquid polymers and alcohol polyurethane solutions for multiple cosmetic and personal care applications.",
+      "t2": "Constructions",
+      "p2": "We have many products for the con- struction market such as insulation, flooring, roofs, walls, facades, doors, windows or pipelines.",
+      "t3": "Sports & Leisure",
+      "p3": "We supply raw materials for a range of applications including footwear, sports equipment, goggles and wearables, functional textiles and artificial leather.",
+      "t4": "Home Appliance",
+      "p4": "We provide raw materials for thermo- plastics, foams, films, elastomers, TPU, composites and more for any range home appliance applications."
+    }
+  },
   "Footer": {
-    "about": {
+    "About": {
       "title": "About ADP",
       "p1": "PT. Adyabina Putramas is engineering plastics materials supplier for various industries in Indonesia over 20 Years.",
       "p2": "We offer a comprehensive products range to fulfill the needs of every clients. Present a number of foreign manufacturers an exclusive basis.",
       "p3": "We import chemicals and engineering plastic resins and supply to the local manufacturing and plastic injection moulding companies."
     },
-    "contact": {
+    "Contact": {
       "title": "Contact Us",
       "name": "PT. Adyabina Putramas",
       "office": "Puri Indah Financial Tower Office 18th Floor",
@@ -41,7 +61,7 @@
       "phone": "Telp : 021-2258-0628 (Hunting)",
       "fax": "Fax: 021-2258-0633"
     },
-    "follow": {
+    "Follow": {
       "title": "Follow Us"
     }
   }

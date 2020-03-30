@@ -11,7 +11,7 @@ export default function Navigation() {
   const { t } = useTranslation()
   const navMenus = [
     t("Nav.about us"),
-    t("Nav.suppliers"),
+    t("Nav.principles"),
     t("Nav.industries & applications"),
     t("Nav.products"),
     t("Nav.services"),

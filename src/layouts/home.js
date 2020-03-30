@@ -8,6 +8,7 @@ import AboutUs from './about us/about-us';
 import Principles from './principles/principles';
 import Footer from './footer/footer';
 import AboutUs2 from './about us/about-us-2';
+import IndustriesApplications from './industries and applications/industries-applications';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutUs />
       <AboutUs2 />
       <Principles />
+      <IndustriesApplications />
       <Sections />
       <Map />
       <Footer />

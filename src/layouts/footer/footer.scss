@@ -1,7 +1,10 @@
+@mixin adp-blue {
+  background-color: #2e74b8;
+}
+
 .footer {
-  background-color: #00468b;
+  @include adp-blue;
   color: white;
-  opacity: .8;
   padding: .5rem 1rem;
 
   @media only screen and (min-width: 768px) {

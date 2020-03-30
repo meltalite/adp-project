@@ -30,22 +30,22 @@ export default function Footer() {
   return (
     <footer className='footer' >
       <div className='col-md-4 about d-none d-md-block'>
-        <h2>{t('Footer.about.title')}</h2>
-        <p>{t('Footer.about.p1')}</p>
-        <p>{t('Footer.about.p2')}</p>
-        <p>{t('Footer.about.p3')}</p>
+        <h2>{t('Footer.About.title')}</h2>
+        <p>{t('Footer.About.p1')}</p>
+        <p>{t('Footer.About.p2')}</p>
+        <p>{t('Footer.About.p3')}</p>
       </div>
       <div className='col-md-3 contact'>
-        <h2>{t('Footer.contact.title')}</h2>
-        <p>{t('Footer.contact.name')}</p>
-        <p>{t('Footer.contact.office')}</p>
-        <p>{t('Footer.contact.street')}</p>
-        <p>{t('Footer.contact.district')}</p>
-        <p>{t('Footer.contact.phone')}</p>
-        <p>{t('Footer.contact.fax')}</p>
+        <h2>{t('Footer.Contact.title')}</h2>
+        <p>{t('Footer.Contact.name')}</p>
+        <p>{t('Footer.Contact.office')}</p>
+        <p>{t('Footer.Contact.street')}</p>
+        <p>{t('Footer.Contact.district')}</p>
+        <p>{t('Footer.Contact.phone')}</p>
+        <p>{t('Footer.Contact.fax')}</p>
       </div>
       <div className='col-md-3 follow'>
-        <h2>{t('Footer.follow.title')}</h2>
+        <h2>{t('Footer.Follow.title')}</h2>
         <div className='socmed'>
           {icons}
         </div>
