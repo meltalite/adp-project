@@ -40,38 +40,3 @@
     width: 50%;
   }
 }
-
-.about-us-2 {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  padding: unset;
-
-  h2 {
-    font-size: 1rem;
-  }
-
-  p {
-    font-size: 6px;
-  }
-
-  img {
-    object-fit: cover;
-    overflow: hidden;
-  }
-
-  img:nth-child(1) {
-    width: 100%;
-    margin-bottom: 2px;
-  }
-
-  img:nth-child(2) {
-    width: 50%;
-    padding-right: 1px;
-  }
-
-  img:nth-child(3) {
-    width: 50%;
-    padding-left: 1px;
-  }
-}

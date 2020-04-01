@@ -3,7 +3,7 @@
     margin-bottom: 1rem;
   }
 
-  .col-12 {
+  .logos {
     padding-left: unset;
     padding-right: unset;
     display: flex;
@@ -11,6 +11,7 @@
 
     @media only screen and (min-width: 768px) {
       flex-flow: row;
+      flex-wrap: wrap;
       justify-content: space-between;
     }
 
@@ -18,9 +19,10 @@
       max-width: 100%;
       max-height: 100px;
       object-fit: scale-down;
+      margin: 1rem 0;
 
       @media only screen and (min-width: 768px) {
-        max-width: 19%;
+        max-width: 20%;
         filter: grayscale(100%);
 
         &:hover {
