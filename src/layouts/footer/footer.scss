@@ -49,7 +49,11 @@
     font-size: 9px;
 
     @media only screen and (min-width: 768px) {
-      padding: 10px 0px 15px 0;
+      padding-top: 10px;
+    }
+
+    h2 {
+      margin-bottom: 30px;
     }
 
     .socmed {
@@ -63,12 +67,12 @@
       }
 
       a {
-        height: 28px;
-        width: 28px;
-        border: 1px solid white;
-        border-radius: 14px;
+        height: 34px;
+        width: 34px;
+        border: 2px solid white;
+        border-radius: 17px;
         color: white;
-        padding: 3px;
+        padding: 4px;
 
         svg {
           height: 100%;
@@ -79,5 +83,12 @@
     }
   }
 
-  .logo {}
+  .logo {
+    display: flex;
+    padding-left: 40px;
+
+    img {
+      width: 100%;
+    }
+  }
 }

@@ -5,12 +5,13 @@
   align-items: center;
 
   &-brand {
-    margin: unset;
-    align-self: center;
     display: flex;
+    height: 40px;
+    margin: unset;
+    padding: unset;
 
     img {
-      height: 70px;
+      height: 100%;
       object-fit: cover;
     }
 
@@ -23,6 +24,10 @@
   }
 
   @media only screen and (min-width: 768px) {
+    &-brand {
+      height: 60px;
+    }
+
     &-collapse {
       display: flex !important;
       flex-basis: auto;
@@ -32,11 +37,6 @@
 
     padding: 2rem 16.666667% 1rem;
     align-items: baseline;
-  }
-
-  &-brand {
-    color: skyblue;
-    font-size: 36px;
   }
 
   &-toggler {

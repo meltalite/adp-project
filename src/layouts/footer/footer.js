@@ -9,6 +9,7 @@ import {
   faYoutube,
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
+import AdpWhiteSvg from '../../assets/svg/adp-white.svg'
 
  const items = [
    { href:'https://www.instagram.com/', icon: faInstagram },
@@ -51,6 +52,7 @@ export default function Footer() {
         </div>
       </div>
       <div className='col-md-2 logo'>
+        <img src={AdpWhiteSvg} alt='adp-white' />
       </div>
     </footer>
   )

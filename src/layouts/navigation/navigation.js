@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './navigation.scss'
+import './navigation.scss';
 import { Navbar, Nav, NavItem, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap';
 import SearchBar from './searchbar/search-bar';
 import Language from './language/language';
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next';
+import AdpSvg from '../../assets/svg/adp.svg';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,7 +21,9 @@ export default function Navigation() {
   return (
     <>
       <Navbar fixed='top'>
-        <NavbarBrand href='#' ><img src={`${process.env.PUBLIC_URL}/pictures/main_adp.jpg`} alt='ADP' /></NavbarBrand>
+        <NavbarBrand href='#' >
+          <img src={AdpSvg} alt='ADP' />
+        </NavbarBrand>
         <NavbarToggler className='d-block d-md-none' onClick={toggle} />
         <Collapse isOpen={isOpen} navbar className='nav-menu__collapse' >
           <Nav className='main-nav' >
