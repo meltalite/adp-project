@@ -38,11 +38,27 @@
       "t1": "Cosmetics",
       "p1": "We provide liquid polymers and alcohol polyurethane solutions for multiple cosmetic and personal care applications.",
       "t2": "Constructions",
-      "p2": "We have many products for the con- struction market such as insulation, flooring, roofs, walls, facades, doors, windows or pipelines.",
+      "p2": "We have many products for the construction market such as insulation, flooring, roofs, walls, facades, doors, windows or pipelines.",
       "t3": "Sports & Leisure",
       "p3": "We supply raw materials for a range of applications including footwear, sports equipment, goggles and wearables, functional textiles and artificial leather.",
       "t4": "Home Appliance",
-      "p4": "We provide raw materials for thermo- plastics, foams, films, elastomers, TPU, composites and more for any range home appliance applications."
+      "p4": "We provide raw materials for thermoplastics, foams, films, elastomers, TPU, composites and more for any range home appliance applications."
+    },
+    "Electrical & Electronics": {
+      "title": "Electrical & Electronics",
+      "p1": "In electrical and electronics applications we serve many range but especially we provide raw materials for Fiber Optic Cable."
+    },
+    "Healthcare": {
+      "title": "Healthcare"
+    },
+    "Chemical & Paints": {
+      "title": "Chemical & Paints"
+    },
+    "Aerospace & Transportation": {
+      "title": "Aerospace & Transportation"
+    },
+    "Energy & Resources": {
+      "title": "Energy & Resources"
     }
   },
   "Footer": {

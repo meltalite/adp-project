@@ -1,34 +1,24 @@
-.article__consumer-goods {
+.article__electrical-electronics {
   display: none;
   padding-right: unset;
   padding-left: unset;
   flex-direction: column;
 
   &.active {
-    display: inline-table;
+    display: flex;
   }
 
   div.header-tab {
     div.wrapper {
       div {
         position: relative;
-        left: -25px;
-      }
-    }
-  }
-
-  table {
-    td {
-      vertical-align:top;
-
-      &:nth-child(2) {
-        width: 7%;
+        left: -50px;
       }
     }
   }
 }
 
-.album__consumer-goods {
+.album__electrical-electronics {
   display: none;
   padding-right: unset;
   padding-left: unset;

@@ -7,39 +7,6 @@
   &.active {
     display: flex;
   }
-
-  .header {
-    display: flex;
-    flex-flow: wrap;
-    margin-bottom: 3rem;
-    justify-content: space-between;
-
-    h3 {
-      width: 100%;
-    }
-
-    button {
-      background: none;
-      border: none;
-      height: 5rem;
-      width: 5rem;
-      color: white;
-      font-size: 1rem;
-      font-weight: 800;
-      padding: unset;
-      line-height: normal;
-
-      img {
-        height: 100%;
-        width: 100%;
-        object-fit: scale-down;
-
-        &:not(.active) {
-          opacity: .4;
-        }
-      }
-    }
-  }
 }
 
 .album__automotive {

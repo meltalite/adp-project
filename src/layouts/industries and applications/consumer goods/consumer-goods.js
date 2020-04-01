@@ -29,7 +29,8 @@ export default function ConsumerGoods({ Header, active }) {
     <>
       <div className={`col-12 col-md-6 article__consumer-goods ${active ? 'active' : ''}`} >
         <Header />
-          <table className='col-12'>
+        <table className='col-12'>
+          <tbody>
             <tr>
               <td>
                 <h6>{t('Industries & Applications.Consumer Goods.t1')}</h6>
@@ -52,6 +53,7 @@ export default function ConsumerGoods({ Header, active }) {
                 <p>{t('Industries & Applications.Consumer Goods.p4')}</p>
               </td>
             </tr>
+          </tbody>
           </table>
         </div>
       <div className={`col-12 col-md-5 album__consumer-goods ${active ? 'active' : ''}`} >

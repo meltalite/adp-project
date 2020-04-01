@@ -3,12 +3,23 @@ import './industries-applications.scss'
 import { useTranslation } from 'react-i18next'
 import Automotive from './automotive/automotive'
 import ConsumerGoods from './consumer goods/consumer-goods'
-import CarSvg from '../../assets/svg/car.svg'
-import BottleSvg from '../../assets/svg/bottle.svg'
+import AutomotiveSvg from '../../assets/svg/automotive.svg'
+import CgoodsSvg from '../../assets/svg/cgoods.svg'
+import ElectricalSvg from '../../assets/svg/electrical.svg'
+import HealthcareSvg from '../../assets/svg/healthcare.svg'
+import ChemicalSvg from '../../assets/svg/chemical.svg'
+import AerospaceSvg from '../../assets/svg/aerospace.svg'
+import EnergySvg from '../../assets/svg/energy.svg'
+import ElectricalElectronics from './electrical electronics/electrical-electronics'
 
 const items = [
-  { icon: CarSvg, component: Automotive, name: 'Automotive' },
-  { icon: BottleSvg, component: ConsumerGoods, name: 'Consumer Goods' },
+  { icon: AutomotiveSvg, component: Automotive, name: 'Automotive' },
+  { icon: CgoodsSvg, component: ConsumerGoods, name: 'Consumer Goods' },
+  { icon: ElectricalSvg, component: ElectricalElectronics, name: 'Electrical & Electronics' },
+  { icon: HealthcareSvg, component: ConsumerGoods, name: 'Healthcare' },
+  { icon: ChemicalSvg, component: ConsumerGoods, name: 'Chemical & Paints' },
+  { icon: AerospaceSvg, component: ConsumerGoods, name: 'Aerospace & Transportation' },
+  { icon: EnergySvg, component: ConsumerGoods, name: 'Energy & Resources' },
 ]
 
 export default function IndustriesApplications() {
@@ -21,23 +32,28 @@ export default function IndustriesApplications() {
     const componentName = item.component.name.toLowerCase()
     const active = index === activeIndex
     return (
-    <button
-      className={`tab-button__${componentName} ${active ? 'active' : ''}`}
-      onClick={() => changeActiveIndex(index)}
-    >
-      <img src={item.icon} alt={item.name} className={`tab-icon ${active ? 'active' : ''}`} />
-      {
-        active && t(`Industries & Applications.${item.name}.title`)
-      }
-    </button>
+      <div className='wrapper'>
+        <button
+          className={`tab-button__${componentName}`}
+          onClick={() => changeActiveIndex(index)}
+          key={index}
+        >
+          <img src={item.icon} alt={item.name} className={`tab-icon ${active ? 'active' : ''}`} />
+        </button>
+        {
+          active && <div>{t(`Industries & Applications.${item.name}.title`)}</div>
+        }
+      </div>
     )
   })
-  
+
   const Header = () => {
     return (
       <div className='header'>
         <h3>{t('Nav.industries & applications')}</h3>
-        {tabs}
+        <div className='header-tab'>
+          {(tabs)}
+        </div>
       </div>
     )
   }
@@ -50,6 +66,7 @@ export default function IndustriesApplications() {
         className={`${Component.name.toLowerCase} ${active ? 'active' : ''}`}
         Header={Header}
         active={active}
+        key={index}
       />
     )
   })
