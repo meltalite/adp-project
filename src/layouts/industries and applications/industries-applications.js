@@ -13,13 +13,13 @@ import EnergySvg from '../../assets/svg/energy.svg'
 import ElectricalElectronics from './electrical electronics/electrical-electronics'
 
 const items = [
-  { icon: AutomotiveSvg, component: Automotive, name: 'Automotive' },
-  { icon: CgoodsSvg, component: ConsumerGoods, name: 'Consumer Goods' },
-  { icon: ElectricalSvg, component: ElectricalElectronics, name: 'Electrical & Electronics' },
-  { icon: HealthcareSvg, component: ConsumerGoods, name: 'Healthcare' },
-  { icon: ChemicalSvg, component: ConsumerGoods, name: 'Chemical & Paints' },
-  { icon: AerospaceSvg, component: ConsumerGoods, name: 'Aerospace & Transportation' },
-  { icon: EnergySvg, component: ConsumerGoods, name: 'Energy & Resources' },
+  { icon: AutomotiveSvg, component: Automotive, name: 'Automotive', class:'automotive' },
+  { icon: CgoodsSvg, component: ConsumerGoods, name: 'Consumer Goods', class: 'consumergoods' },
+  { icon: ElectricalSvg, component: ElectricalElectronics, name: 'Electrical & Electronics', class: 'electricalelectronics' },
+  { icon: HealthcareSvg, component: ConsumerGoods, name: 'Healthcare', class: 'consumergoods' },
+  { icon: ChemicalSvg, component: ConsumerGoods, name: 'Chemical & Paints', class: 'consumergoods' },
+  { icon: AerospaceSvg, component: ConsumerGoods, name: 'Aerospace & Transportation', class: 'consumergoods' },
+  { icon: EnergySvg, component: ConsumerGoods, name: 'Energy & Resources', class: 'consumergoods' },
 ]
 
 export default function IndustriesApplications() {
@@ -29,12 +29,12 @@ export default function IndustriesApplications() {
   const changeActiveIndex = (index) => setActiveIndex(index)
 
   const tabs = items.map((item, index) => {
-    const componentName = item.component.name.toLowerCase()
+    const itemClass = item.class
     const active = index === activeIndex
     return (
       <div className='wrapper'>
         <button
-          className={`tab-button__${componentName}`}
+          className={`tab-button__${itemClass}`}
           onClick={() => changeActiveIndex(index)}
           key={index}
         >
