@@ -6,10 +6,11 @@
   @include adp-blue;
   color: white;
   padding: .5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   @media only screen and (min-width: 768px) {
-    display: flex;
-    flex-direction: row;
     padding: 2rem 16.666667%;
   }
 
@@ -48,12 +49,8 @@
   .follow {
     font-size: 9px;
 
-    @media only screen and (min-width: 768px) {
-      padding-top: 10px;
-    }
-
     h2 {
-      margin-bottom: 30px;
+      margin: 1rem 0;
     }
 
     .socmed {
@@ -85,7 +82,14 @@
 
   .logo {
     display: flex;
-    padding-left: 40px;
+    padding-left: 1rem;
+    padding-top: 2.75rem;
+
+    @media only screen and (min-width: 768px) {
+      padding-top: unset;
+      padding-left: 2rem;
+      padding-bottom: 15px;
+    }
 
     img {
       width: 100%;

@@ -1,34 +1,28 @@
-.article__consumer-goods {
+.article__chemical-paints {
   display: none;
   padding-right: unset;
   padding-left: unset;
   flex-direction: column;
 
   &.active {
-    display: inline-table;
+    display: flex;
   }
 
   div.header-tab {
     div.wrapper {
       div {
         position: relative;
-        left: -25px;
-      }
-    }
-  }
+        left: -70px;
 
-  table {
-    td {
-      vertical-align:top;
-
-      &:nth-child(2) {
-        width: 7%;
+        @media only screen and (min-width: 768px) {
+          left: -35px;
+        }
       }
     }
   }
 }
 
-.album__consumer-goods {
+.album__chemical-paints {
   display: none;
   padding-right: unset;
   padding-left: unset;
@@ -53,7 +47,6 @@
     width: 50%;
     padding-right: 1px;
   }
-    height: 50%;
 
   img:nth-child(3) {
     width: 50%;

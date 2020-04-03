@@ -3,6 +3,11 @@ import './industries-applications.scss'
 import { useTranslation } from 'react-i18next'
 import Automotive from './automotive/automotive'
 import ConsumerGoods from './consumer goods/consumer-goods'
+import ElectricalElectronics from './electrical electronics/electrical-electronics'
+import Healthcare from './healthcare/healthcare'
+import ChemicalPaints from './chemical & paints/chemical-paints'
+import AerospaceTransportation from './aerospace & transportation/aerospace-transportation'
+import EnergyResources from './energy & resources/energy-resources'
 import AutomotiveSvg from '../../assets/svg/automotive.svg'
 import CgoodsSvg from '../../assets/svg/cgoods.svg'
 import ElectricalSvg from '../../assets/svg/electrical.svg'
@@ -10,16 +15,15 @@ import HealthcareSvg from '../../assets/svg/healthcare.svg'
 import ChemicalSvg from '../../assets/svg/chemical.svg'
 import AerospaceSvg from '../../assets/svg/aerospace.svg'
 import EnergySvg from '../../assets/svg/energy.svg'
-import ElectricalElectronics from './electrical electronics/electrical-electronics'
 
 const items = [
   { icon: AutomotiveSvg, component: Automotive, name: 'Automotive', class:'automotive' },
   { icon: CgoodsSvg, component: ConsumerGoods, name: 'Consumer Goods', class: 'consumergoods' },
   { icon: ElectricalSvg, component: ElectricalElectronics, name: 'Electrical & Electronics', class: 'electricalelectronics' },
-  { icon: HealthcareSvg, component: ConsumerGoods, name: 'Healthcare', class: 'consumergoods' },
-  { icon: ChemicalSvg, component: ConsumerGoods, name: 'Chemical & Paints', class: 'consumergoods' },
-  { icon: AerospaceSvg, component: ConsumerGoods, name: 'Aerospace & Transportation', class: 'consumergoods' },
-  { icon: EnergySvg, component: ConsumerGoods, name: 'Energy & Resources', class: 'consumergoods' },
+  { icon: HealthcareSvg, component: Healthcare, name: 'Healthcare', class: 'healthcare' },
+  { icon: ChemicalSvg, component: ChemicalPaints, name: 'Chemical & Paints', class: 'chemicalpaints' },
+  { icon: AerospaceSvg, component: AerospaceTransportation, name: 'Aerospace & Transportation', class: 'aerospacetransportation' },
+  { icon: EnergySvg, component: EnergyResources, name: 'Energy & Resources', class: 'energyresources' },
 ]
 
 export default function IndustriesApplications() {

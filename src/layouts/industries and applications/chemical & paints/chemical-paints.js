@@ -1,0 +1,39 @@
+import React from 'react';
+import './chemical-paints.scss'
+import { useTranslation } from 'react-i18next';
+
+const items = [
+  {
+    src: `${process.env.PUBLIC_URL}/pictures/industries & applications/cp_paint.jpg`,
+    altText: 'cp_paint',
+  },
+  {
+    src: `${process.env.PUBLIC_URL}/pictures/industries & applications/cp_beaker.jpg`,
+    altText: 'cp_beaker',
+  },
+  {
+    src: `${process.env.PUBLIC_URL}/pictures/industries & applications/cp_polymer.jpg`,
+    altText: 'cp_polymer',
+  },
+]
+
+export default function ChemicalPaints({ Header, active }) {
+  const { t } = useTranslation()
+
+  const pictures = items.map(item => {
+    return (
+      <img src={item.src} alt={item.altText} key={item.altText} />
+    )
+  })
+  return (
+    <>
+      <div className={`col-12 col-md-6 article__chemical-paints ${active ? 'active' : ''}`} >
+        <Header />
+        <p>{t('Industries & Applications.Chemical & Paints.p1')}</p>
+      </div>
+      <div className={`col-12 col-md-5 album__chemical-paints ${active ? 'active' : ''}`} >
+        {pictures}
+      </div>
+    </>
+  )
+}

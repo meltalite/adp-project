@@ -1,34 +1,24 @@
-.article__consumer-goods {
+.article__aerospace-transportation {
   display: none;
   padding-right: unset;
   padding-left: unset;
   flex-direction: column;
 
   &.active {
-    display: inline-table;
+    display: flex;
   }
 
   div.header-tab {
     div.wrapper {
       div {
         position: relative;
-        left: -25px;
-      }
-    }
-  }
-
-  table {
-    td {
-      vertical-align:top;
-
-      &:nth-child(2) {
-        width: 7%;
+        left: -60px;
       }
     }
   }
 }
 
-.album__consumer-goods {
+.album__aerospace-transportation {
   display: none;
   padding-right: unset;
   padding-left: unset;
@@ -53,7 +43,6 @@
     width: 50%;
     padding-right: 1px;
   }
-    height: 50%;
 
   img:nth-child(3) {
     width: 50%;

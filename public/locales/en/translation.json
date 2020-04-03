@@ -49,16 +49,21 @@
       "p1": "In electrical and electronics applications we serve many range but especially we provide raw materials for Fiber Optic Cable."
     },
     "Healthcare": {
-      "title": "Healthcare"
+      "title": "Healthcare",
+      "p1": "We supply thermoplastics, films, TPU, raw materials for adhesives, foams, and more for healthcare applications such as medication delivery, surgical instruments, electromedical equipment and wound care."
     },
     "Chemical & Paints": {
-      "title": "Chemical & Paints"
+      "title": "Chemical & Paints",
+      "p1": "We supply a comprehensive selection of raw materials for highly demanding chemical & paints formulations used for architectual coatings, automotive and commercial vehicle coatings or industrial coatings."
     },
     "Aerospace & Transportation": {
-      "title": "Aerospace & Transportation"
+      "title": "Aerospace & Transportation",
+      "p1": "All activities of aerospace or transportation rely on advanced engine and propulsion technologies requiring parts that operate in the most extreme conditions while meeting stringent specifications.",
+      "p2": "We understans that & supply best quality materials for this industry."
     },
     "Energy & Resources": {
-      "title": "Energy & Resources"
+      "title": "Energy & Resources",
+      "p1": "Last but not least, we provide energy & resources industry applications such as solar panels, energy storage or wind blades and towers, thanks to our dedicated raw materials for coatings, elastomers, polyurethane resins, TPU and more."
     }
   },
   "Footer": {

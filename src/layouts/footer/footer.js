@@ -36,7 +36,7 @@ export default function Footer() {
         <p>{t('Footer.About.p2')}</p>
         <p>{t('Footer.About.p3')}</p>
       </div>
-      <div className='col-md-3 contact'>
+      <div className='col-12 col-md-3 contact'>
         <h2>{t('Footer.Contact.title')}</h2>
         <p>{t('Footer.Contact.name')}</p>
         <p>{t('Footer.Contact.office')}</p>
@@ -45,13 +45,13 @@ export default function Footer() {
         <p>{t('Footer.Contact.phone')}</p>
         <p>{t('Footer.Contact.fax')}</p>
       </div>
-      <div className='col-md-3 follow'>
+      <div className='col-8 col-md-3 follow'>
         <h2>{t('Footer.Follow.title')}</h2>
         <div className='socmed'>
           {icons}
         </div>
       </div>
-      <div className='col-md-2 logo'>
+      <div className='col-4 col-md-2 logo'>
         <img src={AdpWhiteSvg} alt='adp-white' />
       </div>
     </footer>
