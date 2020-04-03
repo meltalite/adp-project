@@ -54,7 +54,7 @@ export default function IndustriesApplications() {
   const Header = () => {
     return (
       <div className='header'>
-        <h3>{t('Nav.industries & applications')}</h3>
+        <h2>{t('Nav.industries & applications')}</h2>
         <div className='header-tab'>
           {(tabs)}
         </div>
