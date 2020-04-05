@@ -3,20 +3,22 @@ import { useTranslation } from 'react-i18next';
 
 export default function Sections() {
   const { t } = useTranslation();
+  const text = [1].map(item => (
+    <div key={item} className="col-12" style={{padding: 'unset'}}>
+      <h1>{t('Lipsum.title')}</h1>
+      <p>{t('Lipsum.content')}</p>
+    </div>
+  ))
+
   const style = {
-    padding: '70px 20px 0px 20px',
-    borderBottom: '1px dashed purple'
+    backgroundColor: 'black',
+    opacity: '.7',
+    color: '#fff'
   }
+
   return (
-    [1].map(item => (
-      <section key={item} id={item} style={style} className='page-section'>
-        <div key={item} className="row" >
-          <div key={item} className="col-12" >
-            <h1>{t('Lipsum.title')}</h1>
-            <p>{t('Lipsum.content')}</p>
-          </div>
-        </div>
-      </section>
-    ))
+    <section className='page-section' style={style}>
+      {text}
+    </section>
   )
 }

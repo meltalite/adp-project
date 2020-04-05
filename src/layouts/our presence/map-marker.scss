@@ -1,0 +1,23 @@
+.map-marker {
+  position: absolute;
+  display: flex;
+  top: -36px;
+  left: -11px;
+  
+  border-radius: 50%;
+  border: 8px solid #f00;
+  width: 8px;
+  height: 8px;
+  box-sizing: unset;
+}
+
+.map-marker::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  bottom: -30px;
+  left: -6px;
+  border: 10px solid transparent;
+  border-top: 17px solid #f00;
+}

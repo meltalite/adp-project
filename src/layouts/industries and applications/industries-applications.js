@@ -36,11 +36,10 @@ export default function IndustriesApplications() {
     const itemClass = item.class
     const active = index === activeIndex
     return (
-      <div className='wrapper'>
+      <div key={index} className='wrapper'>
         <button
           className={`tab-button__${itemClass}`}
           onClick={() => changeActiveIndex(index)}
-          key={index}
         >
           <img src={item.icon} alt={item.name} className={`tab-icon ${active ? 'active' : ''}`} />
         </button>

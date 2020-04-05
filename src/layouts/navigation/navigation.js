@@ -16,6 +16,7 @@ export default function Navigation() {
     t("Nav.industries & applications"),
     t("Nav.products"),
     t("Nav.services"),
+    t("Nav.our presence"),
     t("Nav.contact us"),
   ]
   return (
