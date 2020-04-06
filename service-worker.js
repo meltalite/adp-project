@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/adp-project/precache-manifest.c84777ae6d054e716afb777636b92f9a.js"
+  "/adp-project/precache-manifest.1aafc8a39f7222809ffefff7cd856511.js"
 );
 
 self.addEventListener('message', (event) => {
