@@ -67,6 +67,12 @@
       "p1": "Last but not least, we provide energy & resources industry applications such as solar panels, energy storage or wind blades and towers, thanks to our dedicated raw materials for coatings, elastomers, polyurethane resins, TPU and more."
     }
   },
+  "Products": {
+    "title": "Products"
+  },
+  "Services": {
+    "title": "Services"
+  },
   "Our Presence": {
     "title": "Our Presence",
     "Jakarta": "Jakarta",
