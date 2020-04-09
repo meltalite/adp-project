@@ -16,10 +16,14 @@ const commodityPlastic = [
       },
     ]
   },
-  { name: 'GPPS' },
+  {
+    name: 'GPPS',
+    pictures: [
+    ]
+  },
   { name: 'EPS' },
   { name: 'HPP' },
-  { name: 'BPP' },
+  { name: 'BCPP' },
   { name: 'HDPE' },
   { name: 'LDPE' },
   { name: 'LLDPE' },

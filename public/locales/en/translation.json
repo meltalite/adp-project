@@ -82,39 +82,39 @@
           "desc": "Lorem ipsum"
         },
         "EPS": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "EPS (Expandable Polystyrene)",
           "desc": "Lorem ipsum"
         },
         "HPP": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "Homopolymer PP (Polypropylene)",
           "desc": "Lorem ipsum"
         },
         "BCPP": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "Block Copolymer PP",
           "desc": "Lorem ipsum"
         },
         "HDPE": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "HDPE (High Density Polyethylene)",
           "desc": "Lorem ipsum"
         },
         "LDPE": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "LDPE (Low Density Polyethylene)",
           "desc": "Lorem ipsum"
         },
         "LLDPE": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "LLDPE (Linear Low Density Polyethylene)",
           "desc": "Lorem ipsum"
         },
         "PVC": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "PVC (Polyvinyl Chloride)",
           "desc": "Lorem ipsum"
         },
         "PET": {
-          "name": "GPPS (General Purpose Polystyrene)",
+          "name": "PET (Polyethylene Terephthalate)",
           "desc": "Lorem ipsum"
         },
         "EVA": {
-          "name": "EVA ( Ethylene-vinyl acetate)",
+          "name": "EVA (Ethylene-vinyl acetate)",
           "desc": "Lorem ipsum"
         }
       }
