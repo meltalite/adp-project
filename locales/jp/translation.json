@@ -6,9 +6,10 @@
   "Nav": {
     "about us": "About Us",
     "principles": "Our Principles",
-    "industries & applicants": "Industries & Applicants",
+    "industries & applications": "Industries & Applications",
     "products": "Products",
-    "services": "Our Presence",
+    "services": "Services",
+    "our presence": "Our Presence",
     "contact us": "Contact Us"
   }
 }
