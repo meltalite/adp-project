@@ -1,0 +1,58 @@
+@mixin adp-blue {
+  color: #2e74b8;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+
+  button:nth-child(1) {
+    margin-top: 0 !important;
+  }
+
+  .collapse {
+    flex-direction: column;
+    &.show {
+      display: flex;
+    }
+  }
+
+  .collapsing {
+    flex-direction: column;
+    display: flex;
+  }
+
+  button {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: unset;
+    margin: unset;
+    color: #7e7e7e;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.commodity {
+      @include adp-blue;
+      margin-top: 1rem;
+    }
+
+    &.product {
+      font-size: .8rem;
+      padding-left: 3%;
+
+      &.active {
+        color: #000;
+        font-weight: 600;
+      }
+
+      &::before {
+        content: '- ';
+      }
+    }
+  }
+}

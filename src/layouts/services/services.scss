@@ -1,0 +1,32 @@
+@mixin bg_grey {
+  background-color: #f3f3f3;
+}
+
+.page-section {
+  &.bg_grey {
+    @include bg_grey;
+  }
+
+  .services {
+    width: 100%;
+    justify-content: space-between;
+    font-size: .8rem;
+    color: white;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: black;
+    }
+
+    .article {
+      padding: unset;
+      margin: unset;
+    }
+
+    .album {
+      padding: unset;
+      margin: unset;
+    }
+  }
+}

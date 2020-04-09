@@ -1,7 +1,8 @@
 {
   "Lipsum": {
     "title" : "Lorem ipsum",
-    "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo. Nunc vel porta quam, id tristique odio. Aliquam eget auctor quam. In hac habitasse platea dictumst. Nullam auctor a eros at faucibus. Aliquam vitae tellus sit amet arcu imperdiet hendrerit. Nam feugiat orci fermentum metus sagittis sagittis. Phasellus sodales cursus nisi, et accumsan tortor ultricies eu. Nunc accumsan tincidunt enim sit amet tincidunt. Vivamus semper nec turpis a blandit. Quisque suscipit tincidunt iaculis. Sed sit amet posuere erat. Donec pharetra, velit et ultricies ultrices, metus nisi fermentum odio, ullamcorper fringilla nisl mauris sit amet enim. Nunc porta erat vestibulum nisi vulputate pharetra. Fusce id turpis non tortor aliquet tristique eget non diam. Fusce imperdiet viverra nulla. Nam non dapibus augue. Vestibulum vel augue a sapien commodo cursus eget sit amet dolor. Integer porttitor purus sapien, nec porta mi volutpat sit amet. Fusce diam lorem, sollicitudin eget egestas sit amet, placerat sit amet mauris. Aenean et felis leo. Nulla facilisi. Curabitur egestas tellus leo, in suscipit ligula semper sit amet-amet."
+    "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo. Nunc vel porta quam, id tristique odio. Aliquam eget auctor quam. In hac habitasse platea dictumst. Nullam auctor a eros at faucibus. Aliquam vitae tellus sit amet arcu imperdiet hendrerit. Nam feugiat orci fermentum metus sagittis sagittis. Phasellus sodales cursus nisi, et accumsan tortor ultricies eu. Nunc accumsan tincidunt enim sit amet tincidunt. Vivamus semper nec turpis a blandit. Quisque suscipit tincidunt iaculis. Sed sit amet posuere erat. Donec pharetra, velit et ultricies ultrices, metus nisi fermentum odio, ullamcorper fringilla nisl mauris sit amet enim. Nunc porta erat vestibulum nisi vulputate pharetra. Fusce id turpis non tortor aliquet tristique eget non diam. Fusce imperdiet viverra nulla. Nam non dapibus augue. Vestibulum vel augue a sapien commodo cursus eget sit amet dolor. Integer porttitor purus sapien, nec porta mi volutpat sit amet. Fusce diam lorem, sollicitudin eget egestas sit amet, placerat sit amet mauris. Aenean et felis leo. Nulla facilisi. Curabitur egestas tellus leo, in suscipit ligula semper sit amet-amet.",
+    "short" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo."
   },
   "Nav": {
     "about us": "About Us",
@@ -66,6 +67,77 @@
       "title": "Energy & Resources",
       "p1": "Last but not least, we provide energy & resources industry applications such as solar panels, energy storage or wind blades and towers, thanks to our dedicated raw materials for coatings, elastomers, polyurethane resins, TPU and more."
     }
+  },
+  "Products": {
+    "title": "Products",
+    "Commodity Plastic": {
+      "title": "Commodity Plastic",
+      "items": {
+        "HIPS": {
+          "name": "HIPS (High Impact Polystyrene)",
+          "desc": "High Impact Polystyrene (HIPS) is a low cost, tough plastic that is easy to thermoform and fabricate."
+        },
+        "GPPS": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "EPS": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "HPP": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "BCPP": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "HDPE": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "LDPE": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "LLDPE": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "PVC": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "PET": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Lorem ipsum"
+        },
+        "EVA": {
+          "name": "EVA ( Ethylene-vinyl acetate)",
+          "desc": "Lorem ipsum"
+        }
+      }
+    },
+    "Engineering Plastic": {
+      "title": "Engineering Plastic",
+      "items": {}
+    },
+    "Super Engineering Plastic": {
+      "title": "Super Engineering Plastic",
+      "items": {}
+    },
+    "Coating": {
+      "title": "Coating",
+      "items": {}
+    },
+    "Additives": {
+      "title": "Additives",
+      "items": {}
+    }
+  },
+  "Services": {
+    "title": "Services"
   },
   "Our Presence": {
     "title": "Our Presence",

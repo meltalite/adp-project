@@ -1,7 +1,7 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import MapMarker from './map-marker';
-import simpleMapOptions from './simple-map-styles';
+import simpleMapOptions from './simple-map-options';
 
 export default function SimpleMap({ coordinates, target, zoom}) {
   const markers = coordinates.locations.map((item, index) => {

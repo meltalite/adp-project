@@ -5,7 +5,7 @@ export default function Sections() {
   const { t } = useTranslation();
   const text = [1].map(item => (
     <div key={item} className="col-12" style={{padding: 'unset'}}>
-      <h1>{t('Lipsum.title')}</h1>
+      <h2>{t('Lipsum.title')}</h2>
       <p>{t('Lipsum.content')}</p>
     </div>
   ))

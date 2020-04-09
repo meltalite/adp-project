@@ -8,6 +8,8 @@ import AboutUs from './about us/about-us';
 import Principles from './principles/principles';
 import Footer from './footer/footer';
 import IndustriesApplications from './industries and applications/industries-applications';
+import Products from './products/products';
+import Services from './services/services';
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <AboutUs />
       <Principles />
       <IndustriesApplications />
+      <Products />
+      <Services />
       <Sections />
       <OurPresence />
       <Footer />

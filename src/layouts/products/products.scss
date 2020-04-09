@@ -1,0 +1,28 @@
+.page-section {
+  .products {
+    width: 100%;
+    justify-content: space-between;
+    font-size: .8rem;
+    color: white;
+
+    h2 {
+      margin-bottom: 1rem;
+      color: black;
+      font-size: 2rem;
+    }
+
+    @media only screen and (min-width: 768px) {
+      display: flex;
+    }
+
+    .article {
+      padding: unset;
+      margin: unset;
+    }
+
+    .album {
+      padding: unset;
+      margin: unset;
+    }
+  }
+}
