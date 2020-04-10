@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next'
 import './language.scss'
 import { Tooltip } from 'reactstrap';
+import UKSvg from '../../../assets/svg/uk.svg'
+import JPSvg from '../../../assets/svg/jp.svg'
+import CHSvg from '../../../assets/svg/ch.svg'
 
 const languages = [
-  { id: 'en', display: '🇬🇧', tooltip: 'English' },
-  { id: 'jp', display: '🇯🇵', tooltip: 'Japanese' },
-  { id: 'ch', display: '🇨🇳', tooltip: 'Chinese' },
+  { id: 'en', display: UKSvg, tooltip: 'English' },
+  { id: 'jp', display: JPSvg, tooltip: 'Japanese' },
+  { id: 'ch', display: CHSvg, tooltip: 'Chinese' },
 ]
 
 export default function Language() {
@@ -24,8 +27,9 @@ export default function Language() {
           key={lang.id}
           onClick={() => changeLanguage(lang.id)}
           id={lang.tooltip}
+          className={lang.id}
         >
-            {lang.display}
+            <img src={lang.display} alt={lang.id} />
             <Tooltip placement='bottom' isOpen={tooltipOpen} target={lang.tooltip} toggle={toggle}>{lang.tooltip}</Tooltip>
         </button>
     )
