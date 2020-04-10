@@ -12,19 +12,21 @@ export default function Navigation() {
   return (
     <>
       <Navbar fixed='top'>
-        <NavbarBrand href='#' >
-          <img src={AdpSvg} alt='ADP' />
-        </NavbarBrand>
-        <NavbarToggler className='d-block d-md-none' onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar className='nav-menu__collapse' >
-          <Nav className='main-nav' >
+        <div className='container'>
+          <NavbarBrand href='#' >
+            <img src={AdpSvg} alt='ADP' />
+          </NavbarBrand>
+          <NavbarToggler className='d-block d-lg-none' onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar className='nav-menu__collapse' >
+            <Nav className='main-nav' >
               <Menu />
               <NavItem className='nav-menu search-lang'>
                 <Language />
                 <SearchBar />
               </NavItem>
-          </Nav>
-        </Collapse>
+            </Nav>
+          </Collapse>
+        </div>
       </Navbar>
     </>
   )
