@@ -1,0 +1,24 @@
+@font-face {
+  font-family: nexa;
+  src: url('/font/Fontfabric\ -\ Nexa.otf');
+}
+@font-face {
+  font-family: nexaThin;
+  src: url('/font/Fontfabric\ -\ Nexa\ Thin.ttf');
+}
+@font-face {
+  font-family: nexaBold;
+  src: url('/font/Fontfabric\ -\ NexaXBold.otf');
+}
+@font-face {
+  font-family: nexabook;
+  src: url('/font/fontfabric\ -\ nexabook.otf');
+}
+@font-face {
+  font-family: centuryGothic;
+  src: url('/font/CenturyGothic.ttc');
+}
+
+@mixin adp-blue {
+  background-color: #2e74b8;
+}
