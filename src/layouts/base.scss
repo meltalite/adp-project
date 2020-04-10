@@ -1,22 +1,22 @@
 @font-face {
   font-family: nexa;
-  src: url('/font/Fontfabric\ -\ Nexa.otf');
+  src: url('/font/Fontfabric\ -\ Nexa.otf') format('otf');
 }
 @font-face {
   font-family: nexaThin;
-  src: url('/font/Fontfabric\ -\ Nexa\ Thin.ttf');
+  src: url('/font/Fontfabric\ -\ Nexa\ Thin.ttf') format('ttf');
 }
 @font-face {
   font-family: nexaBold;
-  src: url('/font/Fontfabric\ -\ NexaXBold.otf');
+  src: url('/font/Fontfabric\ -\ NexaXBold.otf') format('otf');
 }
 @font-face {
   font-family: nexabook;
-  src: url('/font/fontfabric\ -\ nexabook.otf');
+  src: url('/font/fontfabric\ -\ nexabook.otf') format('otf');
 }
 @font-face {
   font-family: centuryGothic;
-  src: url('/font/CenturyGothic.ttc');
+  src: url('/font/CenturyGothic.ttc') format('ttc');
 }
 
 @mixin adp-blue {
