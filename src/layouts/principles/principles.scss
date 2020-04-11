@@ -12,7 +12,7 @@
     display: flex;
     flex-flow: column;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 992px) {
       flex-flow: row;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -24,7 +24,7 @@
       object-fit: scale-down;
       margin: 1rem 0;
 
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 992px) {
         max-width: 20%;
         filter: grayscale(100%);
 
