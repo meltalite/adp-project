@@ -1,19 +1,30 @@
 input {
-  height: 25px;
+  height: 20px;
   width: 150px;
   right: 0;
   overflow: hidden;
   transition: width .5s ease-in-out;
   border: 2px solid #aaa;
   border-radius: 10px;
+  background: transparent;
+  padding-left: 5px;
 
   /* webkit solution */
-  &::-webkit-input-placeholder { text-align:right; }
+  &::-webkit-input-placeholder {
+    background-image: url('../../../assets/svg/magnifier.svg');
+    background-position: 95%;
+    background-repeat: no-repeat;
+    text-align:right;
+  }
   /* mozilla solution */
-  &:-moz-placeholder { text-align:right; }
-
+  &:-moz-placeholder {
+    background-image: url('../../../assets/svg/magnifier.svg');
+    background-position: 95%;
+    background-repeat: no-repeat;
+    text-align:right;
+  }
 }
 
-#search-bar__clear-button {
-display: none;
+.search-lang {
+  padding-bottom: 4px;
 }

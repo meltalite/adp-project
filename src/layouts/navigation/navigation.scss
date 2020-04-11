@@ -2,8 +2,14 @@
 
 .navbar {
   opacity: 0.95;
-  background-color: #fff;
+  background-color: #f8f8f8;
   align-items: center;
+  padding: unset;
+  height: 100px;
+
+  .container {
+    padding: 0 5%;
+  }
 
   &-brand {
     display: flex;
@@ -25,10 +31,6 @@
   }
 
   @media only screen and (min-width: 992px) {
-    .container{
-      max-width: 1080px;
-    }
-
     &-brand {
       height: 60px;
     }

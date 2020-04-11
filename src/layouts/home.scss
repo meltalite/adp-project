@@ -1,7 +1,8 @@
 .page-section {
-  padding: 2rem 1rem;
-  
-  @media only screen and (min-width: 768px) {
-    padding: 3rem 16.666667%;
-  }
+  padding: unset;
+}
+
+.container {
+  padding: 50px 5%;
+  max-width: 1080px !important;
 }
