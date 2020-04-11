@@ -52,12 +52,14 @@ export default function Principles() {
 
   return (
     <section className='page-section'>
-      <div className="principles" id={encodeURI(t('Nav.principles'))}>
-        <h2>
-          {t('Principles.title')}
-        </h2>
-        <div className='col-12 col-md-12 logos' >
-          {logos}
+      <div className='container'>
+        <div className="principles" id={encodeURI(t('Nav.principles'))}>
+          <h2>
+            {t('Principles.title')}
+          </h2>
+          <div className='col-12 col-md-12 logos' >
+            {logos}
+          </div>
         </div>
       </div>
     </section>
