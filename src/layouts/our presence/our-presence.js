@@ -11,21 +11,23 @@ export default function OurPresence() {
 
   return (
     <section className='page-section'>
-      <div className='our-presence' id={encodeURI(t('Nav.our presence'))} >
-        <div className='col-12 col-md-5 article' >
-          <h2>{t('Our Presence.title')}</h2>
-          <Locations
-            setTarget={(target) => setTarget(target)}
-            setZoom={(zoom) => setZoom(zoom)} 
-          />
-        </div>
-        <div className='col-12 col-md-5 album' >
-          <div className='map' >
-            <SimpleMap
-              coordinates={defaultCoordinates}
-              target={target}
-              zoom={zoom}
+      <div className='container'>
+        <div className='our-presence' id={encodeURI(t('Nav.our presence'))} >
+          <div className='col-12 col-md-5 article' >
+            <h2>{t('Our Presence.title')}</h2>
+            <Locations
+              setTarget={(target) => setTarget(target)}
+              setZoom={(zoom) => setZoom(zoom)}
             />
+          </div>
+          <div className='col-12 col-md-5 album' >
+            <div className='map' >
+              <SimpleMap
+                coordinates={defaultCoordinates}
+                target={target}
+                zoom={zoom}
+              />
+            </div>
           </div>
         </div>
       </div>
