@@ -18,7 +18,9 @@ export default function Sections() {
 
   return (
     <section className='page-section' style={style}>
-      {text}
+      <div className='container'>
+        {text}
+      </div>
     </section>
   )
 }
