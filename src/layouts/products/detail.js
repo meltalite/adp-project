@@ -9,7 +9,18 @@ export default function Detail({ commodity, name, pictures}) {
       <h6>{t(`Products.${commodity}.items.${name}.name`)}</h6>
       <p>{t(`Products.${commodity}.items.${name}.desc`)}</p>
       {pictures && (
-        pictures.map(pic => <img src={pic.src} alt={pic.altText} key={pic.altText} />)
+        pictures.map((pic, index) => {
+          return (index === 0 ? (
+            <div className='col-12'>
+              <img src={pic.src} alt={pic.altText} key={pic.altText} />
+            </div>
+          ) : (
+            <div className='col-6'>
+              <img src={pic.src} alt={pic.altText} key={pic.altText} />
+            </div>
+            )
+          )
+        })
       )}
     </div>
   ) : ''

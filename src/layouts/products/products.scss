@@ -1,14 +1,21 @@
+@import '../base.scss';
+
 .page-section {
   .products {
     width: 100%;
     justify-content: space-between;
     font-size: .8rem;
+    font-family: nexaBold;
     color: white;
 
     h2 {
       margin-bottom: 1rem;
       color: black;
       font-size: 2rem;
+    }
+
+    p {
+      font-family: nexaBook;
     }
 
     @media only screen and (min-width: 922px) {

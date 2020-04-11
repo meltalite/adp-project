@@ -2,6 +2,7 @@
   color: #2e74b8;
   font-weight: 800;
   font-size: 1rem;
+  font-family: nexaBold;
 }
 
 .display {
@@ -44,10 +45,12 @@
     &.product {
       font-size: .8rem;
       padding-left: 3%;
+      font-family: nexaBook;
 
       &.active {
         color: #000;
-        font-weight: 600;
+        font-weight: 700;
+        font-family: nexaBold;
       }
 
       &::before {
