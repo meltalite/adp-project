@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import './search-bar.scss'
 import { Tooltip } from 'reactstrap';
-import MaginifierSvg from '../../../assets/svg/magnifier.svg';
 
 export default function SearchBar() {
   const searchNode = useRef()
