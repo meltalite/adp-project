@@ -1,6 +1,4 @@
-@mixin adp-blue {
-  background-color: #2e74b8;
-}
+@import '../base.scss';
 
 .page-section {
   &.bg_blue {
@@ -13,7 +11,7 @@
     font-size: .8rem;
     color: white;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 922px) {
       display: flex;
     }
 
@@ -29,9 +27,8 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-        flex-wrap: wrap;
 
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 922px) {
           justify-content: space-between;
         }
 
@@ -43,7 +40,8 @@
 
           div {
             font-size: 1rem;
-            font-weight: 600;
+            font-family: nexaBold;
+            font-weight: 700;
           }
 
           button {

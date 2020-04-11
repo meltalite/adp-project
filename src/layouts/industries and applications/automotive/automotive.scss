@@ -1,8 +1,19 @@
+@import '../../base.scss';
+
 .article__automotive {
   display: none;
   padding-right: unset;
   padding-left: unset;
   flex-direction: column;
+
+  h6 {
+    font-family: nexaBold;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: nexaBook;
+  }
 
   &.active {
     display: flex;
@@ -16,26 +27,31 @@
   flex-direction: row;
   flex-wrap: wrap;
 
+  div[class^='col'] {
+    padding-right: unset;
+    padding-left: unset;
+  }
+
   &.active {
     display: flex;
+    align-content: baseline;
   }
 
   img {
     object-fit: cover;
-    overflow: hidden;
-  }
-
-  img:nth-child(1) {
     width: 100%;
-    margin-bottom: 2px;
+    height: 167px;
   }
 
-  img:nth-child(2) {
-    width: 50%;
-    padding-right: 1px;
+  div.col-12 {
+    margin-bottom: 4px;
   }
 
-  img:nth-child(3) {
-    width: 50%;
+  div.col-6:nth-child(2) {
+    padding-right: 2px;
+  }
+
+  div.col-6:nth-child(3) {
+    padding-left: 2px;
   }
 }

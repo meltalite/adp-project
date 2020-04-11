@@ -76,8 +76,10 @@ export default function IndustriesApplications() {
 
   return (
     <section className='page-section bg_blue' >
-      <div className='industries-applications' id={encodeURI(t('Nav.industries & applications'))}>
-        {pages}
+      <div className='container'>
+        <div className='industries-applications' id={encodeURI(t('Nav.industries & applications'))}>
+          {pages}
+        </div>
       </div>
     </section>
   )

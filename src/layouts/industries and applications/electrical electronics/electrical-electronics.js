@@ -20,9 +20,17 @@ const items = [
 export default function ElectricalElectronics({ Header, active }) {
   const { t } = useTranslation()
 
-  const pictures = items.map(item => {
-    return (
-      <img src={item.src} alt={item.altText} key={item.altText} />
+  const pictures = items.map((item, index) => {
+    return (index === 0 ?
+      (
+        <div className='col-12' >
+          <img src={item.src} alt={item.altText} key={item.altText} />
+        </div>
+      ) : (
+        <div className='col-6' >
+          <img src={item.src} alt={item.altText} key={item.altText} />
+        </div>
+      )
     )
   })
   return (
