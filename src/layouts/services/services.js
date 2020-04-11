@@ -7,11 +7,13 @@ export default function Services() {
 
   return (
     <section className='page-section bg_grey' >
-      <div className='services' id={encodeURI(t('Nav.services'))}>
-        <div className='col-12 col-md-6 article'>
-          <h2>{t('Services.title')}</h2>
+      <div className='container'>
+        <div className='services' id={encodeURI(t('Nav.services'))}>
+          <div className='col-12 col-md-6 article'>
+            <h2>{t('Services.title')}</h2>
+          </div>
+          <div className='col-12 col-md-6 album'></div>
         </div>
-      <div className='col-12 col-md-6 album'></div>
       </div>
     </section>
   )
