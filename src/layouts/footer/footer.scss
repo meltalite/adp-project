@@ -1,6 +1,4 @@
-@mixin adp-blue {
-  background-color: #2e74b8;
-}
+@import '../base.scss';
 
 .footer {
   @include adp-blue;
@@ -9,12 +7,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
-  @media only screen and (min-width: 768px) {
-    padding: 2rem 16.666667%;
-  }
+  padding: 30px 0;
+  margin: unset;
 
   h2 {
+    font-family: nexaBold;
+    font-weight: 700;
     font-size: .8rem;
   }
 
@@ -24,13 +22,19 @@
 
   p {
     margin: unset;
+    font-family: nexaBook;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 5%;
   }
 
   .about {
     font-size: 8px;
     margin-bottom: 10px;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 922px) {
       border-right: 3px solid white;
       padding: 10px 20px 15px 0;
       margin-bottom: 15px;
@@ -41,7 +45,7 @@
     font-size: 9px;
     margin-bottom: 15px;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 922px) {
       padding: 10px 20px 15px 15px;
     }
   }
@@ -59,19 +63,16 @@
       flex-direction: row;
       justify-content: space-between;
 
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 922px) {
         margin-top: 1em;
       }
 
       a {
-        height: 34px;
-        width: 34px;
-        border: 2px solid white;
-        border-radius: 17px;
-        color: white;
+        height: 48px;
+        width: 48px;
         padding: 4px;
 
-        svg {
+        img {
           height: 100%;
           width: 100%;
           display: block;
@@ -85,10 +86,10 @@
     padding-left: 1rem;
     padding-top: 2.75rem;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 922px) {
       padding-top: unset;
       padding-left: 2rem;
-      padding-bottom: 15px;
+      padding-bottom: 3px;
     }
 
     img {
