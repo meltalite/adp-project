@@ -23,19 +23,19 @@ export default function ConsumerGoods({ Header, active }) {
   const pictures = items.map((item, index) => {
     return (index === 0 ?
       (
-        <div className='col-12'>
-          <img src={item.src} alt={item.altText} key={item.altText} />
+        <div className='col-12' key={item.altText} >
+          <img src={item.src} alt={item.altText} />
         </div>
       ) : (
-        <div className='col-6'>
-          <img src={item.src} alt={item.altText} key={item.altText} />
+        <div className='col-6' key={item.altText }>
+          <img src={item.src} alt={item.altText} />
         </div>
       )
     )
   })
   return (
     <>
-      <div className={`col-12 col-md-6 article__consumer-goods ${active ? 'active' : ''}`} >
+      <div className={`col-12 col-lg-6 article__consumer-goods ${active ? 'active' : ''}`} >
         <Header />
         <table className='col-12'>
           <tbody>
@@ -64,7 +64,7 @@ export default function ConsumerGoods({ Header, active }) {
           </tbody>
           </table>
         </div>
-      <div className={`col-12 col-md-5 album__consumer-goods ${active ? 'active' : ''}`} >
+      <div className={`col-12 col-lg-5 album__consumer-goods ${active ? 'active' : ''}`} >
         {pictures}
       </div>
     </>

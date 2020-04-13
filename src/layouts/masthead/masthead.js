@@ -74,7 +74,7 @@ export default function Masthead() {
       className='masthead'
       ride='carousel'
     >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+      <CarouselIndicators className='container' items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
     </Carousel>
   );

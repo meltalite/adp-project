@@ -10,10 +10,8 @@
     justify-content: space-between;
     font-size: .8rem;
     color: white;
-
-    @media only screen and (min-width: 922px) {
-      display: flex;
-    }
+    display: flex;
+    flex-wrap: wrap;
 
     .header {
       margin-bottom: 2rem;
@@ -28,7 +26,7 @@
         justify-content: space-around;
         flex-direction: row;
 
-        @media only screen and (min-width: 922px) {
+        @media only screen and (min-width: 992px) {
           justify-content: space-between;
         }
 

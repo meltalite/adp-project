@@ -57,7 +57,7 @@ export default function Principles() {
           <h2>
             {t('Principles.title')}
           </h2>
-          <div className='col-12 col-md-12 logos' >
+          <div className='col-12 col-lg-12 logos' >
             {logos}
           </div>
         </div>

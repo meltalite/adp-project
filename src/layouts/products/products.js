@@ -15,7 +15,7 @@ export default function Products() {
     <section className='page-section' >
       <div className='container'>
         <div className='products' id={encodeURI(t('Nav.products'))}>
-          <div className='col-12 col-md-6 article'>
+          <div className='col-12 col-lg-6 article'>
             <h2>{t('Products.title')}</h2>
             <Display
               setCommodity={(commodity) => setCommodity(commodity)}
@@ -25,7 +25,7 @@ export default function Products() {
               setPictures={(pictures) => setPictures(pictures)}
             />
           </div>
-          <div className='col-12 col-md-5 album'>
+          <div className='col-12 col-lg-5 album'>
             <Detail
               commodity={commodity}
               name={name}

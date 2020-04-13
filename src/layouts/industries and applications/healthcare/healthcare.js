@@ -23,23 +23,23 @@ export default function Healthcare({ Header, active }) {
   const pictures = items.map((item, index) => {
     return (index === 0 ?
       (
-        <div className='col-12' >
-          <img src={item.src} alt={item.altText} key={item.altText} />
+        <div className='col-12' key={item.altText} >
+          <img src={item.src} alt={item.altText} />
         </div>
       ) : (
-        <div className='col-6' >
-          <img src={item.src} alt={item.altText} key={item.altText} />
+        <div className='col-6' key={item.altText} >
+          <img src={item.src} alt={item.altText} />
         </div>
       )
     )
   })
   return (
     <>
-      <div className={`col-12 col-md-6 article__healthcare ${active ? 'active' : ''}`} >
+      <div className={`col-12 col-lg-6 article__healthcare ${active ? 'active' : ''}`} >
         <Header />
         <p>{t('Industries & Applications.Healthcare.p1')}</p>
       </div>
-      <div className={`col-12 col-md-5 album__healthcare ${active ? 'active' : ''}`} >
+      <div className={`col-12 col-lg-5 album__healthcare ${active ? 'active' : ''}`} >
         {pictures}
       </div>
     </>

@@ -5,41 +5,39 @@
   justify-content: space-between;
   font-size: .8rem;
   font-family: nexa;
+  display: flex;
+  flex-wrap: wrap;
 
-  @media only screen and (min-width: 992px) {
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  div[class^='col'] {
+    padding-right: unset;
+    padding-left: unset;
+  }
+
+  .album {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    h2 {
-      margin-bottom: 1rem;
+    div.col-12 {
+      margin-bottom: 4px;
     }
 
-    div[class^='col'] {
-      padding-right: unset;
-      padding-left: unset;
+    div.col-6:nth-child(2) {
+      padding-right: 2px;
     }
 
-    .album {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-
-      div.col-12 {
-        margin-bottom: 4px;
-      }
-
-      div.col-6:nth-child(2) {
-        padding-right: 2px;
-      }
-
-      div.col-6:nth-child(3) {
-        padding-left: 2px;
-      }
+    div.col-6:nth-child(3) {
+      padding-left: 2px;
     }
+  }
 
-    .article {
-      padding-right: unset;
-      padding-left: unset;
-    }
+  .article {
+    padding-right: unset;
+    padding-left: unset;
   }
 
   img {

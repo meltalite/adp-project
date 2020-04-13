@@ -13,14 +13,14 @@ export default function OurPresence() {
     <section className='page-section'>
       <div className='container'>
         <div className='our-presence' id={encodeURI(t('Nav.our presence'))} >
-          <div className='col-12 col-md-5 article' >
+          <div className='col-12 col-lg-5 article' >
             <h2>{t('Our Presence.title')}</h2>
             <Locations
               setTarget={(target) => setTarget(target)}
               setZoom={(zoom) => setZoom(zoom)}
             />
           </div>
-          <div className='col-12 col-md-5 album' >
+          <div className='col-12 col-lg-5 album' >
             <div className='map' >
               <SimpleMap
                 coordinates={defaultCoordinates}
