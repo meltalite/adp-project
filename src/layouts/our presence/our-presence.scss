@@ -1,8 +1,12 @@
+@import '../base.scss';
+
 .our-presence {
   display: flex;
   width: 100%;
   justify-content: space-between;
   flex-flow: wrap;
+  font-size: .8rem;
+  font-family: nexa;
 
   .article {
     padding: unset;
@@ -11,9 +15,10 @@
     .locations {
       .btn {
         margin-bottom: 1rem;
-        color: navy;
+        color: #2e74b1ff;
         border: none;
         background: none;
+        padding-left: unset;
 
         &:focus {
           outline: none;
