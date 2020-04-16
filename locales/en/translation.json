@@ -142,7 +142,9 @@
       "title": "Solution Provider"
     },
     "Logistic Service": {
-      "title": "Logistic Service"
+      "title": "Logistic Service",
+      "t1": "Schedule Delivery",
+      "p1": "Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam."
     },
     "Distributor & Local Representative": {
       "title": "Distributor & Local Representative"
@@ -150,6 +152,9 @@
     "Technical Service": {
       "title": "Technical Service"
     }
+  },
+  "Contact Us": {
+    "title": "Contact Us"
   },
   "Our Presence": {
     "title": "Our Presence",
