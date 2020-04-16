@@ -1,22 +1,26 @@
-@mixin bg_grey {
-  background-color: #f3f3f3;
-}
+@import '../base.scss';
 
 .page-section {
   &.bg_grey {
-    @include bg_grey;
+    @include adp_grey;
   }
 
   .services {
     width: 100%;
     justify-content: space-between;
     font-size: .8rem;
+    font-family: nexaBold;
     color: white;
+    display: flex;
 
     h2 {
       font-size: 2rem;
       margin-bottom: 1rem;
       color: #231F20;
+    }
+
+    p {
+      font-family: nexaBook;
     }
 
     .article {

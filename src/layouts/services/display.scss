@@ -1,0 +1,39 @@
+@mixin adp-blue {
+  color: #2e74b8;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: nexaBold;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+
+  h6 {
+    color: #000;
+    font-family: nexaBold;
+    font-weight: 700;
+    font-size: .8rem;
+  }
+
+  p {
+    color: #000;
+  }
+
+  .collapse {
+    flex-direction: column;
+    padding-left: 18px;
+    padding-top: 10px;
+
+    &.show {
+      display: flex;
+    }
+  }
+
+  .collapsing {
+    flex-direction: column;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 10px;
+  }
+}

@@ -7,7 +7,6 @@ import Detail from './detail'
 export default function Products() {
   const { t } = useTranslation()
   const [commodity, setCommodity] = useState()
-  const [activeProduct, setActiveProduct] = useState()
   const [name, setName] = useState()
   const [pictures, setPictures] = useState()
 
@@ -19,8 +18,6 @@ export default function Products() {
             <h2>{t('Products.title')}</h2>
             <Display
               setCommodity={(commodity) => setCommodity(commodity)}
-              activeProduct={activeProduct}
-              setActiveProduct={(product) => setActiveProduct(product)}
               setName={(name) => setName(name)}
               setPictures={(pictures) => setPictures(pictures)}
             />

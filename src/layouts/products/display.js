@@ -45,7 +45,7 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
   return (
     <>
       <button
-        className='commodity'
+        className='dropdown'
         onClick={changeActiveProduct}
       >
         {t(`Products.${commodity}.title`)}
@@ -57,23 +57,25 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
   )
 }
 
-export default function Display({ setCommodity, activeProduct, setActiveProduct, setName, setDescription, setPictures }) {
-  const commodities = Object.keys(commodityList)
+export default function Display({ setCommodity, setName, setDescription, setPictures }) {
+  const [activeProduct, setActiveProduct] = useState()
+  const keys = Object.keys(commodityList)
+
   return (
     <div className='display'>
-      {commodities.map(commodity => {
-        const products = commodityList[commodity]
+      {keys.map(key => {
+        const products = commodityList[key]
         return (
           <Dropdown
-          setCommodity={setCommodity}
+            setCommodity={setCommodity}
             activeProduct={activeProduct}
             setActiveProduct={setActiveProduct}
             setName={setName}
             setDescription={setDescription}
             setPictures={setPictures}
-            commodity={commodity}
+            commodity={key}
             products={products}
-            key={commodity}
+            key={key}
           />
         )
       })}
