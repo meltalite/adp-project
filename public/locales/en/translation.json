@@ -153,6 +153,16 @@
       "title": "Technical Service"
     }
   },
+  "Contact Us": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Type your message here....",
+    "submit": "Submit",
+    "toast success": "Thank you for submitting",
+    "toast failed": "Fail to submit, please try again later"
+  },
   "Our Presence": {
     "title": "Our Presence",
     "Jakarta": "Jakarta",

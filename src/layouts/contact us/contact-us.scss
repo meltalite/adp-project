@@ -1,0 +1,47 @@
+@import '../base.scss';
+
+.contact-us {
+  font-size: .8rem;
+  font-family: nexa;
+  display: flex;
+  flex-wrap: wrap;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  div[class^='col'] {
+    padding-right: unset;
+    padding-left: unset;
+  }
+
+  .album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: baseline;
+
+    div.col-12 {
+      margin-bottom: 4px;
+    }
+
+    div.col-6:nth-child(2) {
+      padding-right: 2px;
+    }
+
+    div.col-6:nth-child(3) {
+      padding-left: 2px;
+    }
+  }
+
+  .article {
+    padding-right: unset;
+    padding-left: unset;
+  }
+
+  img {
+    width: 100%;
+    height: 167px;
+    object-fit: cover;
+  }
+}

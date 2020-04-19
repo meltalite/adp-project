@@ -1,0 +1,78 @@
+@import '../../base.scss';
+
+.email-form {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+
+  div[class^='col'] {
+    padding-right: unset;
+    padding-left: unset;
+  }
+
+  input, textarea {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #b3b3b3;
+    background-color: #f8f8f8;
+    font-family: nexaBook;
+
+    &:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  .name {
+    width: 100%;
+    padding-right: 20px !important;
+
+    & > input {
+      width: 100%;
+    }
+  }
+
+  .email {
+    width: 100%;
+
+    & > input {
+      width: 100%;
+    }
+  }
+
+  .subject {
+    width: 100%;
+    margin-bottom: 20px;
+
+    & > input {
+      width: 100%;
+    }
+  }
+
+  .message {
+    width: 100%;
+
+    & > textarea {
+      width: 100%;
+      resize: none;
+    }
+  }
+}
+
+button.submit {
+  border: none;
+  background: transparent;
+  background-color: #b1b3b5;
+  color: white;
+  font-size: 10pt;
+  height: 28px;
+  width: 101px;
+  margin: 10px 0;
+}
+
+div.notify {
+  font-family: nexa;
+  color: #000;
+}

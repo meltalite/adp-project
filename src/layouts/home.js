@@ -10,6 +10,7 @@ import Footer from './footer/footer';
 import IndustriesApplications from './industries and applications/industries-applications';
 import Products from './products/products';
 import Services from './services/services';
+import ContacUs from './contact us/contact-us';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Services />
       <Sections />
       <OurPresence />
+      <ContacUs />
       <Footer />
     </>
   )
