@@ -1,0 +1,20 @@
+@font-face {
+  font-family: nexa;
+  src: url('fonts/Nexa.otf') format('opentype');
+}
+@font-face {
+  font-family: nexaThin;
+  src: url('fonts/NexaThin.ttf') format('truetype');
+}
+@font-face {
+  font-family: nexaBold;
+  src: url('fonts/NexaXBold.otf') format('opentype');
+}
+@font-face {
+  font-family: nexabook;
+  src: url('fonts/NexaBook.otf') format('opentype');
+}
+@font-face {
+  font-family: centuryGothic;
+  src: url('fonts/CenturyGothic.ttc') format('truetype');
+}
