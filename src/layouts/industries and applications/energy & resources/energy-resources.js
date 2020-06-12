@@ -36,7 +36,7 @@ export default function EnergyResources({ Header, active }) {
   return (
     <>
       <div className={`col-12 col-lg-6 article__energy-resources ${active ? 'active' : ''}`} >
-        <Header />
+        {Header}
         <p>{t('Industries & Applications.Energy & Resources.p1')}</p>
       </div>
       <div className={`col-12 col-lg-5 album__energy-resources ${active ? 'active' : ''}`} >

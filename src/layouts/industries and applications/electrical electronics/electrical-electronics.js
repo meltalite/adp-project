@@ -36,7 +36,7 @@ export default function ElectricalElectronics({ Header, active }) {
   return (
     <>
       <div className={`col-12 col-lg-6 article__electrical-electronics ${active ? 'active' : ''}`} >
-        <Header />
+        {Header}
         <p>{t('Industries & Applications.Electrical & Electronics.p1')}</p>
       </div>
       <div className={`col-12 col-lg-5 album__electrical-electronics ${active ? 'active' : ''}`} >

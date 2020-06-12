@@ -36,7 +36,7 @@ export default function AerospaceTransportation({ Header, active }) {
   return (
     <>
       <div className={`col-12 col-lg-6 article__aerospace-transportation ${active ? 'active' : ''}`} >
-        <Header />
+        {Header}
         <p>{t('Industries & Applications.Aerospace & Transportation.p1')}</p>
         <p>{t('Industries & Applications.Aerospace & Transportation.p2')}</p>
       </div>

@@ -36,7 +36,7 @@ export default function ConsumerGoods({ Header, active }) {
   return (
     <>
       <div className={`col-12 col-lg-6 article__consumer-goods ${active ? 'active' : ''}`} >
-        <Header />
+        {Header}
         <table className='col-12'>
           <tbody>
             <tr>

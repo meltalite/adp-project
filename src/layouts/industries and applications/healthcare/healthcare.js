@@ -36,7 +36,7 @@ export default function Healthcare({ Header, active }) {
   return (
     <>
       <div className={`col-12 col-lg-6 article__healthcare ${active ? 'active' : ''}`} >
-        <Header />
+        {Header}
         <p>{t('Industries & Applications.Healthcare.p1')}</p>
       </div>
       <div className={`col-12 col-lg-5 album__healthcare ${active ? 'active' : ''}`} >

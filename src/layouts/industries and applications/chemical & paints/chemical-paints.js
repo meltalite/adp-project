@@ -36,7 +36,7 @@ export default function ChemicalPaints({ Header, active }) {
   return (
     <>
       <div className={`col-12 col-lg-6 article__chemical-paints ${active ? 'active' : ''}`} >
-        <Header />
+        {Header}
         <p>{t('Industries & Applications.Chemical & Paints.p1')}</p>
       </div>
       <div className={`col-12 col-lg-5 album__chemical-paints ${active ? 'active' : ''}`} >

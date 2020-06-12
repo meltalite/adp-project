@@ -67,7 +67,7 @@ export default function IndustriesApplications() {
     return (
       <Component
         className={`${Component.name.toLowerCase} ${active ? 'active' : ''}`}
-        Header={Header}
+        Header={Header()}
         active={active}
         key={index}
       />

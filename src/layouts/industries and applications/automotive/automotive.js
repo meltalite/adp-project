@@ -36,7 +36,7 @@ export default function Automotive({ Header, active }) {
   return (
     <>
       <div className={`col-12 col-lg-6 article__automotive ${active ? 'active' : ''}`} >
-        <Header />
+        {Header}
         <h6>{t('Industries & Applications.Automotive.t1')}</h6>
         <p>{t('Industries & Applications.Automotive.p1')}</p>
         <h6>{t('Industries & Applications.Automotive.t2')}</h6>
