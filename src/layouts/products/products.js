@@ -3,12 +3,13 @@ import './products.scss'
 import { useTranslation } from 'react-i18next'
 import Display from './display'
 import Detail from './detail'
+import commodityList from './commodity-list'
 
 export default function Products() {
   const { t } = useTranslation()
-  const [commodity, setCommodity] = useState()
-  const [name, setName] = useState()
-  const [pictures, setPictures] = useState()
+  const [commodity, setCommodity] = useState("Commodity Plastic")
+  const [name, setName] = useState(commodityList["Commodity Plastic"][0].name)
+  const [pictures, setPictures] = useState(commodityList["Commodity Plastic"][0].pictures)
 
   return (
     <section className='page-section' >

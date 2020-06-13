@@ -79,43 +79,43 @@
         },
         "GPPS": {
           "name": "GPPS (General Purpose Polystyrene)",
-          "desc": "Lorem ipsum"
+          "desc": "Transparent polymers resulting from the polymerization of Styrene Monomer. GP Polystyrene can be used for both injection moulding and extrusion applications."
         },
         "EPS": {
           "name": "EPS (Expandable Polystyrene)",
-          "desc": "Lorem ipsum"
+          "desc": "It is usually white, foamy and made of pre-expanded polystyrene beads. Very lightweight with very low thermal conductivity, low moisture absorption and excellent cushioning properties."
         },
         "HPP": {
           "name": "Homopolymer PP (Polypropylene)",
-          "desc": "Lorem ipsum"
+          "desc": "The most widely utilized general-purpose grade. It contains only propylene monomer in a semi-crystalline solid form."
         },
         "BCPP": {
           "name": "Block Copolymer PP",
-          "desc": "Lorem ipsum"
+          "desc": "Contains a higher ethene content (between 5 and 15%). It has co-monomer units arranged in a regular pattern (or blocks). Suitable for applications requiring high strength (Industries)."
         },
         "HDPE": {
           "name": "HDPE (High Density Polyethylene)",
-          "desc": "Lorem ipsum"
+          "desc": "A thermoplastic polymer produced from the monomer ethylene. It is sometimes called \"alkathene\" or \"polythene\" when used for HDPE pipes."
         },
         "LDPE": {
           "name": "LDPE (Low Density Polyethylene)",
-          "desc": "Lorem ipsum"
+          "desc": "A thermoplastic made from the monomer ethylene. It was the first grade of polyethylene."
         },
         "LLDPE": {
           "name": "LLDPE (Linear Low Density Polyethylene)",
-          "desc": "Lorem ipsum"
+          "desc": "A substantially linear polymer (polyethylene), with significant numbers of branches, commonly made by copolymerization of ethylene with longer-chain olefins."
         },
         "PVC": {
           "name": "PVC (Polyvinyl Chloride)",
-          "desc": "Lorem ipsum"
+          "desc": "The world's third-most widely produces synthetic plastic polymer (after polyethylene and polypropylene). Comes in two basic forms: rigid (RPVC) and flexible."
         },
         "PET": {
           "name": "PET (Polyethylene Terephthalate)",
-          "desc": "Lorem ipsum"
+          "desc": "The most common thermoplastic polymer resin of the polyester family."
         },
         "EVA": {
-          "name": "EVA (Ethylene-vinyl acetate)",
-          "desc": "Lorem ipsum"
+          "name": "EVA (Ethylene-vinyl Acetate)",
+          "desc": "Also known as poly (ethylene-vynil acetate) (PEVA), is the copolymer of ethylene and vynil acetate."
         }
       }
     },

@@ -5,7 +5,7 @@ import commodityList from './commodity-list';
 import { useTranslation } from 'react-i18next';
 
 const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setPictures, commodity, products }) => {
-  const [activeIndex, setActiveIndex] = useState()
+  const [activeIndex, setActiveIndex] = useState(0)
   const { t } = useTranslation()
 
   const changeProductDesc = (index, commodity, name, pictures) => {
@@ -58,7 +58,7 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
 }
 
 export default function Display({ setCommodity, setName, setDescription, setPictures }) {
-  const [activeProduct, setActiveProduct] = useState()
+  const [activeProduct, setActiveProduct] = useState('Commodity Plastic')
   const keys = Object.keys(commodityList)
 
   return (

@@ -11,11 +11,11 @@ export default function Detail({ commodity, name, pictures}) {
       {pictures && (
         pictures.map((pic, index) => {
           return (index === 0 ? (
-            <div className='col-12'>
+            <div className='col-12' key={index}>
               <img src={pic.src} alt={pic.altText} key={pic.altText} />
             </div>
           ) : (
-            <div className='col-6'>
+            <div className='col-6' key={index}>
               <img src={pic.src} alt={pic.altText} key={pic.altText} />
             </div>
             )
