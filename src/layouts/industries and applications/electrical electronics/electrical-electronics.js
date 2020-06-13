@@ -4,16 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 const items = [
   {
-    src: `${process.env.PUBLIC_URL}/pictures/industries & applications/ee_fiber_optic.jpg`,
-    altText: 'ee_fiber_optic',
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/pictures/industries & applications/ee_vacuum_cleaner.jpg`,
-    altText: 'ee_vacuum_cleaner',
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/pictures/industries & applications/ee_drills.jpg`,
-    altText: 'ee_drills',
+    src: `${process.env.PUBLIC_URL}/pictures/industries & applications/ee.png`,
+    altText: 'ee',
   },
 ]
 
