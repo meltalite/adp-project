@@ -61,7 +61,7 @@ export default function Masthead() {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={t(`Masthead.${item.caption}`)}/>
+        <CarouselCaption className='container' captionText={t(`Masthead.${item.caption}`)}/>
       </CarouselItem>
     );
   });

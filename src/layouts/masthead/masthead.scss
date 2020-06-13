@@ -4,7 +4,7 @@
   display: block;
 
     @media only screen and (min-width: 992px) {
-      height: 400px;
+      height: 500px;
     }
 
   .carousel-indicators {
@@ -35,13 +35,20 @@
     display: flex !important;
     place-content: center;
 
+    @media only screen and (min-width: 992px) {
+      place-content: unset;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
     p {
       font-family: nexa;
       font-size: 40px;
       font-weight: 600;
       opacity: .6;
 
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 992px) {
         font-size: 80px;
       }
     }
@@ -61,36 +68,18 @@
       object-fit: cover;
     }
 
-    @media only screen and (min-width: 768px) {
-      &:nth-child(1) {
-        .carousel-caption {
-          bottom: 0%;
-          left: 15%;
-          right: inherit;
-        }
-      }
-
+    @media only screen and (min-width: 992px) {
       &:nth-child(2) {
         .carousel-caption {
-          top: 15%;
-          left: inherit;
-          right: 15%;
-        }
-      }
-
-      &:nth-child(3) {
-        .carousel-caption {
-          top: 40%;
-          left: inherit;
-          right: 15%;
+          top: 10%;
+          place-content: flex-end;
         }
       }
 
       &:nth-child(4) {
         .carousel-caption {
-          top: 25%;
-          left: 15%;
-          right: inherit;
+          top: 45%;
+          place-content: flex-end;
         }
       }
     }
