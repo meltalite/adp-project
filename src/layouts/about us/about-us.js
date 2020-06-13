@@ -7,14 +7,6 @@ const items = [
     src: `${process.env.PUBLIC_URL}/pictures/about us/au_office.jpg`,
     altText: 'au_office',
   },
-  {
-    src: `${process.env.PUBLIC_URL}/pictures/about us/au_polymer.jpg`,
-    altText: 'au_polymer',
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/pictures/about us/au_granules.jpg`,
-    altText: 'au_granules',
-  },
 ]
 
 export default function AboutUs() {
