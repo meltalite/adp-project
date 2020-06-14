@@ -121,7 +121,40 @@
     },
     "Engineering Plastic": {
       "title": "Engineering Plastic",
-      "items": {}
+      "items": {
+        "PPS": {
+          "name": "PPS (Polyphenylene Sulfide)",
+          "desc": "An organic polymer consisting of aromatic rings linked by sulfides. One of the most important high temperature thermoplastic polymers, it exhibits a number of desirable properties."
+        },
+        "PPA": {
+          "name": "PPA (Polyphenylene Sulfide)",
+          "desc": "An aromatic polyamide the outperforms standard polyamides with higher strength and stiffness. used to replace metal in high-temperature automotive applications."
+        },
+        "PTFE": {
+          "name": "PTFE (Polytetrafluoroethylene)",
+          "desc": "A flourocarbon solid, as it is a high molecular weight compound consisting wholly of carbon and fluorine. Used a non-stick coating for pans and other cookware."
+        },
+        "PARA": {
+          "name": "PARA (Polyarylamide)",
+          "desc": "Offering metal-like strength, rigidity and dimentional stability, the biocompatible PARA polymer also provides an exceptional surface finish."
+        },
+        "PVDF": {
+          "name": "PVDF Solef (Polyvinylidene Fluoride)",
+          "desc": "A very low viscosity homopolimer resin mainlu used in injection molding or in multifilamen extursion."
+        },
+        "PPSU": {
+          "name": "PPSU (Polyphenylsulfone)",
+          "desc": "A transparent and rigid high-temperature engineering thermoplastic and belongs to polysulfone family."
+        },
+        "LCP": {
+          "name": "LCP (Liquid-Crystal Polymers)",
+          "desc": "A class of aromatic polymers. They are exremely unreactive and inert, and highly resistant to fire."
+        },
+        "PEEK": {
+          "name": "PEEK (Polyether Ether Ketone)",
+          "desc": "A colourless organic thermoplastic polymer in the polyaryletherketone (PAEK) family, used in engineering applications."
+        }
+      }
     },
     "Super Engineering Plastic": {
       "title": "Super Engineering Plastic",

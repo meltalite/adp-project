@@ -190,19 +190,138 @@ const commodityPlastic = [
 
 const engineeringPlastic = [
   {
-    name: 'Lipsum',
+    name: 'PPS',
     pictures: [
       {
-        src: `${process.env.PUBLIC_URL}/pictures/products/invalid.jpg`,
-        altText: 'hips_tumblr'
+        src: `${process.env.PUBLIC_URL}/pictures/products/pps_1.jpg`,
+        altText: 'pps_1'
       },
       {
-        src: `${process.env.PUBLIC_URL}/pictures/products/invalid.jpg`,
-        altText: 'hips_plastic'
+        src: `${process.env.PUBLIC_URL}/pictures/products/pps_2.jpg`,
+        altText: 'pps_2'
       },
       {
-        src: `${process.env.PUBLIC_URL}/pictures/products/invalid.jpg`,
-        altText: 'hips_toilet'
+        src: `${process.env.PUBLIC_URL}/pictures/products/pps_3.jpg`,
+        altText: 'pps_3'
+      },
+    ]
+  },
+  {
+    name: 'PPA',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ppa_1.jpg`,
+        altText: 'ppa_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ppa_2.jpg`,
+        altText: 'ppa_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ppa_3.jpg`,
+        altText: 'ppa_3'
+      },
+    ]
+  },
+  {
+    name: 'PTFE',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ptfe_1.jpg`,
+        altText: 'ptfe_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ptfe_2.jpg`,
+        altText: 'ptfe_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ptfe_3.jpg`,
+        altText: 'ptfe_3'
+      },
+    ]
+  },
+  {
+    name: 'PARA',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/para_1.jpg`,
+        altText: 'para_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/para_2.jpg`,
+        altText: 'para_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/para_3.jpg`,
+        altText: 'para_3'
+      },
+    ]
+  },
+  {
+    name: 'PVDF',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pvdf_1.jpg`,
+        altText: 'pvdf_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pvdf_2.jpg`,
+        altText: 'pvdf_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pvdf_3.jpg`,
+        altText: 'pvdf_3'
+      },
+    ]
+  },
+  {
+    name: 'PPSU',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ppsu_1.jpg`,
+        altText: 'ppsu_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ppsu_2.jpg`,
+        altText: 'ppsu_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/ppsu_3.jpg`,
+        altText: 'ppsu_3'
+      },
+    ]
+  },
+  {
+    name: 'LCP',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/lcp_1.jpg`,
+        altText: 'lcp_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/lcp_2.jpg`,
+        altText: 'lcp_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/lcp_3.jpg`,
+        altText: 'lcp_3'
+      },
+    ]
+  },
+  {
+    name: 'PEEK',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/peek_1.jpg`,
+        altText: 'peek_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/peek_2.jpg`,
+        altText: 'peek_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/peek_3.jpg`,
+        altText: 'peek_3'
       },
     ]
   },
