@@ -542,12 +542,66 @@ const superEngineeringPlastic = [
   },
 ]
 
+const additives = [
+  {
+    name: 'MB',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mb_1.jpg`,
+        altText: 'mb_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mb_2.jpg`,
+        altText: 'mb_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mb_3.jpg`,
+        altText: 'mb_3'
+      },
+    ]
+  },
+  {
+    name: 'CP',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/cp_1.jpg`,
+        altText: 'cp_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/cp_2.jpg`,
+        altText: 'cp_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/cp_3.jpg`,
+        altText: 'cp_3'
+      },
+    ]
+  },
+  {
+    name: 'P',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/p_1.jpg`,
+        altText: 'p_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/p_2.jpg`,
+        altText: 'p_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/p_3.jpg`,
+        altText: 'p_3'
+      },
+    ]
+  },
+]
+
 const commodityList = {
   "Commodity Plastic": commodityPlastic,
   "Engineering Plastic": engineeringPlastic,
   "Super Engineering Plastic": superEngineeringPlastic,
   "Coating": engineeringPlastic,
-  "Additives": engineeringPlastic,
+  "Additives": additives,
 } 
 
 export default commodityList;

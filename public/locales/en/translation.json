@@ -219,7 +219,20 @@
     },
     "Additives": {
       "title": "Additives",
-      "items": {}
+      "items": {
+        "MB": {
+          "name": "Masterbatch",
+          "desc": "A concentrated mixture of pigments and/or additives encapsulated during a heat process into a carrier resin which is then cooled and cut into a granular shape."
+        },
+        "CP": {
+          "name": "Chrolinated Paraffin",
+          "desc": "Complex mixture of chlorinated n-alkanes containing thousands of homologues and isomers which are not completely separated by standard analytical methods."
+        },
+        "P": {
+          "name": "Pigment",
+          "desc": "Organic or inorganic particles added to the polymer base to give a specific color or functional benefits the plastic."
+        }
+      }
     }
   },
   "Services": {
