@@ -215,7 +215,24 @@
     },
     "Coating": {
       "title": "Coating",
-      "items": {}
+      "items": {
+        "TiO2": {
+          "name": "TiO2 (Titanium Dioxide)",
+          "desc": "The naturally occuring oxide of titanium, chemical formula TiO2. When used as pigment, it is called titanium white, Pigment White 6 (PW 6), or CI 77891."
+        },
+        "ER": {
+          "name": "Epoxy resin",
+          "desc": "Also known as polyepoxides, are a class of reactive prepolymers and polymers which contain epoxide groups."
+        },
+        "MMA": {
+          "name": "MMA (Methyl Metacrylate)",
+          "desc": "Known for its excellent transparency and weatherability, as well as its easy recyclability, this acrylic resin has attracted a great deal of attention for environmental considerations."
+        },
+        "MAA": {
+          "name": "MAA (Methacrylic Acid)",
+          "desc": "Formed via the acetone cyanohydrin (ACH) route to manufacture MMA and is used in the production of speciality methacrylates for automotive coatings, in cement modifiers, etc."
+        }
+      }
     },
     "Additives": {
       "title": "Additives",

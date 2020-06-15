@@ -542,6 +542,77 @@ const superEngineeringPlastic = [
   },
 ]
 
+const coating = [
+  {
+    name: 'TiO2',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/tio2_1.jpg`,
+        altText: 'tio2_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/tio2_2.jpg`,
+        altText: 'tio2_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/tio2_3.jpg`,
+        altText: 'tio2_3'
+      },
+    ]
+  },
+  {
+    name: 'ER',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/er_1.jpg`,
+        altText: 'er_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/er_2.jpg`,
+        altText: 'er_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/er_3.jpg`,
+        altText: 'er_3'
+      },
+    ]
+  },
+  {
+    name: 'MMA',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mma_1.jpg`,
+        altText: 'mma_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mma_2.jpg`,
+        altText: 'mma_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mma_3.jpg`,
+        altText: 'mma_3'
+      },
+    ]
+  },
+  {
+    name: 'MAA',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/maa_1.jpg`,
+        altText: 'maa_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/maa_2.jpg`,
+        altText: 'maa_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/maa_3.jpg`,
+        altText: 'maa_3'
+      },
+    ]
+  },
+]
+
 const additives = [
   {
     name: 'MB',
@@ -600,7 +671,7 @@ const commodityList = {
   "Commodity Plastic": commodityPlastic,
   "Engineering Plastic": engineeringPlastic,
   "Super Engineering Plastic": superEngineeringPlastic,
-  "Coating": engineeringPlastic,
+  "Coating": coating,
   "Additives": additives,
 } 
 
