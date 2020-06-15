@@ -187,8 +187,223 @@ const commodityPlastic = [
     ]
  },
 ]
-
 const engineeringPlastic = [
+  {
+    name: 'PC',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pc_1.jpg`,
+        altText: 'pc_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pc_2.jpg`,
+        altText: 'pc_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pc_3.jpg`,
+        altText: 'pc_1'
+      },
+    ]
+  },
+  {
+    name: 'POM',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pom_1.jpg`,
+        altText: 'pom_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pom_2.jpg`,
+        altText: 'pom_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pom_3.jpg`,
+        altText: 'pom_3'
+      },
+    ]
+  },
+  {
+    name: 'NYLON',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/nylon_1.jpg`,
+        altText: 'nylon_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/nylon_2.jpg`,
+        altText: 'nylon_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/nylon_3.jpg`,
+        altText: 'nylon_3'
+      },
+    ]
+  },
+  {
+    name: 'PBT',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pbt_1.jpg`,
+        altText: 'pbt_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pbt_2.jpg`,
+        altText: 'pbt_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pbt_3.jpg`,
+        altText: 'pbt_3'
+      },
+    ]
+  },
+  {
+    name: 'ABS',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/abs_1.jpg`,
+        altText: 'abs_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/abs_2.jpg`,
+        altText: 'abs_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/abs_3.jpg`,
+        altText: 'abs_3'
+      },
+    ]
+  },
+  {
+    name: 'SAN',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/san_1.jpg`,
+        altText: 'san_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/san_2.jpg`,
+        altText: 'san_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/san_3.jpg`,
+        altText: 'san_3'
+      },
+    ]
+  },
+  {
+    name: 'MABS',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mabs_1.jpg`,
+        altText: 'mabs_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mabs_2.jpg`,
+        altText: 'mabs_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/mabs_3.jpg`,
+        altText: 'mabs_3'
+      },
+    ]
+  },
+  {
+    name: 'ASA',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/asa_1.jpg`,
+        altText: 'asa_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/asa_2.jpg`,
+        altText: 'asa_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/asa_3.jpg`,
+        altText: 'asa_3'
+      },
+    ]
+  },
+  {
+    name: 'PETG',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/petg_1.jpg`,
+        altText: 'petg_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/petg_2.jpg`,
+        altText: 'petg_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/petg_3.jpg`,
+        altText: 'petg_3'
+      },
+    ]
+  },
+  {
+    name: 'PMMA',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pmma_1.jpg`,
+        altText: 'pmma_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pmma_2.jpg`,
+        altText: 'pmma_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pmma_3.jpg`,
+        altText: 'pmma_3'
+      },
+    ]
+  },
+  {
+    name: 'TP',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/tp_1.jpg`,
+        altText: 'tp_1'
+      },
+    ]
+  },
+  {
+    name: 'SBC',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/sbc_1.jpg`,
+        altText: 'sbc_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/sbc_2.jpg`,
+        altText: 'sbc_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/sbc_3.jpg`,
+        altText: 'sbc_3'
+      },
+    ]
+  },
+  {
+    name: 'PAC',
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pac_1.jpg`,
+        altText: 'pac_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pac_2.jpg`,
+        altText: 'pac_1'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/pac_3.jpg`,
+        altText: 'pac_1'
+      },
+    ]
+  }
+]
+
+const superEngineeringPlastic = [
   {
     name: 'PPS',
     pictures: [
@@ -330,7 +545,7 @@ const engineeringPlastic = [
 const commodityList = {
   "Commodity Plastic": commodityPlastic,
   "Engineering Plastic": engineeringPlastic,
-  "Super Engineering Plastic": engineeringPlastic,
+  "Super Engineering Plastic": superEngineeringPlastic,
   "Coating": engineeringPlastic,
   "Additives": engineeringPlastic,
 } 

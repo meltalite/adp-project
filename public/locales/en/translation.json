@@ -122,6 +122,63 @@
     "Engineering Plastic": {
       "title": "Engineering Plastic",
       "items": {
+        "PC": {
+          "name": "PC (Polycarbonate)",
+          "desc": "A group of thermoplastic polymers containing carbonate groups in their chemical structures. Used in engineering are strong, tough materials, and some grades are optically transparent."
+        },
+        "POM": {
+          "name": "POM (Polyoxymethylene or Polyacetal)",
+          "desc": "An engineering thermoplastic used in precision parts requiring high stiffness, low friction, and excellent dimentional stability."
+        },
+        "NYLON": {
+          "name": "Polyamide 6 and 6.6 (Nylon)",
+          "desc": "Not a condensation polymer, but instead is formed by ring-opening polymerization; this makes it a special case in the comparison between condensation and addition polymers."
+        },
+        "PBT": {
+          "name": "PBT (Polybutylene Terephtalate)",
+          "desc": "A thermoplastic engineering polymer that is used as an insulator in the electrical and electronics industries. It's thermoplastic (semi-) crystalline polymer, and a type of polyester."
+        },
+        "ABS": {
+          "name": "ABS (Acrylonitrile Butadiene Styrene)",
+          "desc": "A highly-functional plastic known for its strong heat resistance and impact resistance. It is highly processable abd can be manufactured in various colors."
+        },
+        "SAN": {
+          "name": "SAN (Styrene Acrylonitrile)",
+          "desc": "A copolymer plastic consisting of styrene and acrylonitrile. It is widely used in place of polystyrene owing ot its greater thermal resistance."
+        },
+        "MABS": {
+          "name": "MABS (Methyl Methacrylate - Acrylotrile - Butadiene - Styrene)",
+          "desc": "An amorphous thermoplastic polymer, which is a copolymer of methyl methacrylate (MMA), styrene, acrylonitrile, and butadiene."
+        },
+        "ASA": {
+          "name": "ASA (Acrylonitrile Styrene Acrylate)",
+          "desc": "An amorphous thermoplastic polymer, which is an amorphous plastic developed as an alternative to acrolonitrile butadine styrene (ABS), but with improved weather resistance."
+        },
+        "PETG": {
+          "name": "PETG (Polyethylene Terephthalate Glycol)",
+          "desc": "A clear thermoplastic that can be formed into many shapes, making it suitable for use in many applications."
+        },
+        "PMMA": {
+          "name": "PMMA (Polymetyl Methacrylate)",
+          "desc": "Also known as acrylic, acrylic glass, or plexiglass, as well as by the trade name Crylux, Plexiglas, Acrylite, Lucite, Perclax, and Perspex."
+        },
+        "TP": {
+          "name": "Thermoplastic Polymer",
+          "desc": "A plastic polymer material that becomes pliable or moldable at a certain elevated temperature and solidifies upon cooling."
+        },
+        "SBC": {
+          "name": "SBC (Styrene Butadiene Copolymer)",
+          "desc": "Copolymers of Styrene Monomer and Butadiene Rubber. They bring with them excellent clarity, good impact and easy processing."
+        },
+        "PAC": {
+          "name": "Polymer Alloys and Compounds",
+          "desc": "ADP continously providing new materials fulfilling various requirements from the market which is ceaselessly getting diversified and sophisticated, applying the advantaged knowledge and technology about polymer alloys."
+        }
+      }
+    },
+    "Super Engineering Plastic": {
+      "title": "Super Engineering Plastic",
+      "items": {
         "PPS": {
           "name": "PPS (Polyphenylene Sulfide)",
           "desc": "An organic polymer consisting of aromatic rings linked by sulfides. One of the most important high temperature thermoplastic polymers, it exhibits a number of desirable properties."
@@ -155,10 +212,6 @@
           "desc": "A colourless organic thermoplastic polymer in the polyaryletherketone (PAEK) family, used in engineering applications."
         }
       }
-    },
-    "Super Engineering Plastic": {
-      "title": "Super Engineering Plastic",
-      "items": {}
     },
     "Coating": {
       "title": "Coating",
