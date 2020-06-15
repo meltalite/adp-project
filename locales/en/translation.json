@@ -61,7 +61,7 @@
     "Aerospace & Transportation": {
       "title": "Aerospace & Transportation",
       "p1": "All activities of aerospace or transportation rely on advanced engine and propulsion technologies requiring parts that operate in the most extreme conditions while meeting stringent specifications.",
-      "p2": "We understans that & supply best quality materials for this industry."
+      "p2": "We understands that & supply best quality materials for this industry."
     },
     "Energy & Resources": {
       "title": "Energy & Resources",
@@ -79,53 +79,139 @@
         },
         "GPPS": {
           "name": "GPPS (General Purpose Polystyrene)",
-          "desc": "Lorem ipsum"
+          "desc": "Transparent polymers resulting from the polymerization of Styrene Monomer. GP Polystyrene can be used for both injection moulding and extrusion applications."
         },
         "EPS": {
           "name": "EPS (Expandable Polystyrene)",
-          "desc": "Lorem ipsum"
+          "desc": "It is usually white, foamy and made of pre-expanded polystyrene beads. Very lightweight with very low thermal conductivity, low moisture absorption and excellent cushioning properties."
         },
         "HPP": {
           "name": "Homopolymer PP (Polypropylene)",
-          "desc": "Lorem ipsum"
+          "desc": "The most widely utilized general-purpose grade. It contains only propylene monomer in a semi-crystalline solid form."
         },
         "BCPP": {
           "name": "Block Copolymer PP",
-          "desc": "Lorem ipsum"
+          "desc": "Contains a higher ethene content (between 5 and 15%). It has co-monomer units arranged in a regular pattern (or blocks). Suitable for applications requiring high strength (Industries)."
         },
         "HDPE": {
           "name": "HDPE (High Density Polyethylene)",
-          "desc": "Lorem ipsum"
+          "desc": "A thermoplastic polymer produced from the monomer ethylene. It is sometimes called \"alkathene\" or \"polythene\" when used for HDPE pipes."
         },
         "LDPE": {
           "name": "LDPE (Low Density Polyethylene)",
-          "desc": "Lorem ipsum"
+          "desc": "A thermoplastic made from the monomer ethylene. It was the first grade of polyethylene."
         },
         "LLDPE": {
           "name": "LLDPE (Linear Low Density Polyethylene)",
-          "desc": "Lorem ipsum"
+          "desc": "A substantially linear polymer (polyethylene), with significant numbers of branches, commonly made by copolymerization of ethylene with longer-chain olefins."
         },
         "PVC": {
           "name": "PVC (Polyvinyl Chloride)",
-          "desc": "Lorem ipsum"
+          "desc": "The world's third-most widely produces synthetic plastic polymer (after polyethylene and polypropylene). Comes in two basic forms: rigid (RPVC) and flexible."
         },
         "PET": {
           "name": "PET (Polyethylene Terephthalate)",
-          "desc": "Lorem ipsum"
+          "desc": "The most common thermoplastic polymer resin of the polyester family."
         },
         "EVA": {
-          "name": "EVA (Ethylene-vinyl acetate)",
-          "desc": "Lorem ipsum"
+          "name": "EVA (Ethylene-vinyl Acetate)",
+          "desc": "Also known as poly (ethylene-vynil acetate) (PEVA), is the copolymer of ethylene and vynil acetate."
         }
       }
     },
     "Engineering Plastic": {
       "title": "Engineering Plastic",
-      "items": {}
+      "items": {
+        "PC": {
+          "name": "PC (Polycarbonate)",
+          "desc": "A group of thermoplastic polymers containing carbonate groups in their chemical structures. Used in engineering are strong, tough materials, and some grades are optically transparent."
+        },
+        "POM": {
+          "name": "POM (Polyoxymethylene or Polyacetal)",
+          "desc": "An engineering thermoplastic used in precision parts requiring high stiffness, low friction, and excellent dimentional stability."
+        },
+        "NYLON": {
+          "name": "Polyamide 6 and 6.6 (Nylon)",
+          "desc": "Not a condensation polymer, but instead is formed by ring-opening polymerization; this makes it a special case in the comparison between condensation and addition polymers."
+        },
+        "PBT": {
+          "name": "PBT (Polybutylene Terephtalate)",
+          "desc": "A thermoplastic engineering polymer that is used as an insulator in the electrical and electronics industries. It's thermoplastic (semi-) crystalline polymer, and a type of polyester."
+        },
+        "ABS": {
+          "name": "ABS (Acrylonitrile Butadiene Styrene)",
+          "desc": "A highly-functional plastic known for its strong heat resistance and impact resistance. It is highly processable abd can be manufactured in various colors."
+        },
+        "SAN": {
+          "name": "SAN (Styrene Acrylonitrile)",
+          "desc": "A copolymer plastic consisting of styrene and acrylonitrile. It is widely used in place of polystyrene owing ot its greater thermal resistance."
+        },
+        "MABS": {
+          "name": "MABS (Methyl Methacrylate - Acrylotrile - Butadiene - Styrene)",
+          "desc": "An amorphous thermoplastic polymer, which is a copolymer of methyl methacrylate (MMA), styrene, acrylonitrile, and butadiene."
+        },
+        "ASA": {
+          "name": "ASA (Acrylonitrile Styrene Acrylate)",
+          "desc": "An amorphous thermoplastic polymer, which is an amorphous plastic developed as an alternative to acrolonitrile butadine styrene (ABS), but with improved weather resistance."
+        },
+        "PETG": {
+          "name": "PETG (Polyethylene Terephthalate Glycol)",
+          "desc": "A clear thermoplastic that can be formed into many shapes, making it suitable for use in many applications."
+        },
+        "PMMA": {
+          "name": "PMMA (Polymetyl Methacrylate)",
+          "desc": "Also known as acrylic, acrylic glass, or plexiglass, as well as by the trade name Crylux, Plexiglas, Acrylite, Lucite, Perclax, and Perspex."
+        },
+        "TP": {
+          "name": "Thermoplastic Polymer",
+          "desc": "A plastic polymer material that becomes pliable or moldable at a certain elevated temperature and solidifies upon cooling."
+        },
+        "SBC": {
+          "name": "SBC (Styrene Butadiene Copolymer)",
+          "desc": "Copolymers of Styrene Monomer and Butadiene Rubber. They bring with them excellent clarity, good impact and easy processing."
+        },
+        "PAC": {
+          "name": "Polymer Alloys and Compounds",
+          "desc": "ADP continously providing new materials fulfilling various requirements from the market which is ceaselessly getting diversified and sophisticated, applying the advantaged knowledge and technology about polymer alloys."
+        }
+      }
     },
     "Super Engineering Plastic": {
       "title": "Super Engineering Plastic",
-      "items": {}
+      "items": {
+        "PPS": {
+          "name": "PPS (Polyphenylene Sulfide)",
+          "desc": "An organic polymer consisting of aromatic rings linked by sulfides. One of the most important high temperature thermoplastic polymers, it exhibits a number of desirable properties."
+        },
+        "PPA": {
+          "name": "PPA (Polyphenylene Sulfide)",
+          "desc": "An aromatic polyamide the outperforms standard polyamides with higher strength and stiffness. used to replace metal in high-temperature automotive applications."
+        },
+        "PTFE": {
+          "name": "PTFE (Polytetrafluoroethylene)",
+          "desc": "A flourocarbon solid, as it is a high molecular weight compound consisting wholly of carbon and fluorine. Used a non-stick coating for pans and other cookware."
+        },
+        "PARA": {
+          "name": "PARA (Polyarylamide)",
+          "desc": "Offering metal-like strength, rigidity and dimentional stability, the biocompatible PARA polymer also provides an exceptional surface finish."
+        },
+        "PVDF": {
+          "name": "PVDF Solef (Polyvinylidene Fluoride)",
+          "desc": "A very low viscosity homopolimer resin mainlu used in injection molding or in multifilamen extursion."
+        },
+        "PPSU": {
+          "name": "PPSU (Polyphenylsulfone)",
+          "desc": "A transparent and rigid high-temperature engineering thermoplastic and belongs to polysulfone family."
+        },
+        "LCP": {
+          "name": "LCP (Liquid-Crystal Polymers)",
+          "desc": "A class of aromatic polymers. They are exremely unreactive and inert, and highly resistant to fire."
+        },
+        "PEEK": {
+          "name": "PEEK (Polyether Ether Ketone)",
+          "desc": "A colourless organic thermoplastic polymer in the polyaryletherketone (PAEK) family, used in engineering applications."
+        }
+      }
     },
     "Coating": {
       "title": "Coating",
