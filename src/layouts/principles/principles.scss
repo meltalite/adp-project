@@ -14,6 +14,7 @@
       flex-flow: row;
       flex-wrap: wrap;
       justify-content: space-between;
+      margin-bottom: 20px;
     }
 
     img {
@@ -23,11 +24,47 @@
       margin: 1rem 0;
 
       @media only screen and (min-width: 992px) {
-        max-width: 20%;
         filter: grayscale(100%);
 
         &:hover {
           filter: unset;
+        }
+
+        &.p_covestro {
+          width: 80px;
+        }
+
+        &.p_celanese {
+          width: 190px;
+        }
+
+        &.p_basf {
+          width: 150px;
+        }
+
+        &.p_solvay {
+          width: 150px;
+        }
+
+        &.p_lanxess {
+          width: 130px;
+        }
+
+        &.p_lg-chem {
+          width: 180px;
+        }
+
+        &.p_chemours {
+          width: 200px;
+        }
+
+        &.p_exxon {
+          width: 200px;
+        }
+
+        &.p_tpsc {
+          width: 60px;
+          object-fit: unset;
         }
       }
     }

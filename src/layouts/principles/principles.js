@@ -57,8 +57,13 @@ export default function Principles() {
           <h2>
             {t('Principles.title')}
           </h2>
-          <div className='col-12 col-lg-12 logos' >
-            {logos}
+          <div className='col-12'>
+            <div className='col-12 logos'>
+              {logos.slice(0, 5)}
+            </div>
+            <div className='col-12 logos'>
+              {logos.slice(5)}
+            </div>
           </div>
         </div>
       </div>
