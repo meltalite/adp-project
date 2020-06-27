@@ -25,6 +25,11 @@
     width: 100%;
     height: 167px;
     color: black;
+
+    &.tp_1 {
+      object-fit: unset;
+      height: 300px;
+    }
   }
 
   div.col-12 {
