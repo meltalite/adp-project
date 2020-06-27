@@ -1,5 +1,5 @@
 .navbar {
-  opacity: 0.95;
+  opacity: 0.9;
   background-color: #f8f8f8;
   align-items: center;
   padding: unset;
@@ -74,9 +74,10 @@
           bottom: 3px;
         }
 
-        a {
+        .button {
           color: #555;
           font-size: .75rem;
+          padding: unset;
         }
       }
     }
