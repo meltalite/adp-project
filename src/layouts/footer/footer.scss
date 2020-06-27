@@ -72,9 +72,9 @@
       }
 
       a {
-        height: 48px;
-        width: 48px;
-        padding: 4px;
+        height: 36px;
+        width: 36px;
+        padding: 3px;
 
         img {
           height: 100%;
@@ -91,7 +91,8 @@
     align-items: flex-end;
 
     @media only screen and (min-width: 992px) {
-      align-items: center;
+      align-items: unset;
+      top: 30%;
     }
 
     img {
