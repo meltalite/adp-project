@@ -15,13 +15,50 @@ export default function Menu() {
     t("Nav.contact us"),
   ]
 
+  const onClick = (name) => {
+    const id = encodeURI(name);
+    const navbarOffset = document.querySelector('.navbar').offsetHeight;
+    document.querySelectorAll(`section`).forEach((section, index ) => {
+      const target = section.firstChild.firstChild.id;
+      if (target === id) {
+        return scrollTo(section.offsetTop - navbarOffset, index + 1);
+      }
+    })
+  }
+
+  function scrollTo(position, index, scrollDuration = index * 200) {
+    const interval = 10;
+    const scrollStep = position / (scrollDuration / interval);
+    if (position - window.scrollY >= 0) { // scroll down
+      const notArrivedYet = () => (window.scrollY < position);
+      const notAtBottom = () => ((window.innerHeight + window.scrollY) < document.body.offsetHeight)
+      const scrollInterval = setInterval(() => {
+        if (notArrivedYet() && notAtBottom()) {
+          const step = Math.min(scrollStep, position - window.scrollY);
+          window.scrollBy(0, step);
+        }
+        else clearInterval(scrollInterval);
+      }, interval)
+    } else { //scroll up
+      const notArrivedYet = () => (window.scrollY > position);
+      const notAtTop = () => (window.scrollY !== 0)
+      const scrollInterval = setInterval(() => {
+        const step = Math.min(scrollStep, window.scrollY - position);
+        if (notArrivedYet() && notAtTop()) {
+          window.scrollBy(0, -step);
+        }
+        else clearInterval(scrollInterval);
+      }, interval)
+    }
+  }
+
   return (
     navMenus.map(navItem => (
       <NavItem
         key={navItem}
         className='nav-menu text'
       >
-        <a href={`#${navItem}`}>{navItem}</a>
+        <button className='button' onClick={() => onClick(navItem)}>{navItem}</button>
       </NavItem>
     ))
   )

@@ -13,7 +13,7 @@ export default function Navigation() {
     <>
       <Navbar fixed='top'>
         <div className='container'>
-          <NavbarBrand href='#' >
+          <NavbarBrand onClick={() => console.warn('click')}>
             <img src={AdpSvg} alt='ADP' />
           </NavbarBrand>
           <NavbarToggler className='d-block d-lg-none' onClick={toggle} />
