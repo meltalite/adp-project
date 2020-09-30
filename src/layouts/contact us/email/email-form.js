@@ -57,8 +57,20 @@ export default function EmailForm() {
         <div className='col-6 email'>
           <input type='text' placeholder={t('Contact Us.email')} />
         </div>
+        <div className='col-6 phone'>
+          <input type='text' placeholder={t('Contact Us.phone')} />
+        </div>
+        <div className='col-6 company'>
+          <input type='text' placeholder={t('Contact Us.company')} />
+        </div>
         <div className='col-12 subject'>
           <input type='text' placeholder={t('Contact Us.subject')} />
+        </div>
+        <div className='col-6 material'>
+          <input type='text' placeholder={t('Contact Us.material')} />
+        </div>
+        <div className='col-6 application'>
+          <input type='text' placeholder={t('Contact Us.application')} />
         </div>
         <div className='col-12 message'>
           <textarea rows="10" placeholder={t('Contact Us.message')} />

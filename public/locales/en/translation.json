@@ -21,8 +21,8 @@
   },
   "About Us": {
     "title": "Who is ADP?",
-    "p1": "ADP is PT. Adyabina Putramas, Indonesia leading polymer distributor that specialises in the supply of commodity plastics, engineering plastics, super engineering plastics, coating and additives.",
-    "p2": "ADP has presence across South-East Asia more than 30 years, and works with a broad network of industry leading producers to offer a one-stop solution to cover all your needs."
+    "p1": "ADP, previously known as PT. Adyabina Putramas, Indonesia’s leading polymer provider that specializes in servicing a wide network of customers in their respective industries, continuously improving their products and performance to their end users with ADP’s wide range of commodity plastics, engineering plastics, super engineering plastics, coating and additives.",
+    "p2": "ADP has presence across South-East Asia more than 30 years. With strong supports from a broad network of international suppliers and partners, ADP aspire to service numerous industries leading producers by offering a one-stop raw material solution to cover all your needs."
   },
   "Principles": {
     "title": "Our Global Principles"
@@ -31,41 +31,41 @@
     "Automotive": {
       "title": "Automotive",
       "t1": "4 Wheel",
-      "p1": "We serve a range of applications in the automotive industry especially 4 Wheel including interior and exterior elements, lighting, engine parts, seating and electric vehicle battery (EVB) packaging, using dedicated raw materials for coatings and adhesives, thermoplastics, foams, films, composites and more.",
+      "p1": "ADP is present in the automotive industry especially in both 4 Wheel and 2 wheel including interior and exterior elements, lighting, engine parts, seating and electric vehicle battery (EVB) packaging, using dedicated raw materials for plastics, coatings, adhesives, thermoplastics, foams, films, composites and more.",
       "t2": "2 Wheel",
-      "p2": "We also serve a range of applications for 2 Wheel including lighting, seating, handbrake and electric vehicle battery (EVB) packaging, and more."
+      "p2": "ADP also serve a range of applications in the 2 Wheel Motorcycle production including lighting, seating, handbrake and electric vehicle battery (EVB) packaging, and more."
     },
     "Consumer Goods": {
       "title": "Consumer Goods",
       "t1": "Cosmetics",
-      "p1": "We provide liquid polymers and alcohol polyurethane solutions for multiple cosmetic and personal care applications.",
+      "p1": "ADP continuously improves the aesthetic in packaging of cosmetic industries with polymers cosmetic and personal care applications.",
       "t2": "Constructions",
-      "p2": "We have many products for the construction market such as insulation, flooring, roofs, walls, facades, doors, windows or pipelines.",
+      "p2": "ADP has many products for the raw material for construction industries such as insulation, flooring, roofs, walls, facades, doors, windows or pipelines.",
       "t3": "Sports & Leisure",
-      "p3": "We supply raw materials for a range of applications including footwear, sports equipment, goggles and wearables, functional textiles and artificial leather.",
+      "p3": "ADP has a wide range of raw materials for a range of applications including footwear, sports equipment, goggles and wearables, functional textiles and artificial leather.",
       "t4": "Home Appliance",
-      "p4": "We provide raw materials for thermoplastics, foams, films, elastomers, TPU, composites and more for any range home appliance applications."
+      "p4": "ADP services home industries and home appliances productions such as blender, kitchen application, food packaging containers as well."
     },
     "Electrical & Electronics": {
       "title": "Electrical & Electronics",
-      "p1": "In electrical and electronics applications we serve many range but especially we provide raw materials for Fiber Optic Cable."
+      "p1": "In electrical industry ADP is active in Fiber Optic Cable field, electric and water meter also socket and electronics manufacturers."
     },
     "Healthcare": {
       "title": "Healthcare",
-      "p1": "We supply thermoplastics, films, TPU, raw materials for adhesives, foams, and more for healthcare applications such as medication delivery, surgical instruments, electromedical equipment and wound care."
+      "p1": "ADP supplies thermoplastics, films, TPU, plastics polymers, adhesives, foams, and more for healthcare applications such as medication delivery, hospital bed equipments, surgical instruments, electromedical equipment and wound care."
     },
     "Chemical & Paints": {
       "title": "Chemical & Paints",
-      "p1": "We supply a comprehensive selection of raw materials for highly demanding chemical & paints formulations used for architectual coatings, automotive and commercial vehicle coatings or industrial coatings."
+      "p1": "ADP is full of comprehensive selection of raw materials for highly demanding chemical & paints formulations used for architectual coatings, automotive and commercial vehicle coatings or industrial coatings."
     },
     "Aerospace & Transportation": {
       "title": "Aerospace & Transportation",
-      "p1": "All activities of aerospace or transportation rely on advanced engine and propulsion technologies requiring parts that operate in the most extreme conditions while meeting stringent specifications.",
-      "p2": "We understands that & supply best quality materials for this industry."
+      "p1": "Operate in the most extreme conditions while meeting stringent specifications.",
+      "p2": "ADP understands that and supply best quality materials for this industry"
     },
     "Energy & Resources": {
       "title": "Energy & Resources",
-      "p1": "Last but not least, we provide energy & resources industry applications such as solar panels, energy storage or wind blades and towers, thanks to our dedicated raw materials for coatings, elastomers, polyurethane resins, TPU and more."
+      "p1": "Last but not least, ADP continues to improve the energy & resources industry applications such as solar panels, energy storage or wind blades and towers, thanks to our dedicated raw materials for plastics, coatings, elastomers, polyurethane resins, TPU and more."
     }
   },
   "Products": {
@@ -255,7 +255,9 @@
   "Services": {
     "title": "Services",
     "Solution Provider": {
-      "title": "Solution Provider"
+      "title": "Solution Provider",
+      "t1": "",
+      "p1": ""
     },
     "Logistic Service": {
       "title": "Logistic Service",
@@ -273,7 +275,11 @@
     "title": "Contact Us",
     "name": "Name",
     "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
     "subject": "Subject",
+    "material": "Material enquired",
+    "application": "Application",
     "message": "Type your message here....",
     "submit": "Submit",
     "toast success": "Thank you for submitting",

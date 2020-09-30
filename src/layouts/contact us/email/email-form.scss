@@ -40,9 +40,42 @@
     }
   }
 
+  .phone {
+    width: 100%;
+    padding-right: 20px !important;
+
+    & > input {
+      width: 100%;
+    }
+  }
+
+  .company {
+    width: 100%;
+
+    & > input {
+      width: 100%;
+    }
+  }
+
   .subject {
     width: 100%;
-    margin-bottom: 20px;
+
+    & > input {
+      width: 100%;
+    }
+  }
+
+  .material {
+    width: 100%;
+    padding-right: 20px !important;
+
+    & > input {
+      width: 100%;
+    }
+  }
+
+  .application {
+    width: 100%;
 
     & > input {
       width: 100%;
@@ -50,6 +83,7 @@
   }
 
   .message {
+    margin-top: 20px;
     width: 100%;
 
     & > textarea {
