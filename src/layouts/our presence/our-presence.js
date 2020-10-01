@@ -1,32 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './our-presence.scss';
 import { useTranslation } from 'react-i18next';
-import SimpleMap from './map/simple-map';
-import Locations, { defaultCoordinates } from './locations/Locations';
+import MapSvg from '../../assets/svg/map.svg';
 
 export default function OurPresence() {
-  const [target, setTarget] = useState()
-  const [zoom, setZoom] = useState(defaultCoordinates.zoom)
   const { t } = useTranslation()
 
   return (
     <section className='page-section'>
       <div className='container'>
         <div className='our-presence' id={encodeURI(t('Nav.our presence'))} >
-          <div className='col-12 col-lg-5 article' >
+          <div className='col-12 article' >
             <h2>{t('Our Presence.title')}</h2>
-            <Locations
-              setTarget={(target) => setTarget(target)}
-              setZoom={(zoom) => setZoom(zoom)}
-            />
-          </div>
-          <div className='col-12 col-lg-5 album' >
-            <div className='map' >
-              <SimpleMap
-                coordinates={defaultCoordinates}
-                target={target}
-                zoom={zoom}
-              />
+            <div className='map-container'>
+              <img className='map-container__pic' src={MapSvg} alt='map' />
             </div>
           </div>
         </div>

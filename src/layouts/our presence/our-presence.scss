@@ -10,43 +10,10 @@
     padding: unset;
     margin: unset;
 
-    .locations {
-      .btn {
-        margin-bottom: 1rem;
-        color: #2e74b1ff;
-        border: none;
-        background: none;
-        padding-left: unset;
-
-        &:focus {
-          outline: none;
-        }
-      }
-
-      .card {
-        margin-top: -.5rem;
-        margin-bottom: 1rem;
-
-        &-body {
-          p {
-            margin-bottom: unset;
-            font-size: .8rem;
-          }
-        }
-      }
-    }
-  }
-
-  .album {
-    padding: unset;
-    margin: unset;
-    .map {
-      overflow: scroll;
-      height: 300px;
-      width: 100%;
-
-      @media only screen and (min-width: 992px) {
-        height: 400px;
+    & .map-container {
+      &__pic {
+        width: 100%;
+        padding-left: 100px;
       }
     }
   }
