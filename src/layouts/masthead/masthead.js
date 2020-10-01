@@ -27,7 +27,7 @@ const items = [
   {
     src: `${process.env.PUBLIC_URL}/pictures/carousel/c_yellow.jpg`,
     altText: 'Slide 4',
-    caption: 'Comprehensive'
+    caption: 'Efficient'
   }
 ];
 
