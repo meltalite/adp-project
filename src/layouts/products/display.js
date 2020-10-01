@@ -9,7 +9,7 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
   const { t } = useTranslation()
 
   function defaultActive() {
-    return commodity === 'Commodity Plastic' ? 0 : undefined;
+    return commodity === 'Engineering Plastic' ? 10 : undefined;
   }
 
   const changeProductDesc = (index, commodity, name, pictures) => {
@@ -19,12 +19,13 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
       setCommodity(commodity)
       setPictures(pictures)
     } else {
-      setActiveIndex()
-      setName()
-      setCommodity()
-      setPictures()
+      // setActiveIndex()
+      // setName()
+      // setCommodity()
+      // setPictures()
     }
   }
+  console.warn(activeIndex)
 
   const items = products.map((product, index) => {
     return (
@@ -61,8 +62,8 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
   )
 }
 
-export default function Display({ setCommodity, setName, setDescription, setPictures }) {
-  const [activeProduct, setActiveProduct] = useState('Commodity Plastic')
+export default function Display({ setCommodity, setName, setPictures }) {
+  const [activeProduct, setActiveProduct] = useState()
   const keys = Object.keys(commodityList)
 
   return (
@@ -75,7 +76,6 @@ export default function Display({ setCommodity, setName, setDescription, setPict
             activeProduct={activeProduct}
             setActiveProduct={setActiveProduct}
             setName={setName}
-            setDescription={setDescription}
             setPictures={setPictures}
             commodity={key}
             products={products}

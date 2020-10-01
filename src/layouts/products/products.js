@@ -7,9 +7,9 @@ import commodityList from './commodity-list'
 
 export default function Products() {
   const { t } = useTranslation()
-  const [commodity, setCommodity] = useState("Commodity Plastic")
-  const [name, setName] = useState(commodityList["Commodity Plastic"][0].name)
-  const [pictures, setPictures] = useState(commodityList["Commodity Plastic"][0].pictures)
+  const [commodity, setCommodity] = useState("Engineering Plastic")
+  const [name, setName] = useState(commodityList["Engineering Plastic"][10].name)
+  const [pictures, setPictures] = useState(commodityList["Engineering Plastic"][10].pictures)
 
   return (
     <section className='page-section' >
