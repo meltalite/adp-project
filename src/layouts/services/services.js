@@ -3,11 +3,12 @@ import './services.scss'
 import { useTranslation } from 'react-i18next'
 import Display from './display'
 import Detail from './detail'
+import activityList from './activity-list'
 
 export default function Services() {
   const { t } = useTranslation()
-  const [service, setService] = useState()
-  const [pictures, setPictures] = useState()
+  const [service, setService] = useState(activityList["Solution Provider"].name)
+  const [pictures, setPictures] = useState(activityList["Solution Provider"].pictures)
 
   return (
     <section className='page-section bg_grey' >

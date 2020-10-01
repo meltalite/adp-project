@@ -1,20 +1,10 @@
 import React from 'react';
 import './display.scss';
-import { Collapse } from 'reactstrap';
 import { useTranslation } from 'react-i18next';
 import activityList from './activity-list';
 
 const Dropdown = ({ service, setService, setPictures, activity }) => {
   const { t } = useTranslation()
-
-  const Desc = () => {
-    return (
-      <>
-        <h6>{t(`Services.${activity.name}.t1`)}</h6>
-        <p>{t(`Services.${activity.name}.p1`)}</p>
-      </>
-    )
-  }
 
   const changeActivity = () => {
     if(activity.name !== service) {
@@ -34,9 +24,6 @@ const Dropdown = ({ service, setService, setPictures, activity }) => {
       >
         {t(`Services.${activity.name}.title`)}
       </button>
-      <Collapse isOpen={service === activity.name}>
-        <Desc />
-      </Collapse>
     </>
   )
 }

@@ -25,7 +25,6 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
       // setPictures()
     }
   }
-  console.warn(activeIndex)
 
   const items = products.map((product, index) => {
     return (

@@ -7,12 +7,12 @@ export default function Detail({ service, pictures}) {
       {pictures && (
         pictures.map((pic, index) => {
           return (index === 2 ? (
-            <div className='col-12'>
-              <img src={pic.src} alt={pic.altText} key={pic.altText} />
+            <div className='col-12' key={pic.altText + '-' + index}>
+              <img src={pic.src} alt={pic.altText} />
             </div>
           ) : (
-            <div className='col-6'>
-              <img src={pic.src} alt={pic.altText} key={pic.altText} />
+            <div className='col-6' key={pic.altText + '-' + index}>
+              <img src={pic.src} alt={pic.altText} />
             </div>
             )
           )
