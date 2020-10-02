@@ -365,6 +365,14 @@ const engineeringPlastic = [
         src: `${process.env.PUBLIC_URL}/pictures/products/tp_1.jpg`,
         altText: 'tp_1'
       },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/tp_2.jpg`,
+        altText: 'tp_2'
+      },
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/tp_3.jpg`,
+        altText: 'tp_3'
+      },
     ]
   },
   {
@@ -667,12 +675,25 @@ const additives = [
   },
 ]
 
+const initial = [
+  {
+    name: undefined,
+    pictures: [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/initial.jpg`,
+        altText: 'initial'
+      }
+    ]
+  }
+]
+
 const commodityList = {
   "Commodity Plastic": commodityPlastic,
   "Engineering Plastic": engineeringPlastic,
   "Super Engineering Plastic": superEngineeringPlastic,
   "Coating": coating,
   "Additives": additives,
+  "Initial": initial
 } 
 
 export default commodityList;

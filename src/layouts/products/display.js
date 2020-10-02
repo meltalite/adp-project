@@ -5,12 +5,8 @@ import commodityList from './commodity-list';
 import { useTranslation } from 'react-i18next';
 
 const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setPictures, commodity, products }) => {
-  const [activeIndex, setActiveIndex] = useState(defaultActive())
+  const [activeIndex, setActiveIndex] = useState()
   const { t } = useTranslation()
-
-  function defaultActive() {
-    return commodity === 'Engineering Plastic' ? 10 : undefined;
-  }
 
   const changeProductDesc = (index, commodity, name, pictures) => {
     if (index !== activeIndex) {

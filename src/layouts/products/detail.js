@@ -4,10 +4,10 @@ import { useTranslation } from 'react-i18next'
 
 export default function Detail({ commodity, name, pictures}) {
   const { t } = useTranslation()
-  return (commodity && name) ? (
+  return  (
     <div className='detail'>
-      <h6>{t(`Products.${commodity}.items.${name}.name`)}</h6>
-      <p>{t(`Products.${commodity}.items.${name}.desc`)}</p>
+      {name && <h6>{t(`Products.${commodity}.items.${name}.name`)}</h6> }
+      {name && <p>{t(`Products.${commodity}.items.${name}.desc`)}</p>}
       {pictures && (
         pictures.map((pic, index) => {
           return (index === 0 ? (
@@ -23,5 +23,5 @@ export default function Detail({ commodity, name, pictures}) {
         })
       )}
     </div>
-  ) : ''
+  )
 }
