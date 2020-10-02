@@ -1,16 +1,330 @@
 {
   "Lipsum": {
-    "title" : "Cheese ipsum",
-    "content" : "领导人承诺将尽最大限度减少新冠疫情对经济造成的破坏，与国际社会共同努力迎战疫情，加强医疗科技和数码技术领域的国际合作，增加对新冠疫苗和药品的研发投入。 根据峰会联合公报，G20集团将启动5万亿美元经济刺激计划应对疫情对全球社会、经济和金融造成的冲击，各成员国财政部长和央行行长将定期沟通协调。具体抗疫紧急行动方案将于4月份部长级会议上确定。 G20应对新冠肺炎特别峰会3月26日以视频会议形式举行，由沙特阿拉伯发起主办。这是G20的首次视频峰会，也是中国国家主席习近平自疫情爆发以来出席首个大型国际活动。",
-    "short": "领导人承诺将尽最大限度减少新冠疫情对经济造成的破坏，与国际社会共同努力迎战疫情，加强医疗科技和数码技术领域的国际合作，增加对新冠疫苗和药品的研发投入。"
+    "title" : "Lorem ipsum",
+    "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo. Nunc vel porta quam, id tristique odio. Aliquam eget auctor quam. In hac habitasse platea dictumst. Nullam auctor a eros at faucibus. Aliquam vitae tellus sit amet arcu imperdiet hendrerit. Nam feugiat orci fermentum metus sagittis sagittis. Phasellus sodales cursus nisi, et accumsan tortor ultricies eu. Nunc accumsan tincidunt enim sit amet tincidunt. Vivamus semper nec turpis a blandit. Quisque suscipit tincidunt iaculis. Sed sit amet posuere erat. Donec pharetra, velit et ultricies ultrices, metus nisi fermentum odio, ullamcorper fringilla nisl mauris sit amet enim. Nunc porta erat vestibulum nisi vulputate pharetra. Fusce id turpis non tortor aliquet tristique eget non diam. Fusce imperdiet viverra nulla. Nam non dapibus augue. Vestibulum vel augue a sapien commodo cursus eget sit amet dolor. Integer porttitor purus sapien, nec porta mi volutpat sit amet. Fusce diam lorem, sollicitudin eget egestas sit amet, placerat sit amet mauris. Aenean et felis leo. Nulla facilisi. Curabitur egestas tellus leo, in suscipit ligula semper sit amet-amet.",
+    "short" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo."
   },
   "Nav": {
-    "about us": "About Us",
-    "principles": "Our Principles",
-    "industries & applications": "Industries & Applications",
-    "products": "Products",
-    "services": "Services",
-    "our presence": "Our Presence",
-    "contact us": "Contact Us"
+    "about us": "关于我们",
+    "principles": "供应商",
+    "industries & applications": "行业与应用",
+    "products": "产品展示",
+    "services": "服务",
+    "our presence": "我们的存在",
+    "contact us": "联系我们"
+  },
+  "Masthead": {
+    "Flexible": "灵活",
+    "Innovative": "创新的",
+    "Improvement": "改善",
+    "Efficient": "高效的"
+  },
+  "About Us": {
+    "title": "Who is ADP?",
+    "p1": "ADP，以前称为PT。 印度尼西亚领先的聚合物供应商Adyabina Putramas致力于为各自行业的广泛客户网络提供服务，并通过ADP广泛的商品塑料，工程塑料，超级工程塑料，涂料和添加剂为最终用户不断改善产品和性能.",
+    "p2": "ADP在东南亚已有30多年的历史。 在广泛的国际供应商和合作伙伴网络的大力支持下，ADP希望通过提供一站式原材料解决方案来满足您的所有需求，为众多行业领先的生产商提供服务."
+  },
+  "Principles": {
+    "title": "Our Global Principles"
+  },
+  "Industries & Applications": {
+    "Automotive": {
+      "title": "Automotive",
+      "t1": "4 Wheel",
+      "p1": "ADP在汽车工业中特别是在4轮和2轮中都存在，包括内部和外部元素，照明，发动机零件，座椅和电动汽车电池（EVB）包装，使用专用原材料制造塑料，涂料，粘合剂，热塑性塑料，泡沫塑料 ，薄膜，复合材料等.",
+      "t2": "2 Wheel",
+      "p2": "ADP还可以在2轮摩托车生产中应用广泛，包括照明，座椅，手刹和电动汽车电池（EVB）包装等。."
+    },
+    "Consumer Goods": {
+      "title": "Consumer Goods",
+      "t1": "Cosmetics",
+      "p1": "ADP通过聚合物化妆品和个人护理应用不断改善化妆品行业的包装美学。.",
+      "t2": "Constructions",
+      "p2": "ADP有许多用于建筑行业原材料的产品，例如保温材料，地板，屋顶，墙壁，外墙，门，窗户或管道.",
+      "t3": "Sports & Leisure",
+      "p3": "ADP具有广泛的原材料，可用于各种应用，包括鞋类，运动器材，护目镜和可穿戴设备，功能性纺织品和人造革.",
+      "t4": "Home Appliance",
+      "p4": "ADP服务于家庭工业和家用电器产品，例如搅拌机，厨房应用，食品包装容器."
+    },
+    "Electrical & Electronics": {
+      "title": "Electrical & Electronics",
+      "p1": "在电气工业中，ADP活跃在光缆领域，电表和水表以及插座和电子产品制造商."
+    },
+    "Healthcare": {
+      "title": "Healthcare",
+      "p1": "ADP提供热塑性塑料，薄膜，TPU，塑料聚合物，胶粘剂，泡沫等，用于医疗保健领域，例如药物输送，医院病床设备，手术器械，电子医疗设备和伤口护理."
+    },
+    "Chemical & Paints": {
+      "title": "Chemical & Paints",
+      "p1": "ADP全面选择用于建筑涂料，汽车和商用车辆涂料或工业涂料的高要求化学和涂料配方的原材料."
+    },
+    "Aerospace & Transportation": {
+      "title": "Aerospace & Transportation",
+      "p1": "在最严格的条件下运行，同时满足严格的规范.",
+      "p2": "ADP了解这一点，并为该行业提供最优质的材料"
+    },
+    "Energy & Resources": {
+      "title": "Energy & Resources",
+      "p1": "最后但并非最不重要的一点是，由于我们专用于塑料，涂料，弹性体，聚氨酯树脂，TPU等的原材料，ADP继续改善了能源和资源行业的应用，例如太阳能电池板，储能或风力叶片和塔架."
+    }
+  },
+  "Products": {
+    "title": "Products",
+    "Commodity Plastic": {
+      "title": "Commodity Plastic",
+      "items": {
+        "HIPS": {
+          "name": "HIPS (High Impact Polystyrene)",
+          "desc": "高抗冲聚苯乙烯（HIPS）是一种低成本，坚韧的塑料，易于热成型和制造."
+        },
+        "GPPS": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "由苯乙烯单体聚合得到的透明聚合物。GP聚苯乙烯可用于注塑和挤出应用."
+        },
+        "EPS": {
+          "name": "EPS (Expandable Polystyrene)",
+          "desc": "它通常是白色的，泡沫状的，由预膨胀的聚苯乙烯珠子制成。 非常轻巧，导热系数低，吸湿性低，缓冲性能出色."
+        },
+        "HPP": {
+          "name": "Homopolymer PP (Polypropylene)",
+          "desc": "用途最广泛的通用等级。 它仅包含半结晶固体形式的丙烯单体."
+        },
+        "BCPP": {
+          "name": "Block Copolymer PP",
+          "desc": "含有较高的乙烯含量（5％至15％）。 它具有以规则图案（或嵌段）排列的共聚单体单元。 适用于要求高强度的应用（工业）."
+        },
+        "HDPE": {
+          "name": "HDPE (High Density Polyethylene)",
+          "desc": "由单体乙烯生产的热塑性聚合物。 用于HDPE管道时，有时称为“烷烃”或“聚乙烯”."
+        },
+        "LDPE": {
+          "name": "LDPE (Low Density Polyethylene)",
+          "desc": "由单体乙烯制成的热塑性塑料。 这是聚乙烯的一年级."
+        },
+        "LLDPE": {
+          "name": "LLDPE (Linear Low Density Polyethylene)",
+          "desc": "一种基本上线性的聚合物（聚乙烯），具有大量的支链，通常通过乙烯与长链烯烃的共聚反应制得."
+        },
+        "PVC": {
+          "name": "PVC (Polyvinyl Chloride)",
+          "desc": "世界第三大生产合成塑料聚合物（仅次于聚乙烯和聚丙烯）。 有两种基本形式：刚性（RPVC）和柔性."
+        },
+        "PET": {
+          "name": "PET (Polyethylene Terephthalate)",
+          "desc": "聚酯家族中最常见的热塑性聚合物树脂."
+        },
+        "EVA": {
+          "name": "EVA (Ethylene-vinyl Acetate)",
+          "desc": "乙烯与乙酸乙烯酯的共聚物也称为聚（乙烯-乙酸乙烯酯）（PEVA）."
+        }
+      }
+    },
+    "Engineering Plastic": {
+      "title": "Engineering Plastic",
+      "items": {
+        "PC": {
+          "name": "PC (Polycarbonate)",
+          "desc": "一组在其化学结构中包含碳酸酯基团的热塑性聚合物。 工程中使用的是坚固，坚韧的材料，某些等级是光学透明的."
+        },
+        "POM": {
+          "name": "POM (Polyoxymethylene or Polyacetal)",
+          "desc": "用于要求高刚度，低摩擦和出色尺寸稳定性的精密零件的工程热塑性塑料."
+        },
+        "NYLON": {
+          "name": "Polyamide 6 and 6.6 (Nylon)",
+          "desc": "不是缩聚物，而是通过开环聚合反应形成的； 这使得它在缩聚物和加成聚合物之间的比较中成为特殊情况."
+        },
+        "PBT": {
+          "name": "PBT (Polybutylene Terephtalate)",
+          "desc": "一种热塑性工程聚合物，在电气和电子行业中用作绝缘体。 它是热塑性（半）结晶聚合物和一种聚酯."
+        },
+        "ABS": {
+          "name": "ABS (Acrylonitrile Butadiene Styrene)",
+          "desc": "一种高性能的塑料，以其强大的耐热性和抗冲击性而著称。 它是高度可加工的，可以用各种颜色制造."
+        },
+        "SAN": {
+          "name": "SAN (Styrene Acrylonitrile)",
+          "desc": "一种由苯乙烯和丙烯腈组成的共聚物塑料。 由于具有较高的耐热性，因此广泛用于代替聚苯乙烯."
+        },
+        "MABS": {
+          "name": "MABS (Methyl Methacrylate - Acrylotrile - Butadiene - Styrene)",
+          "desc": "一种无定形的热塑性聚合物，是甲基丙烯酸甲酯（MMA），苯乙烯，丙烯腈和丁二烯的共聚物."
+        },
+        "ASA": {
+          "name": "ASA (Acrylonitrile Styrene Acrylate)",
+          "desc": "一种无定形热塑性聚合物，是一种无定形塑料，可替代丙烯腈丁二烯（ABS），但具有更好的耐候性."
+        },
+        "PETG": {
+          "name": "PETG (Polyethylene Terephthalate Glycol)",
+          "desc": "可以形成多种形状的透明热塑性塑料，使其适合于许多应用."
+        },
+        "PMMA": {
+          "name": "PMMA (Polymetyl Methacrylate)",
+          "desc": "也称为丙烯酸，丙烯酸玻璃或有机玻璃，以及商品名Crylux，Plexiglas，Acrylite，Lucite，Perclax和Perspex."
+        },
+        "TP": {
+          "name": "Thermoplastic Polymer",
+          "desc": "也称为碳酸树脂，丙烯酸玻璃或有机玻璃，以及商品名."
+        },
+        "SBC": {
+          "name": "SBC (Styrene Butadiene Copolymer)",
+          "desc": "苯乙烯单体和丁二烯橡胶的共聚物。 它们具有出色的清晰度，良好的冲击力和易于加工的特性."
+        },
+        "PAC": {
+          "name": "Polymer Alloys and Compounds",
+          "desc": "ADP运用聚合物合金方面的优势知识和技术，不断提供满足市场各种要求的新材料，并不断地使其多样化和复杂化。."
+        }
+      }
+    },
+    "Super Engineering Plastic": {
+      "title": "Super Engineering Plastic",
+      "items": {
+        "PPS": {
+          "name": "PPS (Polyphenylene Sulfide)",
+          "desc": "一种有机聚合物，由通过硫化物连接的芳环组成。 最重要的高温热塑性聚合物之一，它具有许多理想的性能."
+        },
+        "PPA": {
+          "name": "PPA (Polyphenylene Sulfide)",
+          "desc": "芳族聚酰胺以更高的强度和刚度胜过标准聚酰胺。 用于在高温汽车应用中替代金属."
+        },
+        "PTFE": {
+          "name": "PTFE (Polytetrafluoroethylene)",
+          "desc": "氟碳固体，因为它是一种完全由碳和氟组成的高分子量化合物。 用于锅和其他炊具的不粘涂层."
+        },
+        "PARA": {
+          "name": "PARA (Polyarylamide)",
+          "desc": "具有生物相容性的PARA聚合物具有金属般的强度，刚度和尺寸稳定性，还具有出色的表面光洁度."
+        },
+        "PVDF": {
+          "name": "PVDF Solef (Polyvinylidene Fluoride)",
+          "desc": "一种非常低粘度的均聚物树脂，主要用于注塑或复丝挤出."
+        },
+        "PPSU": {
+          "name": "PPSU (Polyphenylsulfone)",
+          "desc": "一种透明且刚性的高温工程热塑性塑料，属于聚砜家族."
+        },
+        "LCP": {
+          "name": "LCP (Liquid-Crystal Polymers)",
+          "desc": "一类芳族聚合物。 它们极不反应，不活泼，并且高度耐火."
+        },
+        "PEEK": {
+          "name": "PEEK (Polyether Ether Ketone)",
+          "desc": "聚芳基醚酮（PAEK）系列的无色有机热塑性聚合物，用于工程应用."
+        }
+      }
+    },
+    "Coating": {
+      "title": "Coating",
+      "items": {
+        "TiO2": {
+          "name": "TiO2 (Titanium Dioxide)",
+          "desc": "钛的天然氧化物，化学式为TiO2。 用作颜料时，它称为钛白，颜料白6（PW6）或CI 77891."
+        },
+        "ER": {
+          "name": "Epoxy resin",
+          "desc": "一类反应性预聚物和含有环氧基团的聚合物也称为聚环氧化物."
+        },
+        "MMA": {
+          "name": "MMA (Methyl Metacrylate)",
+          "desc": "这种丙烯酸树脂以其出色的透明性和耐候性以及易于回收利用而著称，出于环保考虑已引起了广泛的关注。."
+        },
+        "MAA": {
+          "name": "MAA (Methacrylic Acid)",
+          "desc": "通过丙酮氰醇（ACH）路线形成，用于制造MMA，并用于生产汽车涂料，水泥改性剂等的特种甲基丙烯酸酯."
+        }
+      }
+    },
+    "Additives": {
+      "title": "Additives",
+      "items": {
+        "MB": {
+          "name": "Masterbatch",
+          "desc": "颜料和/或添加剂的浓缩混合物，在加热过程中封装成载体树脂，然后冷却并切成颗粒状."
+        },
+        "CP": {
+          "name": "Chrolinated Paraffin",
+          "desc": "含数千种同系物和异构体的氯化正构烷烃的复杂混合物，不能通过标准分析方法完全分离."
+        },
+        "P": {
+          "name": "Pigment",
+          "desc": "添加到聚合物基料中的有机或无机颗粒可赋予塑料以特定的颜色或功能优势."
+        }
+      }
+    }
+  },
+  "Services": {
+    "title": "Services",
+    "Solution Provider": {
+      "title": "Solution Provider",
+      "t1": "",
+      "p1": ""
+    },
+    "Logistic Service": {
+      "title": "Logistic Service",
+      "t1": "Schedule Delivery",
+      "p1": "Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam."
+    },
+    "Distributor & Local Representative": {
+      "title": "Distributor & Local Representative",
+      "t1": "",
+      "p1": ""
+    },
+    "Technical Service": {
+      "title": "Technical Service",
+      "t1": "",
+      "p1": ""
+    }
+  },
+  "Contact Us": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "subject": "Subject",
+    "material": "Material enquired",
+    "application": "Application",
+    "message": "Type your message here....",
+    "submit": "Submit",
+    "toast success": "Thank you for submitting",
+    "toast failed": "Fail to submit, please try again later"
+  },
+  "Our Presence": {
+    "title": "Our Presence",
+    "Jakarta": "Jakarta",
+    "Batam": "Batam",
+    "Ho Chi Minh": "Ho Chi Minh",
+    "Bangkok": "Bangkok",
+    "Addresses": {
+      "Jakarta": {
+        "title": "Contact Us",
+        "name": "PT. Adyabina Putramas",
+        "office": "Puri Indah Financial Tower Office 18th Floor",
+        "street": "Jl. Puri Lingkar Dalam Blok T-8",
+        "district": "Puri Indah, Jakarta Barat 11610",
+        "phone": "Telp : 021-2258-0628 (Hunting)",
+        "fax": "Fax: 021-2258-0633"
+      }
+    }
+  },
+  "Footer": {
+    "About": {
+      "title": "About ADP",
+      "p1": "PT. Adyabina Putramas is engineering plastics materials supplier for various industries in Indonesia over 20 Years.",
+      "p2": "We offer a comprehensive products range to fulfill the needs of every clients. Present a number of foreign manufacturers an exclusive basis.",
+      "p3": "We import chemicals and engineering plastic resins and supply to the local manufacturing and plastic injection moulding companies."
+    },
+    "Contact": {
+      "title": "Contact Us",
+      "name": "PT. Adyabina Putramas",
+      "office": "Puri Indah Financial Tower Office 18th Floor",
+      "street": "Jl. Puri Lingkar Dalam Blok T-8",
+      "district": "Puri Indah, Jakarta Barat 11610",
+      "phone": "Telp : 021-2258-0628 (Hunting)",
+      "fax": "Fax: 021-2258-0633"
+    },
+    "Follow": {
+      "title": "Follow Us"
+    }
   }
 }

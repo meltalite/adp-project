@@ -1,16 +1,330 @@
 {
   "Lipsum": {
-    "title": "Food ipsum",
-    "content": "特に感染者が集中しているニューヨーク市では、ビル・デブラシオ市長が25日、感染大流行が終わるまでには800万人以上の市民のうち半数以上が感染する見通しを示した。 市当局によると25日夜までに市内では2万人以上の感染が確認され、死者は280人に達した。 24日には市内クイーンズ地区のひとつの病院で数時間の内に患者13人が立て続けに死亡。地元紙ニューヨーク・タイムズによると、担当していた若い医師は「黙示録的」な光景だと語ったという。 一方で、ニューヨーク州のアンドリュー・クオモ知事は、感染拡大のペースが少し落ち着きつつあるかもしれないと、慎重ながらも期待を示した。",
-    "short": "特に感染者が集中しているニューヨーク市では、ビル・デブラシオ市長が25日、感染大流行が終わるまでには800万人以上の市民のうち半数以上が感染する見通しを示した。"
+    "title" : "Lorem ipsum",
+    "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo. Nunc vel porta quam, id tristique odio. Aliquam eget auctor quam. In hac habitasse platea dictumst. Nullam auctor a eros at faucibus. Aliquam vitae tellus sit amet arcu imperdiet hendrerit. Nam feugiat orci fermentum metus sagittis sagittis. Phasellus sodales cursus nisi, et accumsan tortor ultricies eu. Nunc accumsan tincidunt enim sit amet tincidunt. Vivamus semper nec turpis a blandit. Quisque suscipit tincidunt iaculis. Sed sit amet posuere erat. Donec pharetra, velit et ultricies ultrices, metus nisi fermentum odio, ullamcorper fringilla nisl mauris sit amet enim. Nunc porta erat vestibulum nisi vulputate pharetra. Fusce id turpis non tortor aliquet tristique eget non diam. Fusce imperdiet viverra nulla. Nam non dapibus augue. Vestibulum vel augue a sapien commodo cursus eget sit amet dolor. Integer porttitor purus sapien, nec porta mi volutpat sit amet. Fusce diam lorem, sollicitudin eget egestas sit amet, placerat sit amet mauris. Aenean et felis leo. Nulla facilisi. Curabitur egestas tellus leo, in suscipit ligula semper sit amet-amet.",
+    "short" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, ipsum ac interdum lobortis, odio tellus iaculis nisi, vitae placerat nibh lectus ac justo."
   },
   "Nav": {
-    "about us": "About Us",
-    "principles": "Our Principles",
-    "industries & applications": "Industries & Applications",
-    "products": "Products",
-    "services": "Services",
-    "our presence": "Our Presence",
-    "contact us": "Contact Us"
+    "about us": "約",
+    "principles": "仕入れ先",
+    "industries & applications": "産業",
+    "products": "製品",
+    "services": "サービス",
+    "our presence": "面前",
+    "contact us": "連絡先"
+  },
+  "Masthead": {
+    "Flexible": "Flexible",
+    "Innovative": "Innovative",
+    "Improvement": "Improvement",
+    "Efficient": "Efficient"
+  },
+  "About Us": {
+    "title": "Who is ADP?",
+    "p1": "以前はPTとして知られていたADP。 Adyabina Putramasは、生産における幅広い業界ネットワークへのサービス提供を専門とするインドネシアの大手ポリマープロバイダーであり、ADPの幅広い商品プラスチック、エンジニアリングプラスチック、スーパーエンジニアリングプラスチック、コーティング、添加剤を使用して、エンドユーザー向けに製品とパフォーマンスを継続的に改善しています。",
+    "p2": "ADPは東南アジア全体に30年以上存在しており、サプライヤーやパートナーの幅広いネットワークからのサポートを受けて、すべてのニーズをカバーするワンストップソリューションを提供することで、業界をリードする生産者にサービスを提供することを目指しています。"
+  },
+  "Principles": {
+    "title": "Our Global Principles"
+  },
+  "Industries & Applications": {
+    "Automotive": {
+      "title": "Automotive",
+      "t1": "4ホイール",
+      "p1": "ADPは、プラスチック、コーティング、接着剤、熱可塑性プラスチック、フォームの専用原材料を使用して、自動車業界、特に内外装要素、照明、エンジン部品、座席、電気自動車バッテリー（EVB）パッケージを含む4輪と2輪の両方に存在します。 、フィルム、コンポジットなど。",
+      "t2": "2ホイール",
+      "p2": "ADPは、照明、座席、ハンドブレーキ、電気自動車のバッテリー（EVB）パッケージなど、2輪モーターサイクルの生産におけるさまざまなアプリケーションにも対応しています。"
+    },
+    "Consumer Goods": {
+      "title": "Consumer Goods",
+      "t1": "化粧品",
+      "p1": "ADPは、ポリマー化粧品およびパーソナルケアアプリケーションを使用して、化粧品業界のパッケージングの美観を継続的に向上させます。",
+      "t2": "構造",
+      "p2": "ADPには、断熱材、フローリング、屋根、壁、ファサード、ドア、窓、パイプラインなど、建設業界の原材料向けの多くの製品があります。",
+      "t3": "スポーツ＆レジャー",
+      "p3": "ADPには、履物、スポーツ用品、ゴーグルとウェアラブル、機能性テキスタイル、人工皮革など、さまざまな用途向けの幅広い原材料があります。",
+      "t4": "家庭電化製品",
+      "p4": "ADPは、ブレンダー、キッチンアプリケーション、食品包装容器などの家庭用産業や家電製品の製造にもサービスを提供しています。"
+    },
+    "Electrical & Electronics": {
+      "title": "Electrical & Electronics",
+      "p1": "電気業界では、ADPは光ファイバーケーブルの分野で活躍しており、電気および水道メーターはソケットおよび電子機器のメーカーでもあります。"
+    },
+    "Healthcare": {
+      "title": "Healthcare",
+      "p1": "ADPは、熱可塑性プラスチック、フィルム、TPU、プラスチックポリマー、接着剤、フォームなどを、医薬品の配送、病院のベッド機器、手術器具、電気医療機器、創傷ケアなどのヘルスケアアプリケーションに供給しています。"
+    },
+    "Chemical & Paints": {
+      "title": "Chemical & Paints",
+      "p1": "ADPは、建築用コーティング、自動車および商用車のコーティング、または工業用コーティングに使用される、非常に要求の厳しい化学薬品および塗料の配合のための原材料の包括的な選択でいっぱいです。"
+    },
+    "Aerospace & Transportation": {
+      "title": "Aerospace & Transportation",
+      "p1": "航空宇宙または輸送のすべての活動は、厳しい仕様を満たしながら最も過酷な条件で動作する部品を必要とする高度なエンジンおよび推進技術に依存しています。",
+      "p2": "ADPはそれを理解し、この業界に最高品質の材料を供給します"
+    },
+    "Energy & Resources": {
+      "title": "Energy & Resources",
+      "p1": "最後になりましたが、ADPは、プラスチック、コーティング、エラストマー、ポリウレタン樹脂、TPUなどの専用原材料のおかげで、ソーラーパネル、エネルギー貯蔵、風力ブレードやタワーなどのエネルギーおよび資源業界のアプリケーションを改善し続けています。"
+    }
+  },
+  "Products": {
+    "title": "Products",
+    "Commodity Plastic": {
+      "title": "Commodity Plastic",
+      "items": {
+        "HIPS": {
+          "name": "HIPS (High Impact Polystyrene)",
+          "desc": "High Impact Polystyrene (HIPS) is a low cost, tough plastic that is easy to thermoform and fabricate."
+        },
+        "GPPS": {
+          "name": "GPPS (General Purpose Polystyrene)",
+          "desc": "Transparent polymers resulting from the polymerization of Styrene Monomer. GP Polystyrene can be used for both injection moulding and extrusion applications."
+        },
+        "EPS": {
+          "name": "EPS (Expandable Polystyrene)",
+          "desc": "It is usually white, foamy and made of pre-expanded polystyrene beads. Very lightweight with very low thermal conductivity, low moisture absorption and excellent cushioning properties."
+        },
+        "HPP": {
+          "name": "Homopolymer PP (Polypropylene)",
+          "desc": "The most widely utilized general-purpose grade. It contains only propylene monomer in a semi-crystalline solid form."
+        },
+        "BCPP": {
+          "name": "Block Copolymer PP",
+          "desc": "Contains a higher ethene content (between 5 and 15%). It has co-monomer units arranged in a regular pattern (or blocks). Suitable for applications requiring high strength (Industries)."
+        },
+        "HDPE": {
+          "name": "HDPE (High Density Polyethylene)",
+          "desc": "A thermoplastic polymer produced from the monomer ethylene. It is sometimes called \"alkathene\" or \"polythene\" when used for HDPE pipes."
+        },
+        "LDPE": {
+          "name": "LDPE (Low Density Polyethylene)",
+          "desc": "A thermoplastic made from the monomer ethylene. It was the first grade of polyethylene."
+        },
+        "LLDPE": {
+          "name": "LLDPE (Linear Low Density Polyethylene)",
+          "desc": "A substantially linear polymer (polyethylene), with significant numbers of branches, commonly made by copolymerization of ethylene with longer-chain olefins."
+        },
+        "PVC": {
+          "name": "PVC (Polyvinyl Chloride)",
+          "desc": "The world's third-most widely produces synthetic plastic polymer (after polyethylene and polypropylene). Comes in two basic forms: rigid (RPVC) and flexible."
+        },
+        "PET": {
+          "name": "PET (Polyethylene Terephthalate)",
+          "desc": "The most common thermoplastic polymer resin of the polyester family."
+        },
+        "EVA": {
+          "name": "EVA (Ethylene-vinyl Acetate)",
+          "desc": "Also known as poly (ethylene-vynil acetate) (PEVA), is the copolymer of ethylene and vynil acetate."
+        }
+      }
+    },
+    "Engineering Plastic": {
+      "title": "Engineering Plastic",
+      "items": {
+        "PC": {
+          "name": "PC (Polycarbonate)",
+          "desc": "A group of thermoplastic polymers containing carbonate groups in their chemical structures. Used in engineering are strong, tough materials, and some grades are optically transparent."
+        },
+        "POM": {
+          "name": "POM (Polyoxymethylene or Polyacetal)",
+          "desc": "An engineering thermoplastic used in precision parts requiring high stiffness, low friction, and excellent dimentional stability."
+        },
+        "NYLON": {
+          "name": "Polyamide 6 and 6.6 (Nylon)",
+          "desc": "Not a condensation polymer, but instead is formed by ring-opening polymerization; this makes it a special case in the comparison between condensation and addition polymers."
+        },
+        "PBT": {
+          "name": "PBT (Polybutylene Terephtalate)",
+          "desc": "A thermoplastic engineering polymer that is used as an insulator in the electrical and electronics industries. It's thermoplastic (semi-) crystalline polymer, and a type of polyester."
+        },
+        "ABS": {
+          "name": "ABS (Acrylonitrile Butadiene Styrene)",
+          "desc": "A highly-functional plastic known for its strong heat resistance and impact resistance. It is highly processable abd can be manufactured in various colors."
+        },
+        "SAN": {
+          "name": "SAN (Styrene Acrylonitrile)",
+          "desc": "A copolymer plastic consisting of styrene and acrylonitrile. It is widely used in place of polystyrene owing ot its greater thermal resistance."
+        },
+        "MABS": {
+          "name": "MABS (Methyl Methacrylate - Acrylotrile - Butadiene - Styrene)",
+          "desc": "An amorphous thermoplastic polymer, which is a copolymer of methyl methacrylate (MMA), styrene, acrylonitrile, and butadiene."
+        },
+        "ASA": {
+          "name": "ASA (Acrylonitrile Styrene Acrylate)",
+          "desc": "An amorphous thermoplastic polymer, which is an amorphous plastic developed as an alternative to acrolonitrile butadine styrene (ABS), but with improved weather resistance."
+        },
+        "PETG": {
+          "name": "PETG (Polyethylene Terephthalate Glycol)",
+          "desc": "A clear thermoplastic that can be formed into many shapes, making it suitable for use in many applications."
+        },
+        "PMMA": {
+          "name": "PMMA (Polymetyl Methacrylate)",
+          "desc": "Also known as acrylic, acrylic glass, or plexiglass, as well as by the trade name Crylux, Plexiglas, Acrylite, Lucite, Perclax, and Perspex."
+        },
+        "TP": {
+          "name": "Thermoplastic Polymer",
+          "desc": "A plastic polymer material that becomes pliable or moldable at a certain elevated temperature and solidifies upon cooling."
+        },
+        "SBC": {
+          "name": "SBC (Styrene Butadiene Copolymer)",
+          "desc": "Copolymers of Styrene Monomer and Butadiene Rubber. They bring with them excellent clarity, good impact and easy processing."
+        },
+        "PAC": {
+          "name": "Polymer Alloys and Compounds",
+          "desc": "ADP continously providing new materials fulfilling various requirements from the market which is ceaselessly getting diversified and sophisticated, applying the advantaged knowledge and technology about polymer alloys."
+        }
+      }
+    },
+    "Super Engineering Plastic": {
+      "title": "Super Engineering Plastic",
+      "items": {
+        "PPS": {
+          "name": "PPS (Polyphenylene Sulfide)",
+          "desc": "An organic polymer consisting of aromatic rings linked by sulfides. One of the most important high temperature thermoplastic polymers, it exhibits a number of desirable properties."
+        },
+        "PPA": {
+          "name": "PPA (Polyphenylene Sulfide)",
+          "desc": "An aromatic polyamide the outperforms standard polyamides with higher strength and stiffness. used to replace metal in high-temperature automotive applications."
+        },
+        "PTFE": {
+          "name": "PTFE (Polytetrafluoroethylene)",
+          "desc": "A flourocarbon solid, as it is a high molecular weight compound consisting wholly of carbon and fluorine. Used a non-stick coating for pans and other cookware."
+        },
+        "PARA": {
+          "name": "PARA (Polyarylamide)",
+          "desc": "Offering metal-like strength, rigidity and dimentional stability, the biocompatible PARA polymer also provides an exceptional surface finish."
+        },
+        "PVDF": {
+          "name": "PVDF Solef (Polyvinylidene Fluoride)",
+          "desc": "A very low viscosity homopolimer resin mainlu used in injection molding or in multifilamen extursion."
+        },
+        "PPSU": {
+          "name": "PPSU (Polyphenylsulfone)",
+          "desc": "A transparent and rigid high-temperature engineering thermoplastic and belongs to polysulfone family."
+        },
+        "LCP": {
+          "name": "LCP (Liquid-Crystal Polymers)",
+          "desc": "A class of aromatic polymers. They are exremely unreactive and inert, and highly resistant to fire."
+        },
+        "PEEK": {
+          "name": "PEEK (Polyether Ether Ketone)",
+          "desc": "A colourless organic thermoplastic polymer in the polyaryletherketone (PAEK) family, used in engineering applications."
+        }
+      }
+    },
+    "Coating": {
+      "title": "Coating",
+      "items": {
+        "TiO2": {
+          "name": "TiO2 (Titanium Dioxide)",
+          "desc": "The naturally occuring oxide of titanium, chemical formula TiO2. When used as pigment, it is called titanium white, Pigment White 6 (PW 6), or CI 77891."
+        },
+        "ER": {
+          "name": "Epoxy resin",
+          "desc": "Also known as polyepoxides, are a class of reactive prepolymers and polymers which contain epoxide groups."
+        },
+        "MMA": {
+          "name": "MMA (Methyl Metacrylate)",
+          "desc": "Known for its excellent transparency and weatherability, as well as its easy recyclability, this acrylic resin has attracted a great deal of attention for environmental considerations."
+        },
+        "MAA": {
+          "name": "MAA (Methacrylic Acid)",
+          "desc": "Formed via the acetone cyanohydrin (ACH) route to manufacture MMA and is used in the production of speciality methacrylates for automotive coatings, in cement modifiers, etc."
+        }
+      }
+    },
+    "Additives": {
+      "title": "Additives",
+      "items": {
+        "MB": {
+          "name": "Masterbatch",
+          "desc": "A concentrated mixture of pigments and/or additives encapsulated during a heat process into a carrier resin which is then cooled and cut into a granular shape."
+        },
+        "CP": {
+          "name": "Chrolinated Paraffin",
+          "desc": "Complex mixture of chlorinated n-alkanes containing thousands of homologues and isomers which are not completely separated by standard analytical methods."
+        },
+        "P": {
+          "name": "Pigment",
+          "desc": "Organic or inorganic particles added to the polymer base to give a specific color or functional benefits the plastic."
+        }
+      }
+    }
+  },
+  "Services": {
+    "title": "Services",
+    "Solution Provider": {
+      "title": "Solution Provider",
+      "t1": "",
+      "p1": ""
+    },
+    "Logistic Service": {
+      "title": "Logistic Service",
+      "t1": "Schedule Delivery",
+      "p1": "Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam."
+    },
+    "Distributor & Local Representative": {
+      "title": "Distributor & Local Representative",
+      "t1": "",
+      "p1": ""
+    },
+    "Technical Service": {
+      "title": "Technical Service",
+      "t1": "",
+      "p1": ""
+    }
+  },
+  "Contact Us": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "subject": "Subject",
+    "material": "Material enquired",
+    "application": "Application",
+    "message": "Type your message here....",
+    "submit": "Submit",
+    "toast success": "Thank you for submitting",
+    "toast failed": "Fail to submit, please try again later"
+  },
+  "Our Presence": {
+    "title": "Our Presence",
+    "Jakarta": "Jakarta",
+    "Batam": "Batam",
+    "Ho Chi Minh": "Ho Chi Minh",
+    "Bangkok": "Bangkok",
+    "Addresses": {
+      "Jakarta": {
+        "title": "Contact Us",
+        "name": "PT. Adyabina Putramas",
+        "office": "Puri Indah Financial Tower Office 18th Floor",
+        "street": "Jl. Puri Lingkar Dalam Blok T-8",
+        "district": "Puri Indah, Jakarta Barat 11610",
+        "phone": "Telp : 021-2258-0628 (Hunting)",
+        "fax": "Fax: 021-2258-0633"
+      }
+    }
+  },
+  "Footer": {
+    "About": {
+      "title": "About ADP",
+      "p1": "PT. Adyabina Putramas is engineering plastics materials supplier for various industries in Indonesia over 20 Years.",
+      "p2": "We offer a comprehensive products range to fulfill the needs of every clients. Present a number of foreign manufacturers an exclusive basis.",
+      "p3": "We import chemicals and engineering plastic resins and supply to the local manufacturing and plastic injection moulding companies."
+    },
+    "Contact": {
+      "title": "Contact Us",
+      "name": "PT. Adyabina Putramas",
+      "office": "Puri Indah Financial Tower Office 18th Floor",
+      "street": "Jl. Puri Lingkar Dalam Blok T-8",
+      "district": "Puri Indah, Jakarta Barat 11610",
+      "phone": "Telp : 021-2258-0628 (Hunting)",
+      "fax": "Fax: 021-2258-0633"
+    },
+    "Follow": {
+      "title": "Follow Us"
+    }
   }
 }
