@@ -675,25 +675,12 @@ const additives = [
   },
 ]
 
-const initial = [
-  {
-    name: undefined,
-    pictures: [
-      {
-        src: `${process.env.PUBLIC_URL}/pictures/products/initial.jpg`,
-        altText: 'initial'
-      }
-    ]
-  }
-]
-
 const commodityList = {
   "Commodity Plastic": commodityPlastic,
   "Engineering Plastic": engineeringPlastic,
   "Super Engineering Plastic": superEngineeringPlastic,
   "Coating": coating,
-  "Additives": additives,
-  "Initial": initial
+  "Additives": additives
 } 
 
 export default commodityList;

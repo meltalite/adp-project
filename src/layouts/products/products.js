@@ -3,13 +3,19 @@ import './products.scss'
 import { useTranslation } from 'react-i18next'
 import Display from './display'
 import Detail from './detail'
-import commodityList from './commodity-list'
+
+export const INITIAL_PICTURE = [
+      {
+        src: `${process.env.PUBLIC_URL}/pictures/products/initial.jpg`,
+        altText: 'initial'
+      }
+    ]
 
 export default function Products() {
   const { t } = useTranslation()
   const [commodity, setCommodity] = useState()
   const [name, setName] = useState()
-  const [pictures, setPictures] = useState(commodityList["Initial"][0].pictures)
+  const [pictures, setPictures] = useState(INITIAL_PICTURE)
 
   return (
     <section className='page-section' >

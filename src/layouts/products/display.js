@@ -3,6 +3,7 @@ import './display.scss';
 import { Collapse } from 'reactstrap';
 import commodityList from './commodity-list';
 import { useTranslation } from 'react-i18next';
+import { INITIAL_PICTURE } from './products';
 
 const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setPictures, commodity, products }) => {
   const [activeIndex, setActiveIndex] = useState()
@@ -15,10 +16,10 @@ const Dropdown = ({ setCommodity, activeProduct, setActiveProduct, setName, setP
       setCommodity(commodity)
       setPictures(pictures)
     } else {
-      // setActiveIndex()
-      // setName()
-      // setCommodity()
-      // setPictures()
+      setActiveIndex()
+      setName()
+      setCommodity()
+      setPictures(INITIAL_PICTURE)
     }
   }
 
