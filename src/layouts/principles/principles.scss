@@ -71,6 +71,11 @@
           object-fit: unset;
         }
       }
+
+      &.p_tpsc {
+        object-fit: contain;
+        height: 100px;
+      }
     }
   }
 }
