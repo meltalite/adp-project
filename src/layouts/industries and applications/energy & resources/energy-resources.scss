@@ -26,7 +26,10 @@
     div.wrapper {
       div {
         position: relative;
-        left: -44px;
+        left: -110px;
+        @media only screen and (min-width: 992px) {
+          left: -44px;
+        }
       }
     }
   }

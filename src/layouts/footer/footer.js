@@ -45,14 +45,16 @@ export default function Footer() {
           <p>{t('Footer.Contact.phone')}</p>
           <p>{t('Footer.Contact.fax')}</p>
         </div>
-        <div className='col-8 col-lg-3 follow'>
+        <div className="col-12 col-lg-5 follow-logo">
           <h2>{t('Footer.Follow.title')}</h2>
-          <div className='socmed'>
-            {icons}
+          <div className='follow'>
+            <div className='socmed'>
+              {icons}
+            </div>
           </div>
-        </div>
-        <div className='col-4 col-lg-2 logo'>
-          <img src={AdpWhiteSvg} alt='adp-white' />
+          <div className='logo'>
+            <img src={AdpWhiteSvg} alt='adp-white' />
+          </div>
         </div>
       </div>
     </footer>

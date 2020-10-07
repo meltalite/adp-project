@@ -85,21 +85,24 @@
     &-menu {
       &.search-lang {
         display: flex;
-        max-width: 120px;
+        max-width: 200px;
         flex-flow: wrap;
         place-content: center;
 
         @media only screen and (min-width: 992px) {
+          max-width: 120px;
           place-content: flex-end;
         }
       }
 
       button {
-        font-size: 1.5rem;
+        font-size: 1rem;
         border: none;
         background: none;
-        margin: 0;
         padding: 0px 0px 0px 4px;
+        @media only screen and (min-width: 992px) {
+          font-size: 1.5rem;
+        }
 
         &:focus {
           outline: none;
