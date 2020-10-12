@@ -1,50 +1,56 @@
 import React, { useState } from 'react';
 import './email-form.scss';
 import { useTranslation } from 'react-i18next';
-import { createTransport, getTestMessageUrl } from 'nodemailer'
 
 export default function EmailForm() {
   const { t } = useTranslation()
   const [showToast, setShowToast] = useState();
   const [isSuccess, setIsSuccess] = useState();
 
-  function onSubmit() {
-    send().catch(console.error)
-    flashToast()
-  }
-
   async function send() {
-    // create reusable transporter object using the default SMTP transport
-    const transporter = createTransport({
-      host: "smtp.ethereal.email",
-      port: 587,
-      secure: false, // true for 465, false for other ports
-      auth: {
-        user: 'pinkie.kuhic@ethereal.email', // generated ethereal user
-        pass: 'Rf45AgPBZV3hgMJtzf' // generated ethereal password
+    // const transporter = createTransport({
+    //   host: "smtp.ethereal.email",
+    //   port: 587,
+    //   secure: false, // true for 465, false for other ports
+    //   auth: {
+    //     user: 'pinkie.kuhic@ethereal.email', // generated ethereal user
+    //     pass: 'Rf45AgPBZV3hgMJtzf' // generated ethereal password
+    //   }
+    // })
+    window.Email.send({
+      // Host : "smtp.ethereal.email",
+      // Username : "pinkie.kuhic@ethereal.email",
+      // Password : "Rf45AgPBZV3hgMJtzf",
+      // SecureToken: '78b292b4-9a53-494f-8c0b-f9d2e47ada29', // ethereal
+      // SecureToken: '9787bd5a-d8fd-46b5-a46e-b3c757b3e1a1', // mailtrap
+      // SecureToken: '1d07e3be-cd15-44db-8b74-caa7cdc810be', // adpi.co
+      // Ad>3z&Y60F
+      SecureToken: 'ef0ec99d-6632-4106-9698-b31828b2d758', // localhost
+      To : 'inquiries@adpi.co',
+      From : "your.client@domain.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+    })
+    .then(message => {
+      console.warn(message);
+      if (message === "OK") {
+        setIsSuccess(true);
+      } else {
+        setIsSuccess(false);
       }
     })
-
-    // send mail with defined transport object
-    let info = await transporter.sendMail({
-      from: 'pinkie.kuhic@ethereal.email', // sender address
-      to: "pinkie.kuhic@ethereal.email", // list of receivers
-      subject: "Hello ✔", // Subject line
-      text: "Hello world?", // plain text body
-      html: "<b>Hello world?</b>" // html body
-    });
-
-    console.log("Message sent: %s", info.messageId);
-    // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-
-    // Preview only available when sending through an Ethereal account
-    console.log("Preview URL: %s", getTestMessageUrl(info));
+    .catch(error => {
+      console.error(error)
+      setIsSuccess(false);
+    })
+    .finally(() => flashToast());
   }
 
   function flashToast() {
     setShowToast(true)
     setTimeout(() => {
-      setShowToast(false)
+      setShowToast(false);
+      setIsSuccess();
     }, 5000)
   }
 
@@ -76,7 +82,7 @@ export default function EmailForm() {
           <textarea rows="10" placeholder={t('Contact Us.message')} />
         </div>
       </div>
-      <button className='submit' onClick={onSubmit}>{t('Contact Us.submit')}</button>
+      <button className='submit' onClick={send}>{t('Contact Us.submit')}</button>
       {showToast && (
         <div className='notify'>{t(`Contact Us.toast ${isSuccess ? 'success' : 'failed'}`)}</div>
       )
