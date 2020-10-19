@@ -1,40 +1,45 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './email-form.scss';
 import { useTranslation } from 'react-i18next';
+import BodyTemplate from './BodyTemplate';
 
 export default function EmailForm() {
   const { t } = useTranslation()
   const [showToast, setShowToast] = useState();
   const [isSuccess, setIsSuccess] = useState();
+  const [disabled, setDisabled] = useState();
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const phoneRef = useRef();
+  const companyRef = useRef();
+  const subjectRef = useRef();
+  const materialRef = useRef();
+  const applicationRef = useRef();
+  const messageRef = useRef();
 
   async function send() {
-    // const transporter = createTransport({
-    //   host: "smtp.ethereal.email",
-    //   port: 587,
-    //   secure: false, // true for 465, false for other ports
-    //   auth: {
-    //     user: 'pinkie.kuhic@ethereal.email', // generated ethereal user
-    //     pass: 'Rf45AgPBZV3hgMJtzf' // generated ethereal password
-    //   }
-    // })
+    setDisabled(true);
     window.Email.send({
-      // Host : "smtp.ethereal.email",
-      // Username : "pinkie.kuhic@ethereal.email",
-      // Password : "Rf45AgPBZV3hgMJtzf",
-      // SecureToken: '78b292b4-9a53-494f-8c0b-f9d2e47ada29', // ethereal
-      // SecureToken: '9787bd5a-d8fd-46b5-a46e-b3c757b3e1a1', // mailtrap
-      // SecureToken: '1d07e3be-cd15-44db-8b74-caa7cdc810be', // adpi.co
-      // Ad>3z&Y60F
-      SecureToken: 'ef0ec99d-6632-4106-9698-b31828b2d758', // localhost
-      To : 'inquiries@adpi.co',
-      From : "your.client@domain.com",
-      Subject : "This is the subject",
-      Body : "And this is the body"
+      // SecureToken: '786d8696-0ee8-497b-8fb9-199142eec24d', // mailtrap
+      SecureToken: 'b0864205-10b5-40e7-b2bd-78814cdb4d52', // Hostinger all
+      To : "inquiries@adpi.co",
+      From : "inquiries@adpi.co",
+      Subject : subjectRef.current.value,
+      Body: BodyTemplate.get({
+        name: nameRef.current.value,
+        email: emailRef.current.value,
+        phone: phoneRef.current.value,
+        company: companyRef.current.value,
+        material: materialRef.current.value,
+        application: applicationRef.current.value,
+        message: messageRef.current.value
+      })
     })
     .then(message => {
-      console.warn(message);
+      console.log(message);
       if (message === "OK") {
         setIsSuccess(true);
+        clearForm();
       } else {
         setIsSuccess(false);
       }
@@ -43,7 +48,10 @@ export default function EmailForm() {
       console.error(error)
       setIsSuccess(false);
     })
-    .finally(() => flashToast());
+    .finally(() => {
+      flashToast();
+      setDisabled(false);
+    });
   }
 
   function flashToast() {
@@ -54,35 +62,50 @@ export default function EmailForm() {
     }, 5000)
   }
 
+  function clearForm() {
+    nameRef.current.value = '';
+    emailRef.current.value = '';
+    phoneRef.current.value = '';
+    companyRef.current.value = '';
+    subjectRef.current.value = '';
+    materialRef.current.value = '';
+    applicationRef.current.value = '';
+    messageRef.current.value = '';
+  }
+
   return (
     <>
       <div className='email-form'>
         <div className='col-6 name'>
-          <input type='text' placeholder={t('Contact Us.name')} />
+          <input type='text' placeholder={t('Contact Us.name')}  ref={nameRef}/>
         </div>
         <div className='col-6 email'>
-          <input type='text' placeholder={t('Contact Us.email')} />
+          <input type='text' placeholder={t('Contact Us.email')} ref={emailRef}/>
         </div>
         <div className='col-6 phone'>
-          <input type='text' placeholder={t('Contact Us.phone')} />
+          <input type='text' placeholder={t('Contact Us.phone')} ref={phoneRef}/>
         </div>
         <div className='col-6 company'>
-          <input type='text' placeholder={t('Contact Us.company')} />
-        </div>
-        <div className='col-12 subject'>
-          <input type='text' placeholder={t('Contact Us.subject')} />
+          <input type='text' placeholder={t('Contact Us.company')} ref={companyRef}/>
         </div>
         <div className='col-6 material'>
-          <input type='text' placeholder={t('Contact Us.material')} />
+          <input type='text' placeholder={t('Contact Us.material')} ref={materialRef}/>
         </div>
         <div className='col-6 application'>
-          <input type='text' placeholder={t('Contact Us.application')} />
+          <input type='text' placeholder={t('Contact Us.application')} ref={applicationRef}/>
+        </div>
+        <div className='col-12 subject'>
+          <input type='text' placeholder={t('Contact Us.subject')} ref={subjectRef}/>
         </div>
         <div className='col-12 message'>
-          <textarea rows="10" placeholder={t('Contact Us.message')} />
+          <textarea rows="10" placeholder={t('Contact Us.message')} ref={messageRef}/>
         </div>
       </div>
-      <button className='submit' onClick={send}>{t('Contact Us.submit')}</button>
+      { disabled ? 
+        <button className='submit' onClick={send} disabled>{t('Contact Us.submit')}</button> 
+        : 
+        <button className='submit' onClick={send}>{t('Contact Us.submit')}</button> 
+        }
       {showToast && (
         <div className='notify'>{t(`Contact Us.toast ${isSuccess ? 'success' : 'failed'}`)}</div>
       )
