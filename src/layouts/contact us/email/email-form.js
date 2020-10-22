@@ -3,6 +3,11 @@ import './email-form.scss';
 import { useTranslation } from 'react-i18next';
 import BodyTemplate from './BodyTemplate';
 
+const HOSTINGER = {
+  Token: 'fb00d8b6-63e2-4ad3-8909-ac09863069be',
+  Email: 'inquiries@adpi.co'
+};
+
 export default function EmailForm() {
   const { t } = useTranslation()
   const [showToast, setShowToast] = useState();
@@ -20,10 +25,9 @@ export default function EmailForm() {
   async function send() {
     setDisabled(true);
     window.Email.send({
-      // SecureToken: '786d8696-0ee8-497b-8fb9-199142eec24d', // mailtrap
-      SecureToken: 'b0864205-10b5-40e7-b2bd-78814cdb4d52', // Hostinger all
-      To : "inquiries@adpi.co",
-      From : "inquiries@adpi.co",
+      SecureToken: HOSTINGER.Token,
+      To : HOSTINGER.Email,
+      From : HOSTINGER.Email,
       Subject : subjectRef.current.value,
       Body: BodyTemplate.get({
         name: nameRef.current.value,
