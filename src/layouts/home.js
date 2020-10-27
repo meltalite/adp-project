@@ -2,7 +2,6 @@ import React from 'react';
 import './home.scss'
 import Navigation from "./navigation/navigation";
 import OurPresence from './our presence/our-presence';
-import Quotes from './quotes/quotes';
 import Masthead from './masthead/masthead';
 import AboutUs from './about us/about-us';
 import Principles from './principles/principles';
@@ -22,7 +21,6 @@ export default function Home() {
       <IndustriesApplications />
       <Products />
       <Services />
-      <Quotes />
       <OurPresence />
       <ContacUs />
       <Footer />

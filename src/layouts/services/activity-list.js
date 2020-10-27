@@ -11,6 +11,10 @@ const logisticServicePictures = [
     src: `${process.env.PUBLIC_URL}/pictures/services/ls_3.jpg`,
     altText: 'ls_3'
   },
+  {
+    src: `${process.env.PUBLIC_URL}/pictures/services/ls_4.jpg`,
+    altText: 'ls_4'
+  },
 ]
 
 const solutionProvider = {

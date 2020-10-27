@@ -11,7 +11,7 @@ export default function Services() {
   const [pictures, setPictures] = useState(activityList["Solution Provider"].pictures)
 
   return (
-    <section className='page-section bg_grey' >
+    <section className='page-section bg_black' >
       <div className='container'>
         <div className='services' id={encodeURI(t('Nav.services'))}>
           <div className='col-12 col-lg-6 article'>
