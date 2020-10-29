@@ -79,6 +79,8 @@ export default function EmailForm() {
 
   return (
     <>
+      <h6>Get In Touch</h6>
+      <br />
       <div className='email-form'>
         <div className='col-6 name'>
           <input type='text' placeholder={t('Contact Us.name')}  ref={nameRef}/>

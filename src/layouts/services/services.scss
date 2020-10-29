@@ -1,8 +1,8 @@
 @import '../base.scss';
 
 .page-section {
-  &.bg_grey {
-    @include adp_grey;
+  &.bg_black {
+    @include adp-black;
   }
 
   .services {
@@ -10,7 +10,7 @@
     justify-content: space-between;
     font-size: .8rem;
     font-family: nexa;
-    color: white;
+    color: #929497;
     display: flex;
     flex-wrap: wrap;
 

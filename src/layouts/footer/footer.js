@@ -42,8 +42,16 @@ export default function Footer() {
           <p>{t('Footer.Contact.office')}</p>
           <p>{t('Footer.Contact.street')}</p>
           <p>{t('Footer.Contact.district')}</p>
-          <p>{t('Footer.Contact.phone')}</p>
-          <p>{t('Footer.Contact.fax')}</p>
+          <table>
+            <tbody>
+              <tr>
+                <td>Telp</td><td>: {t('Footer.Contact.phone')}</td>
+              </tr>
+              <tr>
+                <td>Fax</td><td>: {t('Footer.Contact.fax')}</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div className="col-12 col-lg-5 follow-logo">
           <h2>{t('Footer.Follow.title')}</h2>
