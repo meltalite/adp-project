@@ -1,6 +1,7 @@
 import React from 'react'
 import './detail.scss'
 import { useTranslation } from 'react-i18next'
+import LazyImage from '../../common/LazyImage'
 
 export default function Detail({ commodity, name, pictures}) {
   const { t } = useTranslation()
@@ -12,11 +13,11 @@ export default function Detail({ commodity, name, pictures}) {
         pictures.map((pic, index) => {
           return (index === 0 ? (
             <div className='col-12' key={index}>
-              <img src={pic.src} alt={pic.altText} key={pic.altText} className={pic.altText}/>
+              <LazyImage src={pic.src} alt={pic.altText} key={pic.altText} className={pic.altText}/>
             </div>
           ) : (
             <div className='col-6' key={index}>
-              <img src={pic.src} alt={pic.altText} key={pic.altText} className={pic.altText}/>
+              <LazyImage src={pic.src} alt={pic.altText} key={pic.altText} className={pic.altText}/>
             </div>
             )
           )

@@ -3,6 +3,7 @@ import './our-presence.scss';
 import { useTranslation } from 'react-i18next';
 import MapDesktopSvg from '../../assets/svg/map-desktop.svg';
 import MapMobileSvg from '../../assets/svg/map-mobile.svg';
+import LazyImage from '../../common/LazyImage';
 
 export default function OurPresence() {
   const { t } = useTranslation()
@@ -16,7 +17,7 @@ export default function OurPresence() {
           <div className='col-12 article' >
             <h2>{t('Our Presence.title')}</h2>
             <div className='map-container'>
-              <img className='map-container__pic' src={svg} alt='map' />
+              <LazyImage className='map-container__pic' src={svg} alt='map' />
             </div>
           </div>
         </div>

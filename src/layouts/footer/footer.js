@@ -7,6 +7,7 @@ import YoutubeSvg from '../../assets/svg/youtube.svg'
 import FacebookSvg from '../../assets/svg/fb.svg'
 import TwitterSvg from '../../assets/svg/twitter.svg'
 import LinkedinSvg from '../../assets/svg/linkedin.svg'
+import LazyImage from '../../common/LazyImage';
 
  const items = [
    { href:'https://www.instagram.com/', icon: IgSvg },
@@ -22,7 +23,7 @@ export default function Footer() {
   const icons = items.map((item, index) => {
     return (
       <a href={item.href} target="_blank" rel="noopener noreferrer" key={index}>
-        <img src={item.icon} alt='socmed' />
+        <LazyImage src={item.icon} alt='socmed' />
       </a>
     )
   })
@@ -61,7 +62,7 @@ export default function Footer() {
             </div>
           </div>
           <div className='logo'>
-            <img src={AdpWhiteSvg} alt='adp-white' />
+            <LazyImage src={AdpWhiteSvg} alt='adp-white' />
           </div>
         </div>
       </div>

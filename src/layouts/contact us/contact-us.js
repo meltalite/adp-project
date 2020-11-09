@@ -2,6 +2,7 @@ import React from 'react';
 import './contact-us.scss';
 import { useTranslation } from 'react-i18next';
 import EmailForm from './email/email-form';
+import LazyImage from '../../common/LazyImage';
 
 const items = [
   {
@@ -24,11 +25,11 @@ export default function ContacUs() {
     return (index === 0 ?
       (
         <div className='col-12' key={item.altText} >
-        <img src={item.src} alt={item.altText} />
+        <LazyImage src={item.src} alt={item.altText} />
         </div>
       ) : (
         <div className='col-6' key={item.altText} >
-        <img src={item.src} alt={item.altText} />
+        <LazyImage src={item.src} alt={item.altText} />
         </div>
       )
     )
