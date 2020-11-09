@@ -19,13 +19,13 @@ const quoteList = [
   },
 ]
 
-const dquote = <div className='dquote'><img src={`${process.env.PUBLIC_URL}/pictures/quotes/dquote.png`} alt='dquote' /></div>
+const dquote = <div className='dquote'><LazyImage src={`${process.env.PUBLIC_URL}/pictures/quotes/dquote.png`} alt='dquote' /></div>
 
 export default function Quotes() {
   const { t } = useTranslation();
   const quotes = quoteList.map((quote, index) => (
     <div key={index} className="col-12 col-lg-5 quote">
-      <img className='photo' src={quote.src} alt={quote.alt} />
+      <LazyImage className='photo' src={quote.src} alt={quote.alt} />
       <p>{quote.name}</p>
       <p>{quote.profession}</p>
       {dquote}

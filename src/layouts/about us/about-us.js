@@ -1,6 +1,7 @@
 import React from 'react';
 import './about-us.scss';
 import { useTranslation } from 'react-i18next';
+import LazyImage from '../../common/LazyImage';
 
 const items = [
   {
@@ -24,11 +25,11 @@ export default function AboutUs() {
     return (index === 0 ?
       (
         <div className='col-12' key={item.altText} >
-        <img src={item.src} alt={item.altText} />
+        <LazyImage src={item.src} alt={item.altText} />
         </div>
       ) : (
         <div className='col-6' key={item.altText} >
-        <img src={item.src} alt={item.altText} />
+        <LazyImage src={item.src} alt={item.altText} />
         </div>
       )
     )

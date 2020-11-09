@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import LazyImage from '../../common/LazyImage'
 import './principles.scss'
 
 const items = [
@@ -46,7 +47,7 @@ export default function Principles() {
 
   const logos = items.map(item => {
     return (
-      <img src={item.src} alt={item.altText} key={item.altText} className={item.altText}/>
+      <LazyImage src={item.src} alt={item.altText} key={item.altText} className={item.altText}/>
     )
   })
 

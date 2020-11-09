@@ -1,4 +1,5 @@
 import React from 'react'
+import LazyImage from '../../common/LazyImage'
 import './detail.scss'
 
 export default function Detail({ service, pictures}) {
@@ -7,7 +8,7 @@ export default function Detail({ service, pictures}) {
       {pictures && (
         pictures.map((pic, index) => (
           <div className='col-6' key={pic.altText + '-' + index}>
-            <img src={pic.src} alt={pic.altText} />
+            <LazyImage src={pic.src} alt={pic.altText} />
           </div>
         ))
       )}

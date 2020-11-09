@@ -7,6 +7,7 @@ import {
 } from 'reactstrap';
 import './masthead.scss'
 import { useTranslation } from 'react-i18next';
+import LazyImage from '../../common/LazyImage';
 
 const items = [
   {
@@ -60,7 +61,7 @@ export default function Masthead() {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <LazyImage src={item.src} alt={item.altText} />
         <CarouselCaption className='container' captionText={t(`Masthead.${item.caption}`)}/>
       </CarouselItem>
     );
