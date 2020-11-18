@@ -11,6 +11,9 @@
 # production
 /build
 
+# public
+public/compressed_pictures*
+
 # misc
 .DS_Store
 .env.local
