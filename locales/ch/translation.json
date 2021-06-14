@@ -14,15 +14,15 @@
     "contact us": "联系我们"
   },
   "Masthead": {
-    "Flexible": "灵活",
-    "Innovative": "创新的",
-    "Improvement": "改善",
-    "Efficient": "高效的"
+    "Flexible": "Flexible",
+    "Innovative": "Innovative",
+    "Improvement": "Improvement",
+    "Efficient": "Efficient"
   },
   "About Us": {
     "title": "Who is ADP?",
     "p1": "ADP，以前称为PT。 印度尼西亚领先的聚合物供应商Adyabina Putramas致力于为各自行业的广泛客户网络提供服务，并通过ADP广泛的商品塑料，工程塑料，超级工程塑料，涂料和添加剂为最终用户不断改善产品和性能.",
-    "p2": "ADP在东南亚已有30多年的历史。 在广泛的国际供应商和合作伙伴网络的大力支持下，ADP希望通过提供一站式原材料解决方案来满足您的所有需求，为众多行业领先的生产商提供服务."
+    "p2": "ADP 早在30年前便已于印度尼西亚注册成立，该公司持续不断地扩大规模，并且已在东南亚地区的多个国家展开业务。在广泛的国际供应商和合作伙伴网络的大力支持下，ADP 致力服务众多行业领先生产商，为他们提供能满足各种需求的一站式原材料解决方案。"
   },
   "Principles": {
     "title": "Our Global Principles"
@@ -321,8 +321,8 @@
       "office": "Puri Indah Financial Tower Office 18th Floor",
       "street": "Jl. Puri Lingkar Dalam Blok T-8",
       "district": "Puri Indah, Jakarta Barat 11610",
-      "phone": "Telp : 021-2258-0628 (Hunting)",
-      "fax": "Fax: 021-2258-0633"
+      "phone": "021-2258-0628 (Hunting)",
+      "fax": "021-2258-0633"
     },
     "Follow": {
       "title": "Follow Us"
