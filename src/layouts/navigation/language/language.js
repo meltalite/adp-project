@@ -37,7 +37,7 @@ export default function Language() {
 
   return (
     <div className='nav-menu__lang'>
-      {languages.map((lang, index) => <TooltipedButton lang={lang} key={index}/>)}
+      {languages.map(lang => TooltipedButton({ lang }))}
     </div>
   )
 }

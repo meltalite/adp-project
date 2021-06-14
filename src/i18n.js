@@ -16,8 +16,7 @@ i18n
         },
 
         react: {
-            useSuspense: true,
-            wait: true
+            useSuspense: true
         },
 
         backend: {
