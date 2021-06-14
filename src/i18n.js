@@ -1,11 +1,11 @@
 import i18n from "i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from 'react-i18next';
 import XHR from "i18next-xhr-backend";
+import { CustomDetector } from "./CustomDetector";
 
 i18n
     .use(XHR)
-    .use(LanguageDetector)
+    .use(CustomDetector)
     .use(initReactI18next)
     .init({
         fallbackLng: "en",
