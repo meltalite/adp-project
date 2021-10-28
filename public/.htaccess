@@ -26,10 +26,10 @@ Header always set Content-Security-Policy: upgrade-insecure-requests
 
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:adpi.co
-RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} (www\.)?adpi.co
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} adpi\.co [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://adpi.co/$1 [R,L]
 # DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:adpi.co
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:yGyvuD
