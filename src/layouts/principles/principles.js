@@ -33,8 +33,8 @@ const items = [
     altText: 'p_chemours',
   },
   {
-    src: `${process.env.PUBLIC_URL}/pictures/principles/p_exxon.png`,
-    altText: 'p_exxon',
+    src: `${process.env.PUBLIC_URL}/pictures/principles/p_sh-chem.png`,
+    altText: 'p_sh-chem',
   },
   {
     src: `${process.env.PUBLIC_URL}/pictures/principles/p_tpsc.png`,
